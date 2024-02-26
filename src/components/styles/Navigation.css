@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* White background with 70% opacity */
+  padding: 10px 20px;
+  z-index: 10;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #f2f2f2;
+  padding-right: 50px;
+}
+
+.nav-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  margin: 0 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 5px 10px;
+}
+
+.nav-items a:hover {
+  color: #000;
+}
+
+.dropdown {
+  position: relative;
+  color: #fff;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-menu li {
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f2f2f2;
+}
+
+.font-main {
+  color: #f2f2f2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
