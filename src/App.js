@@ -30,7 +30,7 @@ function App() {
             <DigitalMarketing />
           </Route>
         </Switch>   
-        <Footer />
+      <Footer/>
       </Router>
     </div>
   );
