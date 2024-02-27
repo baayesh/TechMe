@@ -44,6 +44,7 @@ h2 {
 .main-heading{
  padding-top: 100px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-top: -40px;
  font-size: calc(1.7em + 0.5vw)
 }
 
