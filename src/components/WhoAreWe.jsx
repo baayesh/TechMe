@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles/WhoAreWe.css"
+import "./styles/WhoAreWe.css";
+import sideImg from "../Assets/SideContent.gif"
 
 function WhoAreWe() {
   return (
@@ -12,12 +13,7 @@ function WhoAreWe() {
         </p>
       </div>
       <div className="box two">
-        <h2>This is the second div</h2>
-        <p>
-          Mauris placerat diam ut risus tempor, at blandit massa aliquam. Donec
-          nec tortor augue. Sed malesuada justo sed diam consequat, vitae
-          accumsan ligula tincidunt.
-        </p>
+        <img src={sideImg} alt="Web Development" />
       </div>
     </div>
   );
