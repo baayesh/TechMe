@@ -7,6 +7,7 @@ function Hero() {
     <div>
      <div className="video-container" >
       <video autoPlay muted loop src={HeroVid} type="video/mp4"></video>
+      <h2>Hello</h2>
     </div>
     </div>
   );

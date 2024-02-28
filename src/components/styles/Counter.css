@@ -1,0 +1,13 @@
+.number{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.background{
+    background-image: linear-gradient(to bottom, purple, pink);
+}
+
+.des{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

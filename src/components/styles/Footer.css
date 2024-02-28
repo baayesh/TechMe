@@ -19,11 +19,11 @@ body {
 }
 
 .footer-column.large {
-    flex: 3; /* Makes the first column 3 times wider */
+    flex: 3; 
 }
 
 .footer-column.small {
-    flex: 1; /* Makes the remaining columns equal width */
+    flex: 1; 
 }
 
 .footer-column h3,

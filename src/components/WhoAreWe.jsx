@@ -14,9 +14,9 @@ function WhoAreWe() {
     //   <div className="box two">
     //     <img src={sideImg} alt="Web Development" />
     //   </div>
-    <div>
-      <div className="container ">
-      <div className="row">
+    <div className="p-5">
+      <div className="container">
+      <div className="d-flex row justify-content-center">
         <div className="col-md-6">
           <h2 className="main-heading">Transform Your Digital Presence with Expert Web Development & Social Media Marketing</h2>
           <p className="main-heading-description">
