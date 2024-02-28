@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import "./styles/Counter.css";
-import counterBackground from "../Assets/Counter_Background.mp4"
+
 
 const Counter = () => {
   const [counterOn, setCounterOn] = useState(false);

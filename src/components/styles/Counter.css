@@ -1,6 +1,7 @@
 .number{
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
+    color: white;
 }
 
 .background{
@@ -10,4 +11,5 @@
 .des{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    color: white;
 }
