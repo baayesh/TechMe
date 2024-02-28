@@ -1,0 +1,13 @@
+.glass-effect {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 10px; 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+
+  }
+
+.background1{
+    background-image: linear-gradient(to bottom,  #ea2a97, #4b149e);
+}
