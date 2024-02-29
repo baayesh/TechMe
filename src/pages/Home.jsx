@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import WhoAreWe from "../components/WhoAreWe";
 import Counter from "../components/Counter";
 import Services from "../components/Services";
+import OurTeam from "../components/OurTeam";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <WhoAreWe/>
       <Counter/>
       <Services/>
+      <OurTeam/>
       
     </div>
   );

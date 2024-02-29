@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import "./styles/WhoAreWe.css";
 import sideImg2 from "../Assets/SideContent.gif";
 
-function WhoAreWe() {
+const WhoAreWe = () => {
   const controls = useAnimation();
   const ref = useRef();
 
@@ -40,33 +40,38 @@ function WhoAreWe() {
               Transform Your Digital Presence with Expert Web Development &
               Social Media Marketing
             </h3>
-            <p className="main-heading-description">
-              Revamp your online presence with our skilled team in web
-              development and social media marketing. Think of it as a makeover
-              for your digital identity. We'll make your website top-notch and
-              ensure your brand shines across social media. It's like giving
-              your online story a fresh and appealing look!
-            </p>
             <motion.div
               ref={ref}
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -100,  }}
               animate={controls}
-              exit={{ opacity: 0, x: 100 }}
+              transition={{duration:0.5}}
+              exit={{ opacity: 0, x: 100, }}
+            >
+              <p className="main-heading-description">
+                Revamp your online presence with our skilled team in web
+                development and social media marketing. Think of it as a
+                makeover for your digital identity. We'll make your website
+                top-notch and ensure your brand shines across social media. It's
+                like giving your online story a fresh and appealing look!
+              </p>
+            </motion.div>
+            <motion.div
+              ref={ref}
+              initial={{ opacity: 0, x: -100}}
+              animate={controls}
+              transition={{duration:1 }}
+              exit={{ opacity: 0, x: 100}}
             >
               <button className="custom-button">Explore Our Services</button>
             </motion.div>
           </div>
-          <div className="col-md-4">
-            <img
-              src={sideImg2}
-              alt="Image Description"
-              className="img-fluid"
-            />
-          </div>
+          <motion.div className="col-md-4">
+            <img src={sideImg2} alt="Image Description" className="img-fluid" />
+          </motion.div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default WhoAreWe;

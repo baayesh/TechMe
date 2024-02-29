@@ -9,15 +9,15 @@ function Services() {
           <div class="col-md-4 pe-5">
             <div class="card glass-effect pe-5 ps-5 mb-3">
               <div class="card-body">
-                <h3 className="row d-flex justify-content-center">Web </h3>
+                <h3 className="row d-flex justify-content-center">Profrssional Web Design </h3>
                 <h3 className="row d-flex justify-content-center mb-3">
-                  Development
+                  & Development
                 </h3>
-                <p class="card-text">UI UX Design</p>
-                <p class="card-text">Back-End Security</p>
-                <p class="card-text">API Intergration</p>
-                <p class="card-text">Database Management</p>
-                <p class="card-text">Line 5 of Information</p>
+                <p class="card-text">Design and Development</p>
+                <p class="card-text">Domain and Hosting</p>
+                <p class="card-text">SEO Optimization</p>
+                <p class="card-text">Analytics and SSL</p>
+                <p class="card-text">Web Security</p>
                 <a href="#" class="btn   btn-primary">
                   Button
                 </a>
@@ -28,16 +28,16 @@ function Services() {
             <div class="card glass-effect pe-5 ps-5 mb-3 ">
               <div class="card-body pt-4 pb-4">
                 <h3 className="row d-flex justify-content-center">
-                  Social Media
+                 Premium Web Design, 
                 </h3>
                 <h3 className="row d-flex justify-content-center mb-3">
-                  Marketing
+                Development and Branding
                 </h3>
-                <p class="card-text">Facebook Marketing</p>
-                <p class="card-text">Google Ads</p>
-                <p class="card-text">Instergram Marketing</p>
-                <p class="card-text">Tik-Tok Marketing</p>
-                <p class="card-text">You Tube Advertising</p>
+                <p class="card-text">Starter Business+</p>
+                <p class="card-text">UI UX Design</p>
+                <p class="card-text">Mobile Responsive</p>
+                <p class="card-text">Logo Design</p>
+                <p class="card-text">Business Cards</p>
                 <a href="#" class="btn btn-primary">
                   Button
                 </a>
@@ -47,13 +47,13 @@ function Services() {
           <div class="col-md-4 pe-5">
             <div class="card glass-effect pe-5 ps-5">
               <div class="card-body">
-              <h3 className="row d-flex justify-content-center">Creative</h3>
-                <h3 className="row d-flex justify-content-center mb-3">Designing</h3>    
-                <p class="card-text">Copy Writting</p>
-                <p class="card-text">Logo Designing</p>
-                <p class="card-text">Social Media Flyer Desiging</p>
-                <p class="card-text">Movie Animations</p>
-                <p class="card-text">Video Production</p>
+              <h3 className="row d-flex justify-content-center">E-Commerce Web Design</h3>
+                <h3 className="row d-flex justify-content-center mb-3">& Development</h3>    
+                <p class="card-text">Premium Feature+</p>
+                <p class="card-text">Server Configuration</p>
+                <p class="card-text">Audits and Website CRO</p>
+                <p class="card-text">Geo-Behavioral Targeting</p>
+                <p class="card-text">Analytical Evaluation</p>
                 <a href="#" class="btn btn-primary">
                   Button
                 </a>

@@ -1,0 +1,65 @@
+.team {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.team-description {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+}
+
+.name-and-title{
+    background: linear-gradient(to right, #4b149e, #ea2a97);
+    padding-left: 0px;
+    position:sticky;    
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color:white;
+}
+
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.column-1{
+    margin-bottom: 200px;
+}
+
+
+.image{
+    border-radius: 50%;
+    width: 150px;
+    
+}
+
+.card-style{
+    max-width: 350px;
+}
+
+.team-description-div {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+@media (max-width: 1200px) {
+  .team-description-div {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-description-div {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
