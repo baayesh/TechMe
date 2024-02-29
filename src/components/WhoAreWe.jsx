@@ -15,6 +15,7 @@ const WhoAreWe = () => {
       const scrollY = window.scrollY;
 
       // Make a control according to element
+
       if (scrollY > elementTop - window.innerHeight + elementHeight / 3) {
         controls.start({ opacity: 1, x: 0 });
       } else {
@@ -42,10 +43,10 @@ const WhoAreWe = () => {
             </h3>
             <motion.div
               ref={ref}
-              initial={{ opacity: 0, x: -100,  }}
+              initial={{ opacity: 0, x: -100 }}
               animate={controls}
-              transition={{duration:0.5}}
-              exit={{ opacity: 0, x: 100, }}
+              transition={{ duration: 0.5 }}
+              exit={{ opacity: 0, x: 100 }}
             >
               <p className="main-heading-description">
                 Revamp your online presence with our skilled team in web
@@ -57,17 +58,18 @@ const WhoAreWe = () => {
             </motion.div>
             <motion.div
               ref={ref}
-              initial={{ opacity: 0, x: -100}}
+              initial={{ opacity: 0, x: -100 }}
               animate={controls}
-              transition={{duration:1 }}
-              exit={{ opacity: 0, x: 100}}
+              transition={{ duration: 1 }}
+              exit={{ opacity: 0, x: 100 }}
             >
               <button className="custom-button">Explore Our Services</button>
             </motion.div>
           </div>
-          <motion.div className="col-md-4">
+
+          <div className="col-md-4">
             <img src={sideImg2} alt="Image Description" className="img-fluid" />
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
