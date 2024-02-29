@@ -1,13 +1,42 @@
+import React, { useEffect, useRef } from "react";
+import { motion, useAnimation } from "framer-motion";
 import "./styles/WhoAreWe.css";
-import sideImg2 from "../Assets/SideContent.gif"; // Import only the used image
+import sideImg2 from "../Assets/SideContent.gif";
 
 function WhoAreWe() {
+  const controls = useAnimation();
+  const ref = useRef();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = ref.current;
+      const elementTop = element.offsetTop;
+      const elementHeight = element.offsetHeight;
+      const scrollY = window.scrollY;
+
+      // Make a control according to element
+      if (scrollY > elementTop - window.innerHeight + elementHeight / 3) {
+        controls.start({ opacity: 1, x: 0 });
+      } else {
+        controls.start({ opacity: 0, x: -100 });
+      }
+    };
+
+    // Event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [controls]);
+
   return (
     <div className="p-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <h3 className="animate-charcter text-left">
+            <h3 className="animate-charcter">
               Transform Your Digital Presence with Expert Web Development &
               Social Media Marketing
             </h3>
@@ -18,10 +47,21 @@ function WhoAreWe() {
               ensure your brand shines across social media. It's like giving
               your online story a fresh and appealing look!
             </p>
-            <button className="custom-button">Explore Our Services</button>
+            <motion.div
+              ref={ref}
+              initial={{ opacity: 0, x: -100 }}
+              animate={controls}
+              exit={{ opacity: 0, x: 100 }}
+            >
+              <button className="custom-button">Explore Our Services</button>
+            </motion.div>
           </div>
           <div className="col-md-4">
-            <img src={sideImg2} alt="Image Description" className="img-fluid" />
+            <img
+              src={sideImg2}
+              alt="Image Description"
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>
