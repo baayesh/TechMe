@@ -5,10 +5,18 @@ import "./styles/Hero.css";
 function Hero() {
   return (
     <div>
-     <div className="video-container" >
-      <video autoPlay muted loop src={HeroVid} type="video/mp4"></video>
-      <h2>Hello</h2>
-    </div>
+      <div
+        className="video-container"
+        // style={{ position: "relative", top: 0, left: 0, right: 0, bottom: 0 }}
+      >
+        <video
+          autoPlay
+          muted
+          loop
+          src={HeroVid}
+          type="video/mp4"
+        />
+      </div>
     </div>
   );
 }

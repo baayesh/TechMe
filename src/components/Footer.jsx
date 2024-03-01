@@ -21,9 +21,9 @@ function Footer() {
             <div className="footer-column small">
                 <h4>Support</h4>
                 <ul>
-                    <li><a href="#">Abu Dhabi</a></li>
-                    <li><a href="#">Dubai</a></li>
-                    <li><a href="#">Sharjah</a></li>
+                    <li><a href="#">Footer 1</a></li>
+                    <li><a href="#">Footer 2</a></li>
+                    <li><a href="#">Footer 3</a></li>
                 </ul>
             </div>
             <div className="footer-column small">

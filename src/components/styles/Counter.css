@@ -13,3 +13,14 @@
     font-size: 30px;
     color: white;
 }
+
+@media screen and (max-width:576px){
+    .number{
+        font-size: 40px;
+    }
+
+    .des{
+        font-size: 20px;
+    }
+    
+}

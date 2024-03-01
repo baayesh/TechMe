@@ -29,7 +29,7 @@ function Services() {
     };
   }, [controls]);
   return (
-    <div className="container-fluid d-flex justify-content-center p-3 background1 pb-4">
+    <div className="col container-fluid d-flex align-items-center justify-content-center p-3 background1 pb-4">
       <div class="row">
       <motion.div
             ref={ref}
@@ -40,7 +40,7 @@ function Services() {
           >
         <div class="row align-items-center">
 
-            <div class="col-md-4 pe-5">
+            <div class="col-md-4 pe-5 ">
               <div class="card glass-effect pe-5 ps-5 mb-3">
                 <div class="card-body">
                   <h3 className="row d-flex justify-content-center">

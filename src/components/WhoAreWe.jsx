@@ -37,10 +37,12 @@ const WhoAreWe = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <h3 className="animate-charcter">
-              Transform Your Digital Presence with Expert Web Development &
-              Social Media Marketing
-            </h3>
+            <div className="text-11">
+              <h3 className="animate-charcter">
+                Transform Your Digital Presence with Expert Web Development &
+                Social Media Marketing
+              </h3>
+            </div>
             <motion.div
               ref={ref}
               initial={{ opacity: 0, x: -100 }}

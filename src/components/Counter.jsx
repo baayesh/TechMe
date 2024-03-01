@@ -12,7 +12,7 @@ const Counter = () => {
       onExit={() => setCounterOn(false)}
     >
       <div>
-          <div className="container-fluid d-flex justify-content-center pt-5 pb-5 background">
+          <div className="container-fluid d-flex justify-content-center pt-5 pb-5 background ">
             <div className="row row-container ">
               <div className="col mr-1" style={{overflow:"hidden"}}>
                 <div className="p-5 ">

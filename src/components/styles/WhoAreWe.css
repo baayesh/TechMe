@@ -85,6 +85,11 @@ h2 {
   opacity: 1; /* Animate opacity to 1 */
   transform: translateX(0); /* Animate to desired position */
 }
+@media screen and (max-width:1200px){
+  .text-11{
+    font-size: 10px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .container {
