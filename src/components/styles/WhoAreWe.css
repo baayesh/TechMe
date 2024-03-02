@@ -48,7 +48,7 @@ h2 {
 .main-heading-description {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: calc(12px+1vw);
+  font-size: calc(12px+0.2vw);
   margin-top: 20px;
   color:azure
 }
