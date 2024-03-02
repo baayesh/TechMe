@@ -3,12 +3,12 @@ import "./styles/GetInTouch.css";
 const GetInTouch = () => {
   return (
     <div>
-      <div class=" main-div">
-        <div class="contact-bottom">
-          <div class="row ms-5 me-3 ">
-            <div class="col-lg-4 col-md-6 col-sm-12 ">
-              <h5 class="margin-bottom-30">Get in touch</h5>
-              <div class="contact-text">
+      <div className=" main-div">
+        <div className="contact-bottom">
+          <div className="row ms-5 me-3 ">
+            <div className="col-lg-4 col-md-6 col-sm-12 ">
+              <h5 className="margin-bottom-30">Get in touch</h5>
+              <div className="contact-text">
                 <p>
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -22,20 +22,33 @@ const GetInTouch = () => {
               </div>
             </div>
 
-            <div class="col-lg-8 col-md-6 col-sm-12 mt-4">
-              <div class="contact-form">
-                <div class="row">
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    <input type="text" placeholder="Name, surname" />
+            <div className="col-lg-8 col-md-6 col-sm-12 mt-4 mb-4">
+              <div className="">
+                <div className="row">
+                  <div className="col-lg-6 mt-3 col-md-12 col-sm-12">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Name, surname"
+                    />
                   </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    <input type="text" placeholder="E-Mail" />
+                  <div className="col-lg-6 col-md-12 mt-3 col-sm-12">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="E-Mail"
+                    />
                   </div>
-                  <div class="col-lg-12">
-                    <textarea placeholder="Your message"></textarea>
+                  <div className="col-lg-12 mt-3">
+                    <textarea
+                      placeholder="Your message"
+                      className="form-control"
+                    ></textarea>
                   </div>
-                  <div class="col-lg-12">
-                    <button class="btn-primary-line">SEND</button>
+                  <div className="col-lg-12 mt-3 ">
+                    <button type="button" class="btn btn-outline-success">
+                      Success
+                    </button>
                   </div>
                 </div>
               </div>

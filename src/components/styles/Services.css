@@ -12,3 +12,27 @@
     background-image: linear-gradient(to bottom,  #ea2a97, #4b149e);
 }
 
+.custom-button {
+  background-color: purple;
+  color: white;
+  border: 3px solid white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: purple;
+  border-color: purple;
+}
+
