@@ -13,6 +13,10 @@
     padding-left: 10px;
 }
 
+.bottom-text{
+    color:white
+}
+
 
 @media(max-width:592px){
     .main-div{

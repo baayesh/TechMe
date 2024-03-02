@@ -2,47 +2,52 @@
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: 40px;
+  color: azure;
 }
 
 .team-description {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 50;
+  font-size: calc(10px+1vw);
+  color: azure;
+ 
 }
 
-.name-and-title{
-    background: linear-gradient(to right, #4b149e, #ea2a97);
-    padding-left: 0px;
-    position:sticky;    
+.name-and-title {
+  background: linear-gradient(to right, #4b149e, #ea2a97);
+  padding-left: 0px;
+  position: sticky;
 }
 
-.card-title{
-    color: white;
+.member-description{
+  color: azure;
 }
 
-.card-text{
-    color:white;
+.card-title {
+  color: white;
 }
 
-.card-body{
-    padding-left: 0px;
-    padding-right: 0px;
+.card-text {
+  color: white;
 }
 
-.column-1{
-    margin-bottom: 200px;
+.card-body {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-
-.image{
-    border-radius: 50%;
-    width: 150px;
-    
+.column-1 {
+  margin-bottom: 200px;
 }
 
-.card-style{
-    max-width: 350px;
+.image {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.card-style {
+  max-width: 350px;
+  background-color:#41436a;
 }
 
 .team-description-div {

@@ -1,6 +1,6 @@
 .number{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
+    font-size: calc(2px+0.38vw);
     color: white;
 }
 

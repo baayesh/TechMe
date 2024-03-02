@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "./styles/WhoAreWe.css";
-import sideImg2 from "../Assets/SideContent.gif";
+import sideImg2 from "../Assets/SideContent.png";
 
 const WhoAreWe = () => {
   const controls = useAnimation();
@@ -16,7 +16,7 @@ const WhoAreWe = () => {
 
       // Make a control according to element
 
-      if (scrollY > elementTop - window.innerHeight + elementHeight / 3) {
+      if (scrollY > elementTop - (window.innerHeight+400) + elementHeight / 3) {
         controls.start({ opacity: 1, x: 0 });
       }
     };
@@ -34,7 +34,7 @@ const WhoAreWe = () => {
     <div className="p-5">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <div className="text-11">
               <h3 className="animate-charcter">
                 Transform Your Digital Presence with Expert Web Development &

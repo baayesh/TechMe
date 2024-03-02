@@ -2,9 +2,11 @@
     background-color: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(8px); 
     border: 1px solid rgba(255, 255, 255, 0.5); 
-    border-radius: 10px; 
+    border-radius: 0px; 
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
+  
+    
 
   }
 
@@ -21,7 +23,6 @@
   text-decoration: double;
   display: inline-block;
   font-size: 16px;
-  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -35,4 +36,23 @@
   color: purple;
   border-color: purple;
 }
+
+
+
+.title-start-service{
+ 
+  padding-top: 17px;
+}
+
+
+.title-middle-service{
+
+}
+
+
+.title-end-service{
+ padding-top: 17px;
+}
+
+
 

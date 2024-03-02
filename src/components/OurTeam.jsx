@@ -14,9 +14,12 @@ const OurTeam = () => {
       const elementHeight = element.offsetHeight;
       const scrollY = window.scrollY;
 
-      if (scrollY > elementTop - (window.innerHeight+400) + elementHeight / 2) {
-        controls.start({ opacity: 1, x: 0 });}
-
+      if (
+        scrollY >
+        elementTop - (window.innerHeight + 1500) + elementHeight / 2
+      ) {
+        controls.start({ opacity: 1, x: 0 });
+      }
     };
 
     // Attach the event listener
@@ -28,7 +31,7 @@ const OurTeam = () => {
     };
   }, [controls]);
   return (
-    <div>
+    <div >
       <div className="container-fluid">
         <div className="row">
           <motion.div
@@ -63,14 +66,14 @@ const OurTeam = () => {
         </div>
       </div>
       <motion.div
-      ref={ref}
-      initial={{ opacity: 0, x: -100 }}
-      animate={controls}
-      transition={{ duration: 1 }}
-      exit={{ opacity: 0, x: 100 }}
+        ref={ref}
+        initial={{ opacity: 0, x: -100 }}
+        animate={controls}
+        transition={{ duration: 1 }}
+        exit={{ opacity: 0, x: 100 }}
       >
-        <div className="row ms-5 me-5 mt-5">
-          <div className="col justify-content-center column-1">
+        <div className="row ms-5 me-5 mt-5 d-flex justify-content-center">
+          <div className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1">
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -82,15 +85,16 @@ const OurTeam = () => {
                   <h5 class="card-title">Person 1</h5>
                   <p class="card-text">UI/UX Designer</p>
                 </div>
-                <div className="ps-2 pe-2 pt-4">
+                <div className="ps-2 pe-2 pt-4 member-description">
                   <p>
-                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX Designer
+                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX
+                    Designer
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col justify-content-center column-1 ">
+          <div className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 ">
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -102,15 +106,16 @@ const OurTeam = () => {
                   <h5 class="card-title">Person 1</h5>
                   <p class="card-text">UI/UX Designer</p>
                 </div>
-                <div className="ps-2 pe-2 pt-4">
+                <div className="ps-2 pe-2 pt-4 member-description">
                   <p>
-                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX Designer
+                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX
+                    Designer
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col justify-content-center column-1 ">
+          <div className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1 ">
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -122,15 +127,16 @@ const OurTeam = () => {
                   <h5 class="card-title">Person 1</h5>
                   <p class="card-text">UI/UX Designer</p>
                 </div>
-                <div className="ps-2 pe-2 pt-4">
+                <div className="ps-2 pe-2 pt-4 member-description">
                   <p>
-                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX Designer
+                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX
+                    Designer
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col justify-content-center column-1">
+          <div className="col-sm-12 col-md-6 col-lg-3 mb-sm-2 column-1">
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -142,9 +148,10 @@ const OurTeam = () => {
                   <h5 class="card-title">Person 1</h5>
                   <p class="card-text">UI/UX Designer</p>
                 </div>
-                <div className="ps-2 pe-2 pt-4">
+                <div className="ps-2 pe-2 pt-4 member-description">
                   <p>
-                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX Designer
+                    I am UI/UX Designer. I am UI/UX Designer. I am UI/UX
+                    Designer
                   </p>
                 </div>
               </div>
