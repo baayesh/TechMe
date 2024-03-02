@@ -1,5 +1,35 @@
+.user-input{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.custom-button-2{
+    padding-left: 10px;
+}
+
+
 @media(max-width:592px){
     .main-div{
         margin-top: 100px;
+    }
+}
+
+@media(max-width:768px){
+    .user-input{
+        margin-left: 0px;
+        margin-right: 0Px;
+    }
+}
+
+@media(max-width:1200px){
+    .user-input{
+        margin-left: 50px;
+        margin-right: 50Px;
     }
 }

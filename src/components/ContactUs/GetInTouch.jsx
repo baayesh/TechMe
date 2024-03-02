@@ -7,7 +7,7 @@ const GetInTouch = () => {
         <div className="contact-bottom">
           <div className="row ms-5 me-3 ">
             <div className="col-lg-4 col-md-6 col-sm-12 ">
-              <h5 className="margin-bottom-30">Get in touch</h5>
+              <h5 className="margin-bottom-30 title">GET IN TOUCH</h5>
               <div className="contact-text">
                 <p>
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -23,8 +23,8 @@ const GetInTouch = () => {
             </div>
 
             <div className="col-lg-8 col-md-6 col-sm-12 mt-4 mb-4">
-              <div className="">
-                <div className="row">
+              <div className="user-input">
+                <div className="row ">
                   <div className="col-lg-6 mt-3 col-md-12 col-sm-12">
                     <input
                       type="text"
@@ -46,8 +46,8 @@ const GetInTouch = () => {
                     ></textarea>
                   </div>
                   <div className="col-lg-12 mt-3 ">
-                    <button type="button" class="btn btn-outline-success">
-                      Success
+                    <button type="button" class="btn btn-outline-success custom-button-2">
+                     SEND
                     </button>
                   </div>
                 </div>
