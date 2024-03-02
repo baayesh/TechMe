@@ -18,8 +18,6 @@ const WhoAreWe = () => {
 
       if (scrollY > elementTop - window.innerHeight + elementHeight / 3) {
         controls.start({ opacity: 1, x: 0 });
-      } else {
-        controls.start({ opacity: 0, x: -100 });
       }
     };
 

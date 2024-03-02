@@ -14,11 +14,9 @@ const OurTeam = () => {
       const elementHeight = element.offsetHeight;
       const scrollY = window.scrollY;
 
-      if (scrollY > elementTop - window.innerHeight + elementHeight / 2) {
-        controls.start({ opacity: 1, x: 0 });
-      } else {
-        controls.start({ opacity: 0, x: -100 });
-      }
+      if (scrollY > elementTop - (window.innerHeight+400) + elementHeight / 2) {
+        controls.start({ opacity: 1, x: 0 });}
+
     };
 
     // Attach the event listener
