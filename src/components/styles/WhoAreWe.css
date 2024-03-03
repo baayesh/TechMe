@@ -1,3 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.exo-2    {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -42,12 +75,11 @@ h2 {
   padding-top: 100px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-top: -40px;
-  font-size: calc(1.7em + 0.5vw);
+  font-size: calc(1.7em + 1vw);
 }
 
 .main-heading-description {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+
   font-size: calc(12px+0.2vw);
   margin-top: 20px;
   color:azure
@@ -65,8 +97,6 @@ h2 {
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-weight: bolder;
   margin-top: 20px;
 }
@@ -136,8 +166,7 @@ h2 {
 .animate-charcter {
   text-transform: uppercase;
   font-size: calc(25px + 0.390625vw);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bolder;
+  font-weight: 900;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -153,6 +182,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
+ 
   
 }
 

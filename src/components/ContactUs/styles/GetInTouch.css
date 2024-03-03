@@ -17,6 +17,10 @@
     color:white
 }
 
+.main-div{
+    margin-top: 40px;
+}
+
 
 @media(max-width:592px){
     .main-div{

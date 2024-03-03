@@ -16,35 +16,35 @@ const Counter = () => {
             <div className="row row-container ">
               <div className="col" style={{overflow:"hidden"}}>
               
-                  <h1 className="number">
+                  <h1 className="number cormorant-garamond-bold ">
                     {counterOn && (
                       <CountUp start={0} end={10} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="des">Projects Completed</h4>
+                  <h4 className="cormorant-garamond-bold-des">Projects Completed</h4>
                
               </div>
               <div className="col " style={{overflow:"hidden"}}>
                 
-                  <h1 className="number">
+                  <h1 className="number cormorant-garamond-bold">
                     {counterOn && (
                       <CountUp start={0} end={50} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="des">Happy Customers</h4>
+                  <h4 className="cormorant-garamond-bold-des">Happy Customers</h4>
                 
               </div>
               <div className="col " style={{overflow:"hidden"}}>
                 
-                  <h1 className="number">
+                  <h1 className="number cormorant-garamond-bold ">
                     {counterOn && (
                       <CountUp start={0} end={30} duration={3} delay={0} />
                     )}
                     +
                   </h1>
-                  <h4 className="des">Skilled Talent</h4>
+                  <h4 className="cormorant-garamond-bold-des">Skilled Talent</h4>
               </div>
             </div>
           </div>

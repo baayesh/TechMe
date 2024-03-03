@@ -3,7 +3,7 @@ import "./styles/GetInTouch.css";
 const GetInTouch = () => {
   return (
     <div>
-      <div className=" main-div mt-2">
+      <div className=" main-div">
         <div className="contact-bottom ">
           <div className="row ms-5 me-3 ">
             <div className="col-lg-4 col-md-6 col-sm-12 bottom-text ">

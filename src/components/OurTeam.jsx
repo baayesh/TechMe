@@ -42,7 +42,7 @@ const OurTeam = () => {
             exit={{ opacity: 0, x: 100 }}
           >
             <div className=" pt-5">
-              <h5 className="team">OUR TEAM</h5>
+              <h5 className="montserrat-title">OUR TEAM</h5>
             </div>
           </motion.div>
         </div>
@@ -55,7 +55,7 @@ const OurTeam = () => {
               transition={{ duration: 1 }}
               exit={{ opacity: 0, x: 100 }}
             >
-              <h5 className="team-description">
+              <h5 className="team-description exo-2-title-description">
                 Crafting Digital Excellence. Where Innovation Meets Imagination,
                 and Every Pixel Tells a Story. We Design, We Develop, We
                 Transform Ideas into Digital Reality. Your Vision, Our Expertise

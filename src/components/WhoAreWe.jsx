@@ -36,7 +36,7 @@ const WhoAreWe = () => {
         <div className="row justify-content-center">
           <div className="col-md-6 ">
             <div className="text-11">
-              <h3 className="animate-charcter">
+              <h3 className="animate-charcter rowdies-bold">
                 Transform Your Digital Presence with Expert Web Development &
                 Social Media Marketing
               </h3>
@@ -48,7 +48,7 @@ const WhoAreWe = () => {
               transition={{ duration: 0.5 }}
               exit={{ opacity: 0, x: 100 }}
             >
-              <p className="main-heading-description">
+              <p className="main-heading-description exo-2">
                 Revamp your online presence with our skilled team in web
                 development and social media marketing. Think of it as a
                 makeover for your digital identity. We'll make your website
@@ -63,7 +63,7 @@ const WhoAreWe = () => {
               transition={{ duration: 1 }}
               exit={{ opacity: 0, x: 100 }}
             >
-              <button className="custom-button">Explore Our Services</button>
+              <button className="custom-button exo-2">Explore Our Services</button>
             </motion.div>
           </div>
 
