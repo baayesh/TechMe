@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/Footer.css'
+import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
@@ -8,14 +9,26 @@ function Footer() {
         <div className="container">
             <div className="footer-column large">
                 <h3>TechMe</h3>
-                <p>Wara convellus bibendum urno ut viverra. Maecenas quis congequat augue nec elit malesuada. Nunc pulvinar leo vel orci auctor, a tincidunt turpis gravida. Sed posuere consectetur est at lobortis.</p>
+                <p className="footer-description">TechMe is a friendly Digital Agency based in New Zealand. We love building simple solutions to complex challenges.</p>
             </div>
             <div className="footer-column small">
-                <h4>Helpful Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Contact</a></li>
+                <h4>Navigate</h4>
+                <ul className="footer-exo-2">
+                    <li>
+                        <Link to='/'> Home </Link>
+                    </li>
+                    <li>
+                        <Link to='/web'> Web Development </Link>
+                    </li>
+                    <li>
+                        <Link to='/social'> Social Media Markeing </Link>
+                    </li>
+                    <li>
+                        <Link to='/Digital'> Digital Marketing</Link>
+                    </li>
+                    <li>
+                        <Link to='/Contacts'> Contacts </Link>
+                    </li>
                 </ul>
             </div>
             <div className="footer-column small">

@@ -13,13 +13,13 @@
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
-    color: azure;
+    color: #41436a;
   }
 
 
 
 .background{
-    background-image: linear-gradient(to bottom, #4b149e, #ea2a97 );
+    background-image: linear-gradient(to bottom, #984063, #fe9677 );
 }
 
 

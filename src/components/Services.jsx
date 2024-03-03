@@ -14,7 +14,10 @@ function Services() {
       const elementHeight = element.offsetHeight;
       const scrollY = window.scrollY;
 
-      if (scrollY > elementTop - (window.innerHeight+600) + elementHeight / 2) {
+      if (
+        scrollY >
+        elementTop - (window.innerHeight + 600) + elementHeight / 2
+      ) {
         controls.start({ opacity: 1, y: -50 });
       } else {
         controls.start({ opacity: 0, y: 0 });
@@ -49,13 +52,16 @@ function Services() {
                   {/* <h3 className="row  title-start-service d-flex justify-content-center mb-3 exo-2-title">
                     & Development
                   </h3> */}
-                  <p className="card-text title-service exo-2">Design and Development</p>
-                  <p className="card-text title-service exo-2">Domain and Hosting</p>
-                  <p className="card-text title-service exo-2">SEO Optimization</p>
-                  <p className="card-text title-service exo-2">Analytics and SSL</p>
-                  <p className="card-text title-service exo-2">Web Security</p>
+                  <p className=" title-service services-exo-2">Design and Development</p>
+                  <p className="title-service services-exo-2">Domain and Hosting</p>
+                  <p className=" title-service services-exo-2">SEO Optimization</p>
+                  <p className=" title-service services-exo-2">Analytics and SSL</p>
+                  <p className=" title-service services-exo-2">Web Security</p>
                   <Link to="/Contacts">
-                    <button className="custom-button ">GET IN TOUCH</button>
+                    {/* Framer motion scale effect to the button */}
+                    <motion.button 
+                    whileTap={{scale:0.7}}
+                    className="custom-button ">GET IN TOUCH</motion.button>
                   </Link>
                 </div>
               </div>
@@ -70,13 +76,14 @@ function Services() {
                   {/* <h3 className="row d-flex title-middle-service justify-content-center mb-3 exo-2-title">
                     Development and Branding
                   </h3> */}
-                  <p className="card-text title-service exo-2">Starter Business+</p>
-                  <p className="card-text title-service exo-2">UI UX Design</p>
-                  <p className="card-text title-service exo-2">Mobile Responsive</p>
-                  <p className="card-text title-service exo-2">Logo Design</p>
-                  <p className="card-text title-service exo-2">Business Cards</p>
+                  <p className=" title-service services-exo-2">Starter Business+</p>
+                  <p className=" title-service services-exo-2">UI UX Design</p>
+                  <p className=" title-service services-exo-2">Mobile Responsive</p>
+                  <p className="title-service services-exo-2">Logo Design</p>
+                  <p className=" title-service services-exo-2">Business Cards</p>
                   <Link to="/Contacts">
-                    <button className="custom-button ">GET IN TOUCH</button>
+                    <motion.button
+                    whileTap={{scale:0.7}} className="custom-button ">GET IN TOUCH</motion.button>
                   </Link>
                 </div>
               </div>
@@ -90,17 +97,20 @@ function Services() {
                   {/* <h3 className="row title-end-service d-flex justify-content-center mb-3 exo-2-title">
                     & Development
                   </h3> */}
-                  <p className="card-text title-service exo-2">Premium Feature+</p>
-                  <p className="card-text title-service exo-2">Server Configuration</p>
-                  <p className="card-text title-service exo-2">Audits and Website CRO</p>
-                  <p className="card-text title-service exo-2">Geo-Behavioral Targeting</p>
-                  <p className="card-text title-service exo-2">Analytical Evaluation</p>
+                  <p className=" title-service services-exo-2">Premium Feature+</p>
+                  <p className="title-service services-exo-2">Server Configuration</p>
+                  <p className=" title-service services-exo-2">Audits and Website CRO</p>
+                  <p className=" title-service services-exo-2">
+                    Geo-Behavioral Targeting
+                  </p>
+                  <p className="title-service exo-2">Analytical Evaluation</p>
                   <Link to="/Contacts">
-                    <button className="custom-button ">GET IN TOUCH</button>
+                    <motion.button
+                    whileTap={{scale:0.7}} className="custom-button ">GET IN TOUCH</motion.button>
                   </Link>
-                </div>
               </div>
             </div>
+          </div>
           </div>
         </motion.div>
       </div>

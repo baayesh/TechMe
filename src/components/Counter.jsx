@@ -18,7 +18,7 @@ const Counter = () => {
               
                   <h1 className="cormorant-garamond-bold ">
                     {counterOn && (
-                      <CountUp start={0} end={10} duration={3} delay={0} />
+                      <CountUp start={0} end={20} duration={3} delay={0} />
                     )}
                     +
                   </h1>

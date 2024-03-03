@@ -23,7 +23,7 @@
 
 
 .name-and-title {
-  background: linear-gradient(to right, #4b149e, #ea2a97);
+  background: linear-gradient(to right,#f64668, #984063, #f64668);
   padding-left: 0px;
   position: sticky;
 }
@@ -68,7 +68,7 @@
 
 .card-style {
   max-width: 350px;
-  background-color:#41436a;
+  background-color: #984063;
 }
 
 .team-description-div {
