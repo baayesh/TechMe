@@ -30,8 +30,11 @@ const OurTeam = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [controls]);
+
+
+  const text = "Crafting Digital Excellence. Where Innovation Meets Imagination, and Every Pixel Tells a Story. We Design, We Develop, We Transform Ideas into Digital Reality. Your Vision, Our Expertise -Building Tomorrow's Web Today".split(" ");
   return (
-    <div >
+    <div>
       <div className="container-fluid">
         <div className="row">
           <motion.div
@@ -55,13 +58,22 @@ const OurTeam = () => {
               transition={{ duration: 1 }}
               exit={{ opacity: 0, x: 100 }}
             >
-              <h5 className="team-description exo-2-title-description">
-                Crafting Digital Excellence. Where Innovation Meets Imagination,
-                and Every Pixel Tells a Story. We Design, We Develop, We
-                Transform Ideas into Digital Reality. Your Vision, Our Expertise
-                — Building Tomorrow's Web Today
-              </h5>
             </motion.div>
+            <div className="team-description exo-2-title-description">
+              {text.map((el, i) => (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{
+                    duration: 2,
+                    delay: i /6,
+                  }}
+                  key={i}
+                >
+                  {el}{" "}
+                </motion.span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
