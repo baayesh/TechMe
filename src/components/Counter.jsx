@@ -16,7 +16,7 @@ const Counter = () => {
             <div className="row row-container ">
               <div className="col" style={{overflow:"hidden"}}>
               
-                  <h1 className="number cormorant-garamond-bold ">
+                  <h1 className="cormorant-garamond-bold ">
                     {counterOn && (
                       <CountUp start={0} end={10} duration={3} delay={0} />
                     )}

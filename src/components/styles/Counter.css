@@ -5,6 +5,7 @@
     font-weight: 700;
     font-style: normal;
     font-size: 100px;
+    color: azure;
   }
 
   .cormorant-garamond-bold-des{
@@ -15,11 +16,7 @@
     color: azure;
   }
 
-.number{
-   
-    font-size: calc(17px+1vw);
-    color: white;
-}
+
 
 .background{
     background-image: linear-gradient(to bottom, #4b149e, #ea2a97 );
