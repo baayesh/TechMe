@@ -5,15 +5,19 @@ import facebookLogo from "../../Assets/Social Media/facebook-logo.png";
 import instagramLogo from "../../Assets/Social Media/Instagram-logo.png";
 import twitterLogo from "../../Assets/Social Media/twitter-logo.png";
 import gitHubLogo from "../../Assets/Social Media/git-hub-logo.png";
+import talk from "../../Assets/Contact us/talk.png"
+import {motion} from "framer-motion";
+
+
 
 const Hero = () => {
+
   return (
-    <div>
+<div>
       <div className="row contact-us-hero-m-div">
         
           <video autoPlay muted src={contactUs} type="video/mp4"></video>
       </div>
-
       <div className="col">
         <div className="row map-f-div">
           <iframe
@@ -26,24 +30,24 @@ const Hero = () => {
           ></iframe>
         </div>
 
-        <div className="row details-div ">
+        <div className="row details-div pt-3">
           <div className="row">
-            <div className="col pt-2 d-flex justify-content-center">
+            <div className="col pt-2 d-flex justify-content-center align-items-center content-map ">
               <p>20 Whitaker Place, Grafton Auckland</p>
             </div>
-            <div className="col">
-              <div className="row">
-                <p className="d-flex justify-content-center">
+            <div className="col d-flex align-items-center">
+              <div className="row  d-flex align-items-center">
+                <p className="d-flex justify-content-center content-map">
                   +64 (275) 989989
                 </p>
-                <p className="d-flex justify-content-center">
+                <p className="d-flex justify-content-center content-map">
                   +64 (224) 506713
                 </p>
               </div>
             </div>
             <div className="col ">
-              <p className="d-flex justify-content-center">techme@techme.com</p>
-              <p className=" d-flex justify-content-center">
+              <p className="d-flex justify-content-center content-map">techme@techme.com</p>
+              <p className=" d-flex justify-content-center content-map">
                 techme@techme.com
               </p>
             </div>

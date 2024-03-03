@@ -3,12 +3,12 @@ import "./styles/GetInTouch.css";
 const GetInTouch = () => {
   return (
     <div>
-      <div className=" main-div">
+      <div className=" mt-5 mb-5 pt-5 pb-5">
         <div className="contact-bottom ">
           <div className="row ms-5 me-3 ">
             <div className="col-lg-4 col-md-6 col-sm-12 bottom-text ">
-              <h5 className="margin-bottom-30 title">GET IN TOUCH</h5>
-              <div className="">
+              <h5 className="margin-bottom-30 first-row">GET IN TOUCH</h5>
+              <div className="get-in-touch-des">
                 <p>
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

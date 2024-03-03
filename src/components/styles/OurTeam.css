@@ -18,12 +18,11 @@
   font-weight: 200;
   font-style:normal;
   color: azure;
+  font-size: 20px;
 }
 
-
-
 .name-and-title {
-  background: linear-gradient(to right,#f64668, #984063, #f64668);
+  background: linear-gradient(to right, #984063, #f64668, #984063);
   padding-left: 0px;
   position: sticky;
 }
