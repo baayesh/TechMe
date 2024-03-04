@@ -30,7 +30,7 @@
 }
 
 .custom-button {
-  background-color: purple;
+  background: linear-gradient(to right, #41436a, #984063 );
   color: white;
   border: 3px solid white;
   padding: 15px 25px;
@@ -47,14 +47,10 @@
 }
 
 .custom-button:hover {
-  background-color: white;
-  color: purple;
-  border-color: purple;
+  border-color: #fe9677;
+  color: #fe9677;
 }
 
-.title-start-service {
-  
-}
 
 .title-middle-service {
   padding-bottom: 20px;

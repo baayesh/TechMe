@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/WebDevelopment/Hero';
 
 function Webdevelopment() {
   return (
-    <div>Webdevelopment</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 

@@ -10,14 +10,10 @@ const GetInTouch = () => {
               <h5 className="margin-bottom-30 first-row">GET IN TOUCH</h5>
               <div className="get-in-touch-des">
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                Ready to take the next step in your online journey? Our team is eager to turn your ideas into reality. Reach out, and let's create something extraordinary.
                 </p>
                 <p>
-                  Sed blandit tempus purus, sed sodales leo rutrum vel. Nam
-                  vulputate ipsum ac est congue, eget commodo magna lobortis.
+                Whether you have a specific project in mind or just want to explore the possibilities, we're here to chat. From concept to code, we're passionate about bringing your digital dreams to life. Your success is our mission, and it all begins with a simple conversation. Let's connect and craft a tailored strategy that propels your brand to new heights.
                 </p>
               </div>
             </div>

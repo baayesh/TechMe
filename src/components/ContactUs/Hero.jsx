@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="row details-div pt-3">
           <div className="row">
             <div className="col pt-2 d-flex justify-content-center align-items-center content-map ">
-              <p>20 Whitaker Place, Grafton Auckland</p>
+              <p>Christchurch & Auckland</p>
             </div>
             <div className="col d-flex align-items-center">
               <div className="row  d-flex align-items-center">

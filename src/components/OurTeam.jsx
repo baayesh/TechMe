@@ -32,7 +32,9 @@ const OurTeam = () => {
   }, [controls]);
 
   const text =
-    "Crafting Digital Excellence. Where Innovation Meets Imagination, and Every Pixel Tells a Story. We Design, We Develop, We Transform Ideas into Digital Reality. Your Vision, Our Expertise -Building Tomorrow's Web Today".split(" ");
+    "Crafting Digital Excellence. Where Innovation Meets Imagination, and Every Pixel Tells a Story. We Design, We Develop, We Transform Ideas into Digital Reality. Your Vision, Our Expertise -Building Tomorrow's Web Today".split(
+      " "
+    );
   return (
     <div>
       <div className="container-fluid">

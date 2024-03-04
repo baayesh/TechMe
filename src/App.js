@@ -17,7 +17,6 @@ function App() {
     <div className="App">
       <Router>
         <Navigation />
-        
           <Switch>
             <Route exact path="/">
               <Home />
@@ -38,7 +37,6 @@ function App() {
               <TestComponent />
             </Route>
           </Switch>
-        
         <Footer />
       </Router>
     </div>
