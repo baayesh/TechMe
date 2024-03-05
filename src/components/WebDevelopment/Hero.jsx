@@ -1,6 +1,7 @@
 import React from "react";
 import "../WebDevelopment/styles/Hero.css";
 import { motion } from "framer-motion";
+import mainIMG from '../../Assets/Web Developement/main.png'
 
 const Hero = () => {
   const mainText = "We Love What We are Doing!".split(" ");
@@ -31,7 +32,9 @@ const Hero = () => {
           </div>
           {/* End of first Column */}
           {/* Start of second column */}
-          <div className="col-md-6 second-col"></div>
+          <div className="col-md-6 second-col no-gutters">
+            <img src={mainIMG} alt="Web Development image" className="img-fluid main-img" />
+          </div>
         </div>
         {/* End of the second column */}
       </div>

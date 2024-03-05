@@ -1,49 +1,51 @@
 /* Pasifico Font */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap");
 
 /* Main div */
-.component-body-hero-web{
-    background-color: aqua;
-    min-height: 100vh;
-    
+.component-body-hero-web {
+  background-color: aqua;
+  min-height: 100vh;
 }
 
-.first-col{
-    min-height: 100vh;
-    background-color: #984063;
+/* First column We love what we are doing */
+.first-col {
+  min-height: 100vh;
+  background-color: #984063;
 }
 
-.second-col{
-    min-height: 100vh;
-    background-color: aquamarine;
+/* Second column with photos */
+.second-col {
+  min-height: 100vh;
+  background-color: aquamarine;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.main-text{
-    color: #fe9677;
-    font-family: "Pacifico", cursive;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 140px;
+/* We love what we are doing text */
+.main-text {
+  color: #fe9677;
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 130px;
 }
 
+/* main image */
+.main-img {
+  min-height: 100vh;
+  width: 100%;
+  height:auto;
+}
 
 /* Responsive Design - 1200px, 992px, 768px, 576px */
-@media (min-width:1200px) {
-    
+@media (min-width: 1200px) {
 }
 
-
-@media (min-width:992px){
-
+@media (min-width: 992px) {
 }
 
-@media (min-width:768px){
-
+@media (min-width: 768px) {
 }
 
-@media (min-width:576px){
-
+@media (min-width: 576px) {
 }
-
-
