@@ -3,27 +3,27 @@
 
 /* Main div */
 .component-body-hero-web {
-  background-color: aqua;
+
   min-height: 100vh;
 }
 
 /* First column We love what we are doing */
 .first-col {
   min-height: 100vh;
-  background-color: #984063;
+  background:linear-gradient(to bottom, #fe9677, #f64668, #984063,#41436a)
 }
 
 /* Second column with photos */
 .second-col {
   min-height: 100vh;
-  background-color: aquamarine;
+
   padding-left: 0px;
   padding-right: 0px;
 }
 
 /* We love what we are doing text */
 .main-text {
-  color: #fe9677;
+  color: azure;
   font-family: "Pacifico", cursive;
   font-weight: 900;
   font-style: normal;
@@ -34,18 +34,79 @@
 .main-img {
   min-height: 100vh;
   width: 100%;
-  height:auto;
+  height: auto;
 }
+
+/* Second Row */
+.second-row{
+  background-color: aqua;
+}
+
+
 
 /* Responsive Design - 1200px, 992px, 768px, 576px */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
+
+  .main-text {
+    font-size: 110px;
+  }
 }
 
-@media (min-width: 992px) {
+
+@media (max-width: 992px) {
+  .main-text {
+    font-size: 110px;
+  }
+
+  .first-col {
+    min-height: 100vh;
+  }
+
+  .second-col {
+    min-height: 0vh;
+  }
+
+  .main-img{
+    display:none;
+  }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 90px;
+  }
+
+  .first-col {
+    min-height: 100vh;
+  }
+
+  .second-col {
+    min-height: 0vh;
+  }
+
+  .main-img{
+    display:none;
+  }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  .main-text {
+    font-size: 70px;
+  }
+
+  .first-col {
+    min-height: 100vh;
+  }
+
+  .second-col {
+    min-height: 0vh;
+  }
+
+  .main-img{
+    display:none;
+  }
+
+
 }
+
+
