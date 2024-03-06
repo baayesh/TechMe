@@ -3,8 +3,14 @@ import "./styles/CaseStories.css";
 import chamzLogo from "../../Assets/Web Developement/Case Stories/Chamz_logo.png";
 
 const CaseStories = () => {
+  const title = "What Our Customers Say About US"
   return (
     <div>
+      {/* Start of title */}
+      <div className="row title-cus d-flex justify-content-center mb-md-5">
+        {title}
+      </div>
+      {/* end of title */}
       {/* Start of Chamz */}
       <div className="row background-1">
         {/* Chamz Icon Start */}
