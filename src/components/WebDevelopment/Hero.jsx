@@ -30,7 +30,7 @@ const Hero = () => {
 
   // responsiveness of carousal
   const cRes = {
-    0: { items: 1 },
+    0: { items: 3 },
     552: { items: 4 },
     768: { items: 7 },
   };
@@ -75,11 +75,10 @@ const Hero = () => {
 
       {/* Start of the Technologies row */}
 
-      <div className="row d-flex justify-content-center align-items-center mt-5 mb-5">
+      <div className="row d-flex justify-content-center align-items-center mt-5 mb-5 tech-row">
         <div className="col-md-12">
           <AliceCarousel
             mouseTracking
-        
             responsive={cRes}
             items={items}
             animationDuration={900}
@@ -88,6 +87,7 @@ const Hero = () => {
             infinite={true}
             animationType="fade"
             animationEasingFunction="ease"
+            disableDotsControls={true}
           />
         </div>
       </div>

@@ -44,6 +44,12 @@
   background-color: aqua;
 }
 
+/* tech row */
+.tech-row{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 
 
 /* Responsive Design - 1200px, 992px, 768px, 576px */
@@ -95,7 +101,7 @@
   }
 
   .tech-row{
-    max-height: 30px;
+    max-height: 50px;
   }
 }
 
@@ -114,6 +120,11 @@
 
   .main-img{
     display:none;
+  }
+
+  .tech-row{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
