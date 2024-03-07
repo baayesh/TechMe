@@ -54,7 +54,17 @@
 }
 
 @media (max-width: 768px) {
+  .title-cus{
+    font-size: 40px;
+  }
+
+  .para-web-customer{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 552px) {
+  .title-cus{
+    font-size: 30px;
+  }
 }

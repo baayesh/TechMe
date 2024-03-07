@@ -9,9 +9,31 @@ import VPS from "../../Assets/Web Developement/VPS.png";
 import SSL from "../../Assets/Web Developement/SSL.png";
 import WordPress from "../../Assets/Web Developement/Wordpress.png";
 import React1 from "../../Assets/Web Developement/React1.png";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import { act } from "@testing-library/react";
+
+const handleDragStart = (e) => e.preventDefault();
+
+const items = [
+  <img src={React1} alt="javascript" className="tech-row ps-4 pe-4" />,
+  <img src={JavaScript} alt="javascript" className="tech-row ps-4 pe-4" />,
+  <img src={CMS} alt="javascript" className="tech-row ps-4 pe-4" />,
+  <img src={API} alt="javascript" className="tech-row ps-4 pe-4" />,
+  <img src={VPS} alt="javascript" className="tech-row ps-4 pe-4" />,
+  <img src={SSL} alt="javascript" o className="tech-row ps-4 pe-4" />,
+  <img src={WordPress} alt="javascript" className="tech-row ps-4 pe-4" />,
+];
 
 const Hero = () => {
   const mainText = "We Love What We are Doing!".split(" ");
+
+  // responsiveness of carousal
+  const cRes = {
+    0: { items: 1 },
+    552: { items: 4 },
+    768: { items: 7 },
+  };
   return (
     <div>
       {/* Start of full height container */}
@@ -52,15 +74,21 @@ const Hero = () => {
       {/* End of full height container */}
 
       {/* Start of the Technologies row */}
+
       <div className="row d-flex justify-content-center align-items-center mt-5 mb-5">
         <div className="col-md-12">
-          <img src={React1} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={JavaScript} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={CMS} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={API} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={VPS} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={SSL} alt="javascript" className="tech-row ps-4 pe-4" />
-          <img src={WordPress} alt="javascript" className="tech-row ps-4 pe-4" />
+          <AliceCarousel
+            mouseTracking
+        
+            responsive={cRes}
+            items={items}
+            animationDuration={900}
+            autoPlay={true}
+            autoPlayInterval={2000}
+            infinite={true}
+            animationType="fade"
+            animationEasingFunction="ease"
+          />
         </div>
       </div>
       {/* End of the Technologies row  */}
