@@ -40,11 +40,10 @@ const OurTeam = () => {
       <div className="container-fluid">
         <div className="row">
           <motion.div
-            ref={ref}
             initial={{ opacity: 0, x: -100 }}
-            animate={controls}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            exit={{ opacity: 0, x: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
           >
             <div className=" pt-5">
               <h5 className="montserrat-title">OUR TEAM</h5>
@@ -81,15 +80,15 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-      <motion.div
-        ref={ref}
-        initial={{ opacity: 0, x: -100 }}
-        animate={controls}
-        transition={{ duration: 1 }}
-        exit={{ opacity: 0, x: 100 }}
-      >
+      <div>
         <div className="row ms-5 me-5 mt-5 d-flex justify-content-center">
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1">
+          <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1"
+          >
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -109,8 +108,14 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 ">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: -200 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 "
+          >
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -130,8 +135,14 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1 ">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 200 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1 "
+          >
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -151,8 +162,14 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-sm-2 column-1">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x:200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            className="col-sm-12 col-md-6 col-lg-3 mb-sm-2 column-1"
+          >
             <div class="card card-style shadow mb-5">
               <img
                 src={dummyImg}
@@ -172,9 +189,9 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

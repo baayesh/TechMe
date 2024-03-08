@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/GetInTouch.css";
+import { motion } from "framer-motion";
 const GetInTouch = () => {
   return (
     <div>
@@ -7,13 +8,27 @@ const GetInTouch = () => {
         <div className="contact-bottom ">
           <div className="row ms-5 me-3 ">
             <div className="col-lg-4 col-md-6 col-sm-12 bottom-text ">
-              <h5 className="margin-bottom-30 first-row">GET IN TOUCH</h5>
+              <motion.h5
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1 , x: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+                className="margin-bottom-30 first-row"
+              >
+                GET IN TOUCH
+              </motion.h5>
               <div className="get-in-touch-des">
                 <p>
-                Ready to take the next step in your online journey? Our team is eager to turn your ideas into reality. Reach out, and let's create something extraordinary.
+                  Ready to take the next step in your online journey? Our team
+                  is eager to turn your ideas into reality. Reach out, and let's
+                  create something extraordinary.
                 </p>
                 <p>
-                Whether you have a specific project in mind or just want to explore the possibilities, we're here to chat. From concept to code, we're passionate about bringing your digital dreams to life. Your success is our mission, and it all begins with a simple conversation. Let's connect and craft a tailored strategy that propels your brand to new heights.
+                  Whether you have a specific project in mind or just want to
+                  explore the possibilities, we're here to chat. From concept to
+                  code, we're passionate about bringing your digital dreams to
+                  life. Your success is our mission, and it all begins with a
+                  simple conversation. Let's connect and craft a tailored
+                  strategy that propels your brand to new heights.
                 </p>
               </div>
             </div>
@@ -43,7 +58,7 @@ const GetInTouch = () => {
                   </div>
                   <div className="col-lg-12 mt-3 ">
                     <button type="button" class="btn btn-light custom-button-2">
-                     SEND
+                      SEND
                     </button>
                   </div>
                 </div>

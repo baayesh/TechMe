@@ -14,10 +14,12 @@ const Hero = () => {
 
   return (
 <div>
-      <div className="row contact-us-hero-m-div">
-        
+      <motion.div 
+      initial={{y:-500}}
+      animate={{y:0}}
+      className="row contact-us-hero-m-div">
           <video autoPlay muted src={contactUs} type="video/mp4"></video>
-      </div>
+      </motion.div>
       <div className="col">
         <div className="row map-f-div">
           <iframe

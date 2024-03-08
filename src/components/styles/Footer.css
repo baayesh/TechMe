@@ -60,11 +60,13 @@
 
 .footer-column a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
-.footer-column a:hover {
-  color: #000;
+
+
+.f-color{
+  color: white;
 }
 
 /* Responsive adjustments */
