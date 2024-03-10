@@ -1,40 +1,23 @@
 import React, { useEffect, useRef, useState } from "react";
-import { motion, useAnimation } from "framer-motion";
-import HeroVid from "../Assets/TechMe.mp4";
+import "./styles/TestComponent.css";
 import { Link } from "react-router-dom";
-import ScrollTrigger from "react-scroll-trigger";
-
 const YourComponent = () => {
-  const text = "This is the text you should focus on".split(""); 
   return (
-  
- 
-      <div className="test-2">
-          <h1>
-            Lorem Ipsum ISt ammet jdiisjoaj jufoe iallan fjfurkkaifjfnaoko isajjak aiosfhaso hfohgoua hgouehgro hqawohgosdh gvhdsfghvvehgfhehgfvfhvhdsfvefhfve fheohj f hfhjdsfofvjhdsoh gdosgfhg owrjhfoiwajhfoisahgouehgouwhgoijqfouhgojdsfnbvopdsfjhfpwanfiodfhgosadhgoupeshfnowa fowajh  fopuefhgoesfhj gedsfog josidf gsdfog jhosedf gose jhg hdsfgh edsofgjh osedfjh gdsjh fsud fjgfuj eshn
-          
-
-          </h1>
-
-
-
-          <div >
-      {text.map((el, i) => (
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{
-            duration: 0.25,
-            delay: i / 10
-          }}
-          key={i}
-        >
-          {el}{" "}
-        </motion.span>
-      ))}
+    <div >
+      <div className="row  container-header ">
+        <ul className="flexnav d-flex justify-content-center align-items-center mt-3" data-breakpoint="768">
+          <Link className="link pe-5" to="/">
+            Home
+          </Link>
+          <Link className="link pe-5" to="/web">
+            Discover
+          </Link>
+          <Link className="link" to="/Contacts">
+          Contacts
+          </Link>
+        </ul>
+      </div>
     </div>
-        </div>
-
   );
 };
 

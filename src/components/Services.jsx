@@ -1,11 +1,12 @@
-import React, { useRef, useEffect } from "react";
+
 import "./styles/Services.css";
-import { motion, useAnimation } from "framer-motion";
+import { motion} from "framer-motion";
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "../hooks/utils";
 
 function Services() {
-  const controls = useAnimation();
-  const ref = useRef();
+  // const controls = useAnimation();
+  // const ref = useRef();
 
   // useEffect(() => {
   // const handleScroll = () => {
@@ -32,16 +33,20 @@ function Services() {
   //     window.removeEventListener("scroll", handleScroll);
   //   };
   // }, [controls]);
+
+// Create responsive design for animation
+
+
   return (
-    <div className="col container-fluid d-flex align-items-center justify-content-center background1 pb-4 pt-5">
+    <div className="col max-w container-fluid d-flex align-items-center justify-content-center background1 pb-4 pt-5">
       <div className="row">
         <div>
           <div className="row align-items-center">
-             <motion.div
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
-              viewport={{ once: true, amount: 0.5 }}
+            <motion.div
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              viewport={{ once: false, amount: 0.5 }}
               className="col-md-4  mb-3"
             >
               <div className="card glass-effect">
@@ -59,7 +64,7 @@ function Services() {
                     Domain and Hosting
                   </p>
                   <p className=" title-service services-exo-2">
-                    SEO Optimization  
+                    SEO Optimization
                   </p>
                   <p className=" title-service services-exo-2">
                     Analytics and SSL
@@ -78,7 +83,13 @@ function Services() {
               </div>
             </motion.div>
 
-            <div className="col-md-4 mb-3 ">
+            <motion.div
+              initial={{ opacity: 0, y: 300 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              viewport={{ once: false, amount: 0.5 }}
+              className="col-md-4 mb-3 "
+            >
               <div className="card glass-effect">
                 <div className="card-body">
                   <h3 className="row d-flex title-middle-service justify-content-center exo-2-title">
@@ -108,8 +119,15 @@ function Services() {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 mb-3">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              exit={{ opacity: 0, x: -200 }}
+              viewport={{ once: false, amount: 0.5 }}
+              className="col-md-4 mb-3"
+            >
               <div className="card glass-effect ">
                 <div className="card-body">
                   <h3 className="row title-end-service d-flex justify-content-center exo-2-title">
@@ -141,7 +159,7 @@ function Services() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

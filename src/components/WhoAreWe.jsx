@@ -31,7 +31,7 @@ const WhoAreWe = () => {
   }, [controls]);
 
   return (
-    <div className="p-5">
+    <div className="p-5 max-w container-fluid">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6 ">

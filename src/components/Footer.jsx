@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
-      <footer className="footer f-color">
+      <footer className="container-fluid footer f-color">
         <div className="container">
           <div className="footer-column large">
             <h3>TechMe</h3>

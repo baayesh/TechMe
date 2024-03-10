@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div>
       <div
-        className="video-container"
+        className="container-fluid video-container"
         
       >
         <video
