@@ -5,12 +5,12 @@ import webDesign from "../../Assets/Web Developement/WebDesign.png";
 const OurServices = () => {
   return (
     <div>
-        <h1 className="font-h-exo-2">
+        <h1 className="font-mh-exo-2">
             Our Services
         </h1>
         <div className="our-services ">
           <div class="card-container ">
-            <div class="card">
+            <div class="card ">
               <div class="front-content">
                 <p className="font-h-exo-2">Website Design</p>
               </div>
@@ -32,7 +32,7 @@ const OurServices = () => {
                 <p className="font-h-exo-2">SEO Optimization</p>
               </div>
               <div class="content">
-                <p class="heading">Website Design</p>
+                <p class="heading">SEO Optimization</p>
                 <p className="font-p-exo-2">
                 Understanding the importance of visibility in the digital landscape, we implement robust Search Engine Optimization (SEO) strategies. This ensures that our clients' websites rank higher in search engine results, driving increased traffic and enhancing online presence.
                 </p>

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
 .our-services {
-  margin-left: 220px;
+  margin-left: 200px;
   margin-right: 200px;
   display: flex;
   flex-direction: row;
@@ -17,19 +15,19 @@
   margin: 0;
 }
 
-.card-container-final{
-    width: 1400px;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
+.card-container-final {
+  width: 1400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
 }
 
 .card {
   width: 100%;
   height: 100%;
-  margin:0;
-  border:0px;
+  margin: 0;
+  border: 0px;
   margin-right: 10px;
 }
 
@@ -41,9 +39,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  margin:0;
-
- 
+  margin: 0;
 }
 
 .card .front-content p {
@@ -57,7 +53,7 @@
 
 .card .content {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -74,33 +70,38 @@
   pointer-events: none;
   transform: translateX(-105%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  margin:0;
-  
-
+  margin: 0;
 }
 
-.font-p-exo-2{
+.font-p-exo-2 {
   font-family: "Exo 2", sans-serif;
   font-size: 18px;
-
 }
-.font-p-exo-2-final{
-    font-family: "Exo 2", sans-serif;
-    font-size: 18px;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+.font-p-exo-2-final {
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
-.font-h-exo-2{
-    font-family: "Exo 2", sans-serif;
-    font-size: 40px;
-    font-weight: 600;
+.font-h-exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .card .content .heading {
   font-size: 32px;
   font-weight: 700;
   font-family: "Exo 2", sans-serif;
+}
+
+.font-mh-exo-2 {
+    color:#f2f2f2;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .card:hover .content {
@@ -117,22 +118,72 @@
 }
 
 @media (max-width: 1200px) {
-  
+  .our-services {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
-
 @media (max-width: 992px) {
-  
+  .font-p-exo-2-final {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .font-p-exo-2 {
+    font-size: 15px;
+  }
+
+  .font-p-exo-2-final {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 768px) {
-  
+  .card-container {
+    width: 100%;
+  }
+
+  .card-container-final {
+    width: 100%;
+  }
+
+  .our-services {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 552px) {
-  
+  .font-p-exo-2-final {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .font-p-exo-2 {
+    font-size: 15px;
+  }
+
+  .font-p-exo-2-final {
+    font-size: 15px;
+  }
+
+  .font-h-exo-2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .card.content.heading{
+    font-size: 25px;
+  }
+
+  .our-services{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 @media (max-width: 360px) {
-  
 }
