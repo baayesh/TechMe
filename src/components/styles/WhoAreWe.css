@@ -162,10 +162,9 @@ h2 {
   font-weight: 900;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+    #4b3db2 50%,
+    #261c2c 20%,
+    #f2f2f2 30%
   );
   background-clip: border-box;
   background-size: 200% auto;

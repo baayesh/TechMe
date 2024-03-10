@@ -4,7 +4,7 @@
 
 
 .montserrat-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -22,7 +22,7 @@
 }
 
 .name-and-title {
-  background: linear-gradient(to right, #984063, #f64668, #984063);
+  background: linear-gradient(to right,#3e2c41, #4b3db2,  #3e2c41);
   padding-left: 0px;
   position: sticky;
 }
@@ -67,7 +67,8 @@
 
 .card-style {
   max-width: 350px;
-  background-color: #984063;
+  background-color: #3e2c41;
+  border-radius: 10px;
 }
 
 .team-description-div {

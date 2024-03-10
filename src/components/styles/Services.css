@@ -9,7 +9,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #41436a;
+  color: #261c2c;
 }
 
 .exo-2-title {
@@ -30,12 +30,12 @@
 }
 
 .background1 {
-  background-image: linear-gradient(to bottom, #fe9677 , #984063);
+  background-image: linear-gradient(to bottom, #4b3db2 , #261c2c);
 }
 
 .custom-button {
-  background: linear-gradient(to right, #41436a, #984063 );
-  color: white;
+  background-color: #f2f2f2  ;
+  color: #261c2c;
   border: 3px solid white;
   padding: 15px 25px;
   text-align: center;
@@ -44,15 +44,14 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bolder;
   margin-top: 20px;
 }
 
 .custom-button:hover {
-  border-color: #fe9677;
-  color: #fe9677;
+  border-color: #4b3db2;
+  color: #4b3db2;
 }
 
 
