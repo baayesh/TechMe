@@ -46,7 +46,7 @@ function Services() {
               initial={{ opacity: 0, x: -200 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="col-md-4  mb-3"
             >
               <div className="card glass-effect">
@@ -87,7 +87,7 @@ function Services() {
               initial={{ opacity: 0, y: 300 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="col-md-4 mb-3 "
             >
               <div className="card glass-effect">
@@ -125,7 +125,7 @@ function Services() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
               exit={{ opacity: 0, x: -200 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="col-md-4 mb-3"
             >
               <div className="card glass-effect ">
