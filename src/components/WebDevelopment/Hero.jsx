@@ -52,8 +52,8 @@ const Hero = () => {
             This is a Dummy Text
           </h2>
         </div>
-        <div>
-          <button>
+        <div className="d-flex justify-content-center align-items-center">
+          <button className="btn">
             Let's Talk
           </button>
         </div>
@@ -70,11 +70,12 @@ const Hero = () => {
             items={items}
             animationDuration={900}
             autoPlay={true}
-            autoPlayInterval={2000}
+            autoPlayInterval={1}
             infinite={true}
             animationType="fade"
             animationEasingFunction="ease"
             disableDotsControls={true}
+            disableButtonsControls={true}
           />
         </div>
       </div>
