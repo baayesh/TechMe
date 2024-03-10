@@ -12,6 +12,7 @@ import ssl from "../../Assets/Web Developement/SSL.png";
 import php from "../../Assets/Web Developement/php.png";
 import JavaScript from "../../Assets/Web Developement/JS.png";
 import CMS from "../../Assets/Web Developement/CMS.png";
+import heroIMG from "../../Assets/Web Developement/HeroIMG.png";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -29,7 +30,7 @@ const items = [
   <img src={mysql} alt="javascript" className="tech-row ps-4 pe-4" />,
   <img src={php} alt="javascript" className="tech-row ps-4 pe-4" />,
   <img src={cloud} alt="javascript" className="tech-row ps-4 pe-4" />,
-  <img src={ssh} alt="javascript" className="tech-row ps-4 pe-4" />
+  <img src={ssh} alt="javascript" className="tech-row ps-4 pe-4" />,
 ];
 
 const Hero = () => {
@@ -43,42 +44,21 @@ const Hero = () => {
   };
   return (
     <div>
-      {/* Start of full height container */}
-      <div className="component-body-hero-web">
-        <div className="row ">
-          {/* Start of first column */}
-          <div className="col-lg-6 first-col d-flex justify-content-center align-items-center main-text">
-            <div className="p-3 mb-3">
-              {/* Start of span animation */}
-              {mainText.map((el, i) => (
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{
-                    duration: 2,
-                    delay: i / 3,
-                  }}
-                  key={i}
-                >
-                  {el}{" "}
-                </motion.span>
-              ))}
-              {/* End of span Animation */}
-            </div>
-          </div>
-          {/* End of first Column */}
-          {/* Start of second column */}
-          <div className="col-lg-6 second-col no-gutters">
-            <img
-              src={mainIMG}
-              alt="Web Development image"
-              className="img-fluid main-img"
-            />
-          </div>
+      {/* Start of the Hero Section */}
+      <div className="row component-body-hero-web">
+        <img src={heroIMG} alt="Web development image" className="img-fluid" />
+        <div className="hero-main-text">
+          <h2 className="hero-main-text-fonts">
+            This is a Dummy Text
+          </h2>
         </div>
-        {/* End of the second column */}
+        <div>
+          <button>
+            Let's Talk
+          </button>
+        </div>
+
       </div>
-      {/* End of full height container */}
 
       {/* Start of the Technologies row */}
 

@@ -1,13 +1,27 @@
 /* Pasifico Font */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 @import "react-alice-carousel/lib/alice-carousel.css";
 /* Main div */
 .component-body-hero-web {
+  position: relative;
+  text-align: center;
+  margin-top: -100px;
+}
 
-  min-height: 100vh;
+/* Main text area of the hero web */
+.hero-main-text{
+position: absolute;
+top: 45%;
+z-index:2;
+
+}
+
+.hero-main-text-fonts{
+  font-family: "Calistoga", serif;
+  font-weight: 100;
+  font-size: 120px;
+  color:white;
 }
 
 /* First column We love what we are doing */
@@ -58,6 +72,10 @@
   .main-text {
     font-size: 110px;
   }
+
+  .hero-main-text-fonts{
+    font-size: 95px;
+  }
 }
 
 
@@ -81,6 +99,10 @@
   .tech-row{
     max-height: 57px;
   }
+
+  .hero-main-text-fonts{
+    font-size: 70px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -102,6 +124,10 @@
 
   .tech-row{
     max-height: 50px;
+  }
+
+  .hero-main-text-fonts{
+    font-size: 50px;
   }
 }
 
