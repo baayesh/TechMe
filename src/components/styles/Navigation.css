@@ -36,6 +36,10 @@
  
 }
 
+@media (mmax-width:1200px) {
+
+}
+
 @media (max-width: 992px) {
   .container-header {
     width: 70%;
@@ -69,5 +73,10 @@
 @media (max-width: 400px) {
   .container-header {
     width: 100%;
+    top:0;
+    padding-top: 0px;
+    padding-bottom:0px ;
+    margin-top: 0px;
+   
   }
 }
