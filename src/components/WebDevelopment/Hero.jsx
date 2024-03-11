@@ -1,12 +1,11 @@
 import React from "react";
 import "../WebDevelopment/styles/Hero.css";
 import { motion } from "framer-motion";
-import mainIMG from "../../Assets/Web Developement/main.png";
 import React1 from "../../Assets/Web Developement/react.png";
 import WordPress from "../../Assets/Web Developement/Wordpress.png";
 import ssh from "../../Assets/Web Developement/ssh.png";
 import cloud from "../../Assets/Web Developement/Cloud.png";
-import VPS from "../../Assets/Web Developement/vps.png";
+import VPS from "../../Assets/Web Developement/VPS.png";  
 import mysql from "../../Assets/Web Developement/mysql.png";
 import ssl from "../../Assets/Web Developement/SSL.png";
 import php from "../../Assets/Web Developement/php.png";
@@ -16,9 +15,9 @@ import heroIMG from "../../Assets/Web Developement/HeroIMG.png";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-// import { act } from "@testing-library/react";
 
-const handleDragStart = (e) => e.preventDefault();
+
+
 
 const items = [
   <img src={React1} alt="javascript" className="tech-row ps-4 pe-4" />,
