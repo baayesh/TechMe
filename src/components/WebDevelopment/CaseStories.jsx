@@ -20,7 +20,7 @@ const CaseStories = () => {
         <motion.div
           initial={{ opacity: 0, x:-200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.2, type: "spring", stiffness:120}}
+          transition={{ duration: 0.2, type: "spring", stiffness:30}}
           viewport={{ once: false, amount: 0.5 }}
           className=" mb-3 col-xl-4 col-lg-6 col-md-12 "
         >
@@ -33,7 +33,7 @@ const CaseStories = () => {
                   className=" chamz-logo"
                 />
               </div>
-              <h3 className="row d-flex title-start-service justify-content-center exo-2-title">
+              <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
               <p>{desChamz}</p>
@@ -45,7 +45,7 @@ const CaseStories = () => {
         <motion.div
           initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, type: "spring", stiffness:120}}
+          transition={{ duration: 0.5, type: "spring", stiffness:30}}
           viewport={{ once: false, amount: 0.09 }}
           className="mb-3 col-xl-4 col-lg-6 col-md-12"
         >
@@ -58,7 +58,7 @@ const CaseStories = () => {
                   className=" chamz-logo"
                 />
               </div>
-              <h3 className="row d-flex title-start-service justify-content-center exo-2-title">
+              <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
               <p>{desChamz}</p>
@@ -70,7 +70,7 @@ const CaseStories = () => {
         <motion.div
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.2, type: "spring", stiffness:120}}
+          transition={{ duration: 0.2, type: "spring", stiffness:30}}
           viewport={{ once: false, amount: 0.5 }}
           className="mb-3 col-xl-4 col-lg-12  col-md-12"
         >
@@ -83,7 +83,7 @@ const CaseStories = () => {
                   className=" chamz-logo"
                 />
               </div>
-              <h3 className="row d-flex title-start-service justify-content-center exo-2-title">
+              <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
               <p>{desChamz}</p>

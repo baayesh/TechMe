@@ -42,15 +42,15 @@ const Hero = () => {
   return (
     <div>
       {/* Start of the Hero Section */}
-      <div className="row component-body-hero-web">
+      <div className="row component-body-hero-web-services">
         <img src={heroIMG} alt="Web development image" className="img-fluid" />
-        <div className="hero-main-text">
-          <h2 className="hero-main-text-fonts">
+        <div className="hero-main-text-services">
+          <h2 className="hero-main-text-fonts-services">
             This is a Dummy Text
           </h2>
         </div>
         <div className="d-flex justify-content-center align-items-center">
-          <button className="btn-web">
+          <button className="btn-web  ">
             Let's Talk
           </button>
         </div>

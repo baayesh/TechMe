@@ -1,0 +1,62 @@
+/* Default design */
+
+/* Content Area */
+.content-area{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.component-body-hero-web {
+    position: relative;
+    text-align: center;
+    margin-top: -100px;
+    min-height: 1vw;
+  }
+  
+  /* Main text area of the hero web */
+  .hero-main-text{
+  position: absolute;
+  top: 70%;
+  z-index:2;
+  
+  }
+  
+  .hero-main-text-fonts{
+    font-family: "Calistoga", serif;
+    font-weight: 100;
+    font-size: 120px;
+    color:white;
+  }
+  
+
+  /* main image */
+  .main-img {
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Vision area */
+  .vision-text {
+    font-family: "Exo 2", sans-serif;
+    color:#f2f2f2;
+  }
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:992px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media(max-width:576px){
+
+}
+
+@media(max-width:400px){
+
+}

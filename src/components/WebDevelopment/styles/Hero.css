@@ -7,7 +7,7 @@
 
 
 /* Main div */
-.component-body-hero-web {
+.component-body-hero-web-services {
   position: relative;
   text-align: center;
   margin-top: -100px;
@@ -15,14 +15,14 @@
 }
 
 /* Main text area of the hero web */
-.hero-main-text{
+.hero-main-text-services{
 position: absolute;
 top: 45%;
 z-index:2;
 
 }
 
-.hero-main-text-fonts{
+.hero-main-text-fonts-services{
   font-family: "Calistoga", serif;
   font-weight: 100;
   font-size: 120px;
@@ -32,7 +32,7 @@ z-index:2;
 
 
 /* main image */
-.main-img {
+.main-img-services {
   min-height: 100vh;
   width: 100%;
   height: auto;
@@ -50,7 +50,7 @@ z-index:2;
 }
 
 /* Let's Talk button */
-.btn-web {
+.btn-web{
   --color: #f2f2f2;
   --color2: #4b3db2;
   padding: 0.8em 1.75em;
@@ -72,7 +72,7 @@ z-index:2;
   
  }
  
- .btn::after, .btn::before {
+ .btn-web::after, .btn-web::before {
   content: '';
   display: block;
   height: 100%;
@@ -87,25 +87,25 @@ z-index:2;
  
  }
  
- .btn::before {
+ .btn-web::before {
   top: -50%;
   left: -25%;
   transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
  }
  
- .btn:hover::before {
+ .btn-web:hover::before {
   transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
  }
  
- .btn:hover::after {
+ .btn-web:hover::after {
   transform: skew(45deg) translate(-50%, -50%);
  }
  
- .btn:hover {
+ .btn-web:hover {
   color: var(--color2);
  }
  
- .btn:active {
+ .btn-web:active {
   filter: brightness(.7);
   transform: scale(.98);
  }
@@ -156,7 +156,7 @@ z-index:2;
     font-size: 90px;
   }
 
-  .btn{
+  .btn-web{
     font-size: 20px;
   }
 
@@ -203,7 +203,7 @@ z-index:2;
     padding-right: 0px;
   }
 
-  .btn{
+  .btn-web{
     font-size: 15px;
   }
 
@@ -214,4 +214,14 @@ z-index:2;
 
 }
 
+@media(max-width:400px){
+.hero-main-text-fonts{
+  font-family: "Calistoga", serif;
+  font-weight: 100;
+  font-size: 20px;
+  color:white;
+  padding-top: 20px;
+}
+
+}
 

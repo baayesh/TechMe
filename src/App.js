@@ -4,11 +4,12 @@ import Navigation from "./components/Navigation";
 import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 import Contacts from "./pages/Contacts";
 import Webdevelopment from "./pages/Webdevelopment";
-import SocalMediaMarketing from "./pages/SocalMediaMarketing";
+import AboutUs from "./pages/AboutUs";
 import DigitalMarketing from "./pages/DigitalMarketing";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
-import React, {components} from 'react';
+import React from 'react';
+
  
 
 function App() {
@@ -28,8 +29,8 @@ function App() {
             <Route path="/Web">
               <Webdevelopment />
             </Route>
-            <Route path="/Social">
-              <SocalMediaMarketing />
+            <Route path="/AboutUs">
+              <AboutUs/>
             </Route>
             <Route path="/Digital">
               <DigitalMarketing />

@@ -37,7 +37,7 @@ const OurTeam = () => {
     );
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="row">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
@@ -80,13 +80,13 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mb-5 ">
         <div className="row ms-5 me-5 mt-5 d-flex justify-content-center">
           <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1"
           >
             <div class="card card-style shadow mb-5">
@@ -113,7 +113,7 @@ const OurTeam = () => {
             initial={{ opacity: 0, y: -200 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 "
           >
             <div class="card card-style shadow mb-5">
@@ -140,7 +140,7 @@ const OurTeam = () => {
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1 "
           >
             <div class="card card-style shadow mb-5">
@@ -167,7 +167,7 @@ const OurTeam = () => {
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
+            transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3 mb-sm-2 column-1"
           >
             <div class="card card-style shadow mb-5">

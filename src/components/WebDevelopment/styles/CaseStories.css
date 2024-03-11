@@ -40,6 +40,12 @@
   width: auto;
 }
 
+.title-cus{
+  font-family: "Exo 2", "sans-serif";
+  color: #f2f2f2;
+  font-size: 25px;
+}
+
 .para-web-customer {
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
