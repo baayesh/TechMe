@@ -8,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Change minimum height into full screen height */
+  min-height:100vh ;
 }
 
 code {
