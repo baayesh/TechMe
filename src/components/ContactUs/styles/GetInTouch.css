@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .first-row{
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
@@ -32,9 +31,6 @@
     color:white
 }
 
-
-
-
 @media(max-width:592px){
     .main-div{
         margin-top: 100px;
@@ -42,7 +38,6 @@
 
 
 }
-
 
 @media(max-width:768px){
     .user-input{

@@ -50,7 +50,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="d-flex justify-content-center align-items-center">
-          <button className="btn">
+          <button className="btn-web">
             Let's Talk
           </button>
         </div>
