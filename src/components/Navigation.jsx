@@ -19,7 +19,7 @@ function Navigation() {
               TechMe
             </Link>
             <Link className="link ps-2 pe-2 pt-1 pb-1 me-5" to="/web">
-              Discover
+              Services
             </Link>
             <Link className="link ps-2 pe-2 pt-1 pb-1" to="/Contacts">
               Contacts
