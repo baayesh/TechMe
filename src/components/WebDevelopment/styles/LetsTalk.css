@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
 .card-lt-tlk {
-  background: linear-gradient(45deg, #4b3db2 0%, #261c2c 100%);
+  background: linear-gradient(60deg, #4b3db2 0%, #f2f2f2 100%);
   border-radius: 10px;
   padding: 20px;
   width: 350px;
@@ -19,7 +19,7 @@
   font-weight: 600;
   text-align: center;
   color: #f2f2f2;
-  font-family: "Exo 2";
+  font-family: "Exo 2"
 }
 
 .form {
@@ -36,11 +36,11 @@
 .form .group label {
 font-family: "Exo 2";
   font-size: 16px;
-  color: #f2f2f2;
+  color: #261c2c;
   position: absolute;
   top: -10px;
   left: 10px;
-  background-color: #4b3db2 ;
+  background: transparent;
   transition: all 0.3s ease;
 }
 
@@ -70,10 +70,12 @@ font-family: "Exo 2";
 .form .group textarea:focus + label {
   top: -10px;
   left: 10px;
-  background-color: #4b3db2;
+  background:#261c2c;
   color: #f2f2f2;
   font-weight: 600;
   font-size: 14px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .form .group textarea {
