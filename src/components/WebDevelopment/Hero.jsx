@@ -1,6 +1,5 @@
 import React from "react";
 import "../WebDevelopment/styles/Hero.css";
-import { motion } from "framer-motion";
 import React1 from "../../Assets/Web Developement/react.png";
 import WordPress from "../../Assets/Web Developement/Wordpress.png";
 import ssh from "../../Assets/Web Developement/ssh.png";
@@ -12,9 +11,8 @@ import php from "../../Assets/Web Developement/php.png";
 import JavaScript from "../../Assets/Web Developement/JS.png";
 import CMS from "../../Assets/Web Developement/CMS.png";
 import heroIMG from "../../Assets/Web Developement/HeroIMG.png";
-
 import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
+
 
 
 

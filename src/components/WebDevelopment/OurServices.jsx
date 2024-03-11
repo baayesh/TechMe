@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/OurServices.css";
-import webDesign from "../../Assets/Web Developement/WebDesign.png";
 
 const OurServices = () => {
   return (

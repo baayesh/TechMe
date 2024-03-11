@@ -5,7 +5,6 @@ import facebookLogo from "../../Assets/Social Media/facebook-logo.png";
 import instagramLogo from "../../Assets/Social Media/Instagram-logo.png";
 import twitterLogo from "../../Assets/Social Media/twitter-logo.png";
 import gitHubLogo from "../../Assets/Social Media/git-hub-logo.png";
-import talk from "../../Assets/Contact us/talk.png"
 import {motion} from "framer-motion";
 
 

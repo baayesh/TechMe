@@ -8,7 +8,8 @@ import SocalMediaMarketing from "./pages/SocalMediaMarketing";
 import DigitalMarketing from "./pages/DigitalMarketing";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
-import { AnimatePresence } from "framer-motion";
+import React, {components} from 'react';
+ 
 
 function App() {
  

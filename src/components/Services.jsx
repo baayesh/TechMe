@@ -2,7 +2,6 @@
 import "./styles/Services.css";
 import { motion} from "framer-motion";
 import { Link } from "react-router-dom";
-import { useMediaQuery } from "../hooks/utils";
 
 function Services() {
   // const controls = useAnimation();
