@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "./styles/WhoAreWe.css";
 import sideImg2 from "../Assets/SideContent.png";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const WhoAreWe = () => {
   const controls = useAnimation();
@@ -56,15 +57,17 @@ const WhoAreWe = () => {
                 like giving your online story a fresh and appealing look!
               </p>
             </motion.div>
-            <motion.div
-              ref={ref}
-              initial={{ opacity: 0, x: -100 }}
-              animate={controls}
-              transition={{ duration: 1 }}
-              exit={{ opacity: 0, x: 100 }}
-            >
-              <button className="custom-button exo-2">Explore Our Services</button>
-            </motion.div>
+            <Link to="/web">
+              <motion.div
+                ref={ref}
+                initial={{ opacity: 0, x: -100 }}
+                animate={controls}
+                transition={{ duration: 1 }}
+                exit={{ opacity: 0, x: 100 }}
+              >
+                <button className="custom-button exo-2">Explore Our Services</button>
+              </motion.div>
+            </Link>
           </div>
 
           <div className="col-md-4">

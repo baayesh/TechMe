@@ -1,40 +1,45 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./styles/TestComponent.css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 
-
-
-
-const YourComponent = () => {
-  window.onScroll = function() {
-    onScrollFunction();
-  }
-
-  function onScrollFunction() {
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("header").className = "container-header-scr";
-    }
-}
+const TestComponent = () => {
   return (
-    <div >
-      <div id = "header" className="row  container-header ">
-        <ul className="flexnav d-flex justify-content-center align-items-center mt-3" data-breakpoint="768">
-          <Link className="link pe-5" to="/">
-            Home
-          </Link>
-          <Link className="link pe-5" to="/web">
-            Discover
-          </Link>
-          <Link className="link" to="/Contacts">
-          Contacts
-          </Link>
-        </ul>
-        <h1>
-          This is a test  This is a test  This is a test  This is a test  This is a test  This is a test This is a test  This is a test  This is a test  This is a test  This is a test  This is a test  This is a test  This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
-        </h1>
-      </div>
-    </div>
-  );
-};
+    <div>
 
-export default YourComponent;
+<Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <br />
+      <Navbar bg="primary" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      <br />
+      <Navbar bg="light" data-bs-theme="light">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
+  )
+}
+
+export default TestComponent

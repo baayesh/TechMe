@@ -43,20 +43,50 @@
 
 @media (max-width:1200px){
 
+  .hero-main-text-fonts{
+
+    font-size: 120px;
+   
+  }
+
 }
 
 @media (max-width:992px){
 
+
+  .hero-main-text-fonts{
+
+    font-size: 100px;
+   
+  }
 }
 
 @media (max-width:768px){
 
+
+  .hero-main-text-fonts{
+
+    font-size: 80px;
+   
+  }
 }
 
 @media(max-width:576px){
 
+
+  .hero-main-text-fonts{
+
+    font-size: 60px;
+   
+  }
 }
 
 @media(max-width:400px){
 
+
+  .hero-main-text-fonts{
+
+    font-size: 35px;
+   
+  }
 }

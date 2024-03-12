@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* Our Vision area */}
         <div className="row content-area">
-          <h3 className="vision-text mt-5 mb-5">Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Ou Our Vision Our Vision Our Vision Our Vision Our Vision Our Visionr Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision Our Vision</h3>
+          <h3 className="vision-text mt-5 mb-5">Our Vision </h3>
         </div>
         {/* Imported from web development */}
         <CaseStories/>

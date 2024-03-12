@@ -119,7 +119,7 @@ z-index:2;
     font-size: 110px;
   }
 
-  .hero-main-text-fonts{
+  .hero-main-text-fonts-services{
     font-size: 95px;
   }
 }
@@ -146,7 +146,7 @@ z-index:2;
     max-height: 57px;
   }
 
-  .hero-main-text-fonts{
+  .hero-main-text-fonts-services{
     font-size: 70px;
   }
 }
@@ -176,7 +176,7 @@ z-index:2;
     max-height: 50px;
   }
 
-  .hero-main-text-fonts{
+  .hero-main-text-fonts-services{
     font-size: 50px;
   }
 }
@@ -207,7 +207,7 @@ z-index:2;
     font-size: 15px;
   }
 
- .hero-main-text-fonts{
+ .hero-main-text-fonts-services{
   font-size: 40px;
  }
 
@@ -215,7 +215,7 @@ z-index:2;
 }
 
 @media(max-width:400px){
-.hero-main-text-fonts{
+.hero-main-text-fonts-services{
   font-family: "Calistoga", serif;
   font-weight: 100;
   font-size: 20px;
