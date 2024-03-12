@@ -7,7 +7,7 @@ const LetsTalk = () => {
       <div>
         <h3 className="title mt-5">Let's Talk</h3>
       </div>
-      <div className="row d-flex justify-content-center mt-5 ">
+      <div className="row d-flex justify-content-center mt-sm-5 cont-lt-tlk">
         <div className="card-lt-tlk">
           <form className="form">
             <div className="group">
@@ -22,7 +22,7 @@ const LetsTalk = () => {
               <textarea
                 id="comment"
                 name="comment"
-                rows="5"  
+                rows="5"
                 required=""
               ></textarea>
               <label for="comment">Your Requirements</label>
