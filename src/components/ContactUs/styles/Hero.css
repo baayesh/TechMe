@@ -1,78 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap');
-
-.map-f-div {
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 40px;
+.con-us-def{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.c-us-hero{
+  margin-top: -100px;
+  min-height: 1vw;
 }
 
-.content-map{
+.c-us-hero-div{
+ 
+  position: absolute;
+  top: 70%;
+
+}
+
+.c-us-hero-text{
+  color: #261c2c;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 90px;
+}
+
+.c-us-map-cd-mdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.c-us-map-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color: antiquewhite; 
+}
+
+.c-us-conde-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+ 
+}
+
+.c-us-conde-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 10px; 
+}
+
+.c-us-conde-icon{
+  width: 50px;
+  height: 50px;
+
+}
+
+.c-us-conde-icon-color{
+  fill: #f2f2f2;
+}
+
+.c-us-conde-font{
   font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.details-div {
-  background: linear-gradient(to right, #4b3db2, #261c2c);
   color: #f2f2f2;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 
-.social-media {
-  width: 30px;
-}
-
-.contact-us-hero-m-div {
-
-}
-
-@media (max-width: 1200px) {
-  .map-f-div {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 20px;
-  }
-
-  .details-div{
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-}
-
-@media (max-width: 992px) {
-  .map-f-div {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-  }
-
-  .details-div{
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-
-@media (max-width: 768px) {
-  .map-f-div {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-  }
-
-  .details-div{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-
-}
-
-@media (max-width: 542) {
-  .git-logo {
-    margin-top: 5px;
-  }
+.c-us-conde-git{
+  margin-top: 40px;
 }

@@ -6,7 +6,7 @@ function Contacts() {
   return (
     <div>
       <Hero/>
-      <GetInTouch/>
+      {/* <GetInTouch/> */}
     </div>
   )
 }

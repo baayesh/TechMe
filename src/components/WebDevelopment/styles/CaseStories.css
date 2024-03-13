@@ -10,11 +10,9 @@
   font-size: 50px;
   color: azure;
 }
-.glass-effect {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0px;
+.glass-effect-abt-us {
+ 
+  backdrop-filter: blur(100px);
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
   margin: 5px;
   width: auto;
@@ -22,6 +20,17 @@
   justify-content: center;
 }
 
+.bg-color-cus-1{
+  background: linear-gradient(-45deg, #4b3db2, #261c2c);
+}
+
+.bg-color-cus-2{
+  background: linear-gradient(-90deg, #4b3db2, #261c2c);
+}
+
+.bg-color-cus-3{
+  background: linear-gradient(-135deg, #4b3db2, #261c2c);
+}
 
 
 .background-2 {
@@ -44,6 +53,12 @@
   font-family: "Exo 2", "sans-serif";
   color: #f2f2f2;
   font-size: 25px;
+}
+
+.des-cus{
+  color: #f2f2f2;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .para-web-customer {

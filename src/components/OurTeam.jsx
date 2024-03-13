@@ -46,7 +46,7 @@ const OurTeam = () => {
             viewport={{ once: false, amount: 0.5 }}
           >
             <div className=" pt-5">
-              <h5 className="montserrat-title">OUR TEAM</h5>
+              <h5 className="montserrat-title">TechME TEAM</h5>
             </div>
           </motion.div>
         </div>
@@ -164,7 +164,7 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x:200 }}
+            initial={{ opacity: 0, x: 200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}

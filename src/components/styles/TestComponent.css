@@ -1,91 +1,109 @@
-.social-card {
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background: linear-gradient(to right, #4b3db2, #302436);
-  padding: 20px 25px;
-  border-radius: 14px;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap");
+
+.main-container {
+ padding-left: 200px;
+ padding-right: 200px;
+ background:linear-gradient(to bottom, #261c2c, #4b3db2, #261c2c);
+ 
 }
-.Btn {
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-  position: relative;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all 0.3s;
-  outline: none;
+.title-cus{
+  font-family: "Exo 2", sans-serif;
+  font-size: 50px;
+  color: azure;
 }
 
-.svgContainer {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  letter-spacing: 0.8px;
+.des-cus{
+  color:#f2f2f2;
+  font-family: 'Exo 2', sans-serif;
+}
+.glass-effect {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0px;
-  transition: all 0.3s;
-  border: none;
-  outline: none;
-  z-index: 2;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  width: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.BG {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  z-index: 1;
-  border-radius: 10px;
-  pointer-events: none;
-  transition: all 0.3s;
-  font-size: 0px;
-}
-.github .BG {
-  background: #181818;
-}
-.linkdin .BG {
-  background: #0077b5;
-}
-.whatsapp .BG {
-  background: #075e54;
-}
-.discord .BG {
-  background: #7289da;
+
+
+.background-2 {
+ 
+  padding-top: 20px;
 }
 
-.instagram .BG {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+.background-3 {
+
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
-.facebook .BG {
-  background: #3b5998;
+.chamz-logo {
+  height: 200px;
+  width: auto;
 }
 
-.Btn:hover .BG {
-  transform: scale(1.5);
-  /* transform-origin: bottom; */
-  font-size: 20px;
+.title-cus{
+  font-family: "Exo 2", "sans-serif";
+  color: #f2f2f2;
+  font-size: 25px;
+}
+
+.para-web-customer {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   color: white;
+  font-size: 20px;
 }
 
-.Btn:hover .svgContainer {
-  border: 0px solid rgba(216, 216, 216, 0.466);
-  background-color: transparent;
+/* Responsive designs */
+
+@media (max-width: 1400px) {
+  .background-3 {
+    padding-bottom: 50px;
+  }
+
+  .main-container {
+    padding-left: 120px;
+    padding-right: 120px;
+   }
+}
+@media (max-width: 1200px) {
+  .background-3 {
+    padding-bottom: 50px;
+  }
+
+  .main-container {
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+}
+
+@media (max-width: 992px) {
+
+  .main-container {
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+}
+
+@media (max-width: 768px) {
+  .title-cus{
+    font-size: 40px;
+  }
+
+  .para-web-customer{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 552px) {
+  .title-cus{
+    font-size: 30px;
+  }
 }

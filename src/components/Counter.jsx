@@ -44,7 +44,7 @@ const Counter = () => {
                     )}
                     +
                   </h1>
-                  <h4 className="cormorant-garamond-bold-des">Skilled Talent</h4>
+                  <h4 className="cormorant-garamond-bold-des">T.Me Talent</h4>
               </div>
             </div>
           </div>

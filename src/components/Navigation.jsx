@@ -55,13 +55,13 @@ function Navigation() {
             <nav>
               {/* For Web */}
               <ul className="nav-web mt-3">
-                <Link className="link pt-1 pb-1 pe-2 " to="/">
+                <Link className="link pt-1 pb-1 pe-3 " to="/">
                   TechMe
                 </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-2 " to="/web">
+                <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/web">
                   Services
                 </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-2" to="/Contacts">
+                <Link className="link ps-2  pt-1 pb-1 pe-3" to="/Contacts">
                   Contacts
                 </Link>
                 <Link className="link ps-2  pt-1 pb-1" to="/AboutUs">

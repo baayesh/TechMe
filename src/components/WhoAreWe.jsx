@@ -43,7 +43,7 @@ const WhoAreWe = () => {
               </h3>
             </div>
             <motion.div
-              ref={ref}
+              ref={ref} 
               initial={{ opacity: 0, x: -100 }}
               animate={controls}
               transition={{ duration: 0.5 }}
@@ -65,7 +65,7 @@ const WhoAreWe = () => {
                 transition={{ duration: 1 }}
                 exit={{ opacity: 0, x: 100 }}
               >
-                <button className="custom-button exo-2">Explore Our Services</button>
+                <button className="custom-button exo-2">EXPLORE TECHME</button>
               </motion.div>
             </Link>
           </div>
@@ -76,6 +76,7 @@ const WhoAreWe = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

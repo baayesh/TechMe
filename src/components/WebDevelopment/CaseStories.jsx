@@ -11,7 +11,7 @@ const CaseStories = () => {
   return (
     <div className="main-container">
       {/* Start of title */}
-      <div className="row title-cus d-flex justify-content-center m-2 mb-md-5">
+      <div className="row title-cus d-flex justify-content-center mb-md-5">
         {title}
       </div>
 
@@ -24,7 +24,7 @@ const CaseStories = () => {
           viewport={{ once: false, amount: 0.5 }}
           className=" mb-3 col-xl-4 col-lg-6 col-md-12 "
         >
-          <div className="card glass-effect">
+          <div className="card glass-effect-abt-us bg-color-cus-1">
             <div className="card-body d-flex flex-column justify-content-center align-items-center">
               <div className="pt-5 pb-5">
                 <img
@@ -36,7 +36,7 @@ const CaseStories = () => {
               <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
-              <p>{desChamz}</p>
+              <p className="des-cus">{desChamz}</p>
             </div>
           </div>
         </motion.div>
@@ -49,7 +49,7 @@ const CaseStories = () => {
           viewport={{ once: false, amount: 0.09 }}
           className="mb-3 col-xl-4 col-lg-6 col-md-12"
         >
-          <div className="card glass-effect">
+          <div className="card glass-effect-abt-us bg-color-cus-2">
             <div className="card-body d-flex flex-column justify-content-center align-items-center">
               <div className=" pt-5 pb-5">
                 <img
@@ -61,7 +61,7 @@ const CaseStories = () => {
               <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
-              <p>{desChamz}</p>
+              <p className="des-cus">{desChamz}</p>
             </div>
           </div>
         </motion.div>
@@ -74,7 +74,7 @@ const CaseStories = () => {
           viewport={{ once: false, amount: 0.5 }}
           className="mb-3 col-xl-4 col-lg-12  col-md-12"
         >
-          <div className="card glass-effect">
+          <div className="card glass-effect-abt-us bg-color-cus-3">
             <div className="card-body d-flex flex-column justify-content-center align-items-center">
               <div className=" pt-5 pb-5">
                 <img
@@ -86,7 +86,7 @@ const CaseStories = () => {
               <h3 className="row d-flex title-start-service justify-content-center title-cus">
                 Chamz.co.nz
               </h3>
-              <p>{desChamz}</p>
+              <p className="des-cus">{desChamz}</p>
             </div>
           </div>
         </motion.div>

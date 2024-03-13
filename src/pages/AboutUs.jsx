@@ -8,6 +8,7 @@ const AboutUs = () => {
     <div>
       <Hero/>
       <SocialMedia/>
+      
     </div>
   )
 }
