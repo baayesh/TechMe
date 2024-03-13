@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { getElementError } from "@testing-library/react";
+import logo from '../Assets/logo512.png';
 
 function Navigation() {
   window.addEventListener("scroll", function () {
@@ -55,6 +56,7 @@ function Navigation() {
             <nav>
               {/* For Web */}
               <ul className="nav-web mt-3">
+                <li className="nav-icon"><img src={logo} alt="" /></li>
                 <Link className="link pt-1 pb-1 pe-3 " to="/">
                   TechMe
                 </Link>
