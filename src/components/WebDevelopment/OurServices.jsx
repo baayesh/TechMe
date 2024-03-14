@@ -28,10 +28,10 @@ const OurServices = () => {
             <div class="card">
               <div class="front-content">
               
-                <p className="font-h-exo-2">SEO Optimization</p>
+                <p className="font-h-exo-2">SEO </p>
               </div>
               <div class="content">
-                <p class="heading">SEO Optimization</p>
+                <p class="heading">SEO</p>
                 <p className="font-p-exo-2">
                 Understanding the importance of visibility in the digital landscape, we implement robust Search Engine Optimization (SEO) strategies. This ensures that our clients' websites rank higher in search engine results, driving increased traffic and enhancing online presence.
                 </p>

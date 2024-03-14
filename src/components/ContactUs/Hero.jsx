@@ -16,7 +16,7 @@ const Hero = () => {
         <img src={contactUs} alt="" className="img-fluid" />
         <div className="c-us-hero-div">
           <h5 className="c-us-hero-text">
-            if(complement || Concern)
+            if ->   complement || concern
             <br />
             {/* Please check if error occurs */}
             We are here to help; => 24/7
@@ -29,14 +29,15 @@ const Hero = () => {
         <div className="c-us-map-div">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204305.97107301102!2d174.54131432256708!3d-36.859697088791016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2slk!4v1710345205272!5m2!1sen!2slk"
-            width="600"
-            height="450"
+            className="c-us-map"
+            allowfullscreen
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+
           ></iframe>
         </div>
         <div className="c-us-conde-div c-us-def">
-          <div className="c-us-conde-row ">
+          <div className="c-us-conde-row">
             <svg
               width="800px"
               height="800px"

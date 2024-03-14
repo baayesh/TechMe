@@ -64,7 +64,7 @@ function Navigation() {
                   Services
                 </Link>
                 <Link className="link ps-2  pt-1 pb-1 pe-3" to="/Contacts">
-                  Contacts
+                  Contact Us
                 </Link>
                 <Link className="link ps-2  pt-1 pb-1" to="/AboutUs">
                   About Us
