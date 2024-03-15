@@ -23,17 +23,14 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/Contacts">
+            <Route path="/contact-us">
               <Contacts />
             </Route>
-            <Route path="/Web">
+            <Route path="/services">
               <Webdevelopment />
             </Route>
-            <Route path="/AboutUs">
+            <Route path="/about-us">
               <AboutUs/>
-            </Route>
-            <Route path="/Digital">
-              <DigitalMarketing />
             </Route>
             <Route path="/test" >
               <TestComponent />

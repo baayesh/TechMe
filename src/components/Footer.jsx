@@ -21,17 +21,15 @@ function Footer() {
                 <Link to="/"> Home </Link>
               </li>
               <li>
-                <Link to="/web"> Web Development </Link>
+                <Link to="/services"> T.Me Services </Link>
               </li>
               <li>
-                <Link to="/social"> Social Media Markeing </Link>
+                <Link to="/contact-us"> Contact Us </Link>
               </li>
               <li>
-                <Link to="/Digital"> Digital Marketing</Link>
+                <Link to="/about-us"> About Us</Link>
               </li>
-              <li>
-                <Link to="/Contacts"> Contacts </Link>
-              </li>
+    
             </ul>
           </div>
           <div className="footer-column small">

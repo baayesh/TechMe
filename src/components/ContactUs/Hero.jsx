@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "./styles/Hero.css";
 import contactUs from "../../Assets/Contact us/Contact.png";
 import facebookLogo from "../../Assets/Social Media/facebook-logo.png";
@@ -14,13 +14,19 @@ const Hero = () => {
     <div>
       <div className="row c-us-hero">
         <img src={contactUs} alt="" className="img-fluid" />
-        <div className="c-us-hero-div">
-          <h5 className="c-us-hero-text">
+        <div className="c-us-hero-div typewriter">
+          <h2 className="c-us-hero-text">
             if ->   complement || concern
-            <br />
-            {/* Please check if error occurs */}
-            We are here to help; => 24/7
-          </h5>
+            
+          </h2>
+
+        </div>
+        <div className="c-us-hero-div-2 typewriter mt-5">
+          <h2 className="c-us-hero-text">
+          We are here to help; => 24/7
+            
+          </h2>
+
         </div>
       </div>
       {/* Lets Talk component */}

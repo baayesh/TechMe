@@ -60,13 +60,13 @@ function Navigation() {
                 <Link className="link pt-1 pb-1 pe-3 " to="/">
                   TechMe
                 </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/web">
+                <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/services">
                   Services
                 </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-3" to="/Contacts">
+                <Link className="link ps-2  pt-1 pb-1 pe-3" to="/contact-us">
                   Contact Us
                 </Link>
-                <Link className="link ps-2  pt-1 pb-1" to="/AboutUs">
+                <Link className="link ps-2  pt-1 pb-1" to="/about-us">
                   About Us
                 </Link>
               </ul>

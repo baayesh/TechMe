@@ -7,7 +7,7 @@ const LetsTalk = () => {
       <div>
         <h3 className="title mt-5">Let's Talk</h3>
       </div>
-      <div className="row d-flex justify-content-center mt-sm-5 cont-lt-tlk">
+      <div className="d-flex justify-content-center mt-sm-5 mb-5 ">
         <div className="card-lt-tlk">
           <form className="form">
             <div className="group">
