@@ -110,7 +110,7 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -400 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
@@ -137,7 +137,7 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -600 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
@@ -164,7 +164,7 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -800 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
