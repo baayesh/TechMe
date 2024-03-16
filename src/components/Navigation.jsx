@@ -5,7 +5,8 @@ import { useState } from "react";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { getElementError } from "@testing-library/react";
-import logo from '../Assets/logo512.png';
+import logo from "../Assets/logo512.png";
+import { Button } from "bootstrap";
 
 function Navigation() {
   window.addEventListener("scroll", function () {
@@ -13,68 +14,85 @@ function Navigation() {
     header.classList.toggle("scrolled", window.scrollY > 0);
   });
 
-  // const navRef = useRef();
+  function toggler() {
+    // Display side navigation
+    var element = document.getElementById("side-nav");
+    element.classList.toggle("side-nav-active");
+    // Hide toggler
+    var toggler = document.getElementById("toggler");
+    toggler.classList.toggle("nav-sm-toggler-deactive");
+  }
 
-  // const showNavBar = () => {
-  //   console.log("clicked bars");
-  //   navRef.current.classList.toggle("sidebar");
-  // };
+  function backToToggler() {
+    // Display side navigation
+    var toggler = document.getElementById("toggler");
+    toggler.classList.toggle("nav-sm-toggler-deactive");
+    console.log("Function running");
 
-  // const closeNavBar = () => {
-  //   console.log("Close Nav Bar");
-  //   navRef.current.classList.toggle("sidebar");
-  // }
-  // Navigation actiovator
-  // const [isClassChanged, setIsClassChanged] = useState(false);
-
-  // const clickHandler = () => {
-  //   setIsClassChanged(!isClassChanged);
-  //  };
-
-  // const [isClassChanged, setClassChanged] = React.useState(false);
-
-  // const handleClick = () => {
-  //   setClassChanged(!isClassChanged);
-  // }
-
-  // const element = document.getElementById("sideBar");
-
-  //   if(!isClassChanged){
-  //     element.classList.add("sidebar");
-  //     console.log('Class is changed')
-  //   }
-  //   else{
-  //     element.classList.remove("sidebar");
-  //     console.log("class list removed")
-  //   }
-
+    var element = document.getElementById("side-nav");
+    element.classList.toggle("side-nav-active");
+  }
   return (
-    <header className="container-header">
-      <div>
-        <div className="  container-fluid d-flex justify-content-center align-items-center">
-          <div className="row  middle-header">
-            <nav>
-              {/* For Web */}
-              <ul className="nav-web mt-3">
-                <li className="nav-icon"><img src={logo} alt="" /></li>
-                <Link className="link pt-1 pb-1 pe-3 " to="/">
-                  TechMe
-                </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/services">
-                  Services
-                </Link>
-                <Link className="link ps-2  pt-1 pb-1 pe-3" to="/contact-us">
-                  Contact Us
-                </Link>
-                <Link className="link ps-2  pt-1 pb-1" to="/about-us">
-                  About Us
-                </Link>
-              </ul>
-            </nav>
-          </div>
+    <div>
+      <div className="nav-sm-toggler">
+        <button id="toggler" onClick={toggler} className="toggle-btn">
+          <FaBars />
+        </button>
+      </div>
+      <div id="side-nav" className="side-nav">
+        <ul className="side-nav-list">
+          <li className="mt-3">
+            <Link className="side-nav-list-item" to="/">
+              Techme
+            </Link>
+          </li>
+          <li>
+            <Link className="side-nav-list-item">Services</Link>
+          </li>
+          <li>
+            <Link className="side-nav-list-item">Contacts</Link>
+          </li>
+          <li className="mb-3">
+            <Link className="side-nav-list-item">About</Link>
+          </li>
+        </ul>
+        <div>
+          <button className="close-btn" onClick={backToToggler}>
+            <FaTimes />
+          </button>
         </div>
       </div>
-    </header>
+
+      <header className="container-header">
+        <div>
+          {/* Toggle Btn */}
+          <div className="  container-fluid d-flex justify-content-center align-items-center">
+            <div className="row  middle-header">
+              <nav>
+                {/* For Web */}
+                <ul className="nav-web mt-3">
+                  <li className="nav-icon">
+                    <img src={logo} alt="" />
+                  </li>
+                  <Link className="link pt-1 pb-1 pe-3 " to="/">
+                    TechMe
+                  </Link>
+                  <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/services">
+                    Services
+                  </Link>
+                  <Link className="link ps-2  pt-1 pb-1 pe-3" to="/contact-us">
+                    Contact
+                  </Link>
+                  <Link className="link ps-2  pt-1 pb-1" to="/about-us">
+                    About
+                  </Link>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
   );
 }
 

@@ -110,8 +110,8 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: -200 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -400 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 "
@@ -137,8 +137,8 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 200 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -600 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
             className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1 "
@@ -164,7 +164,7 @@ const OurTeam = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 200 }}
+            initial={{ opacity: 0, x: -800 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
