@@ -44,7 +44,7 @@ function Services() {
             <motion.div
               initial={{ opacity: 0, x: -200 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 30 }}
               viewport={{ once: true, amount: 0.5 }}
               className="col-md-4  mb-3"
             >
@@ -85,7 +85,7 @@ function Services() {
             <motion.div
               initial={{ opacity: 0, y: 300 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 30 }}
               viewport={{ once: true, amount: 0.5 }}
               className="col-md-4 mb-3 "
             >
@@ -122,7 +122,7 @@ function Services() {
             <motion.div
               initial={{ opacity: 0, x: 200 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.2, type: "spring", stiffness: 120 }}
+              transition={{ duration: 0.2, type: "spring", stiffness: 30 }}
               exit={{ opacity: 0, x: -200 }}
               viewport={{ once: true, amount: 0.5 }}
               className="col-md-4 mb-3"
