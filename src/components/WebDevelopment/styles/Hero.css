@@ -25,7 +25,7 @@ z-index:2;
 .hero-main-text-fonts-services{
   font-family: "Calistoga", serif;
   font-weight: 100;
-  font-size: 120px;
+  font-size: 60px;
   color:white;
 }
 
@@ -116,11 +116,11 @@ z-index:2;
 @media (max-width: 1200px) {
 
   .main-text {
-    font-size: 110px;
+    font-size: 80px;
   }
 
   .hero-main-text-fonts-services{
-    font-size: 95px;
+    font-size: 55px;
   }
 }
 
@@ -147,7 +147,7 @@ z-index:2;
   }
 
   .hero-main-text-fonts-services{
-    font-size: 70px;
+    font-size: 40px;
   }
 }
 
@@ -177,7 +177,7 @@ z-index:2;
   }
 
   .hero-main-text-fonts-services{
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
@@ -208,7 +208,7 @@ z-index:2;
   }
 
  .hero-main-text-fonts-services{
-  font-size: 40px;
+  font-size: 25px;
  }
 
 

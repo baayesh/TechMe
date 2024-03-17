@@ -46,7 +46,7 @@ const Hero = () => {
         <img src={heroIMG} alt="Web development image" className="img-fluid" />
         <div className="hero-main-text-services">
           <h2 className="hero-main-text-fonts-services">
-            This is a Dummy Text
+          Lorem ipsum dolor sit amet, consectetur adipiscing 
           </h2>
         </div>
         <div className="d-flex justify-content-center align-items-center">

@@ -47,13 +47,13 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link className="side-nav-list-item">Services</Link>
+            <Link  to="/services" className="side-nav-list-item">Services</Link>
           </li>
           <li>
-            <Link className="side-nav-list-item">Contacts</Link>
+            <Link to="/contact-us" className="side-nav-list-item">Contacts</Link>
           </li>
           <li className="mb-3">
-            <Link className="side-nav-list-item">About</Link>
+            <Link  to="/about-us" className="side-nav-list-item">About</Link>
           </li>
         </ul>
         <div>

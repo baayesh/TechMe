@@ -34,23 +34,24 @@ function Footer() {
           </div>
           <div className="footer-column small">
             <h4>Support</h4>
-            <ul>
-              <li>
-                <a href="#">Footer 1</a>
+            <ul className="footer-exo-2">
+              <li >
+                <a href="#">Let's Talk</a>
               </li>
               <li>
-                <a href="#">Footer 2</a>
+                <a href="#">Where Are We</a>
               </li>
               <li>
-                <a href="#">Footer 3</a>
+                <a href="#">Get in Touch</a>
               </li>
             </ul>
           </div>
           <div className="footer-column small">
             <h4>Contact</h4>
-            <ul>
-              <li>+971 50 555 0101</li>
-              <li>contact@yourbrand.com</li>
+            <ul className="footer-exo-2">
+              <li>T.Me@techme.com</li>
+              <li>+99 954095 949</li>
+              <li>Aukland, New Zeland</li>
             </ul>
           </div>
         </div>
