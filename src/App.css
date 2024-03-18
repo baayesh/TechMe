@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #261C2C;
+  background-color: white;
   /* removing horizontal scrolling */
   max-width: 100%;
   overflow-x: hidden;
