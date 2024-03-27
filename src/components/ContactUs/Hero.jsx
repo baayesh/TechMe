@@ -7,7 +7,7 @@ import twitterLogo from "../../Assets/Social Media/twitter-logo.png";
 import gitHubLogo from "../../Assets/Social Media/git-hub-logo.png";
 import { motion } from "framer-motion";
 import LetsTalk from "../WebDevelopment/LetsTalk";
-import SocialMedia from "../AboutUS/SocialMedia";
+
 
 const Hero = () => {
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       {/* Lets Talk component */}
       <LetsTalk />
-      <div className="c-us-map-cd-mdiv">
+      <div className="c-us-map-cd-mdiv mb-5">
         <div className="c-us-map-div">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204305.97107301102!2d174.54131432256708!3d-36.859697088791016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2slk!4v1710345205272!5m2!1sen!2slk"
@@ -42,7 +42,7 @@ const Hero = () => {
 
           ></iframe>
         </div>
-        <div className="c-us-conde-div c-us-def">
+        <div className="c-us-conde-div c-us-def ">
           <div className="c-us-conde-row">
             <svg
               width="800px"
@@ -113,7 +113,7 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className="c-us-conde-git"><SocialMedia/></div>
+   
     </div>
   );
 };

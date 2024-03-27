@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/Footer.css";
 import { Link } from "react-router-dom";
+import SocialMedia from '../components/AboutUS/SocialMedia';
 
 function Footer() {
   return (
@@ -13,6 +14,7 @@ function Footer() {
               TechMe is a friendly Digital Agency based in New Zealand. We love
               building simple solutions to complex challenges.
             </p>
+            <SocialMedia/>
           </div>
           <div className="footer-column small">
             <h4>Navigate</h4>

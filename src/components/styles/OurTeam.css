@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
-
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 .montserrat-title {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
   font-size: 60px;
-  color: azure;
+  color: #3e2c41;
 }
 
 .exo-2-title-description{
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 600;
   font-style:normal;
-  color: azure;
+  color: #4b3db2;
   font-size: 20px;
 }
 
@@ -28,7 +26,7 @@
 }
 
 .member-description{
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style:normal;
@@ -36,7 +34,7 @@
 }
 
 .card-title {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style:normal;
@@ -44,7 +42,7 @@
 }
 
 .card-text {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style:normal;

@@ -32,7 +32,7 @@ const OurTeam = () => {
   }, [controls]);
 
   const text =
-    "Crafting Digital Excellence. Where Innovation Meets Imagination, and Every Pixel Tells a Story. We Design, We Develop, We Transform Ideas into Digital Reality. Your Vision, Our Expertise -Building Tomorrow's Web Today".split(
+    "Crafting Digital Excellence. Where Innovation Meets Imagination, and Every Pixel Tells a Story. We Design, We Develop, We Transform Ideas into Digital Reality. Your Vision, Our Expertise -Building Tomorrow's Web Today.".split(
       " "
     );
   return (
@@ -82,12 +82,12 @@ const OurTeam = () => {
       </div>
       <div className="mb-5 ">
         <div className="row ms-5 me-5 mt-5 d-flex justify-content-center">
-          <motion.div
+        <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.5, type: "spring", stiffness: 30 }}
-            className="col-sm-12 col-md-6 col-lg-3 mb-5 mb-sm-2 column-1"
+            className="col-sm-12 col-md-6 col-lg-3  mb-5  mb-sm-2 column-1 "
           >
             <div class="card card-style shadow mb-5">
               <img

@@ -5,12 +5,8 @@ const SocialMedia = () => {
   return (
     <div>
       {/* Start of Social Media */}
-      <div className="row justify-content-center mb-5">
-        <div className="row mb-3">
-            <h3 className="sm-title">
-                Get in Touch
-            </h3>
-        </div>
+      <div className="row justify-content-center">
+
         <div class="social-card row">
           {/* Facebook */}
           <button class="Btn facebook">

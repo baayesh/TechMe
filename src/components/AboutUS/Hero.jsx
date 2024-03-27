@@ -24,7 +24,7 @@ const Hero = () => {
 
         {/* Vision Mision Image */}
         <div className="row">
-          <div className="ms-5 mt-5 pt-5 col-md-4"><img src={visImg} alt="Web development image" className="img-fluid" /></div>
+          <div className="ms-5 mt-5 pt-5 col-md-4"><img src={visImg} alt="Vision and Mission" className="img-fluid a-us-vis-img" /></div>
           <div className="col mt-5 pt-5">
             <div className="row-md-12">
             <h1 className="a-us-tech-title">Our Vision and Mission</h1>

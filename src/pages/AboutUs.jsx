@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <div>
       <Hero/>
-      <SocialMedia/>
+    
       
     </div>
   )

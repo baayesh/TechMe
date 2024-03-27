@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 import Contacts from "./pages/Contacts";
 import Webdevelopment from "./pages/Webdevelopment";
@@ -9,6 +9,7 @@ import DigitalMarketing from "./pages/DigitalMarketing";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
 import React from 'react';
+import Hero from "./components/Hero";
 
  
 
@@ -21,7 +22,6 @@ function App() {
         <Navigation />
           <Switch>
             <Route exact path="/">
-              <Home />
             </Route>
             <Route path="/contact-us">
               <Contacts />
