@@ -9,7 +9,7 @@ import DigitalMarketing from "./pages/DigitalMarketing";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
 import React from 'react';
-import Hero from "./components/Hero";
+import Hero from "./pages/Home/Hero/Hero";
 
  
 
@@ -22,6 +22,7 @@ function App() {
         <Navigation />
           <Switch>
             <Route exact path="/">
+              <Hero/>
             </Route>
             <Route path="/contact-us">
               <Contacts />
