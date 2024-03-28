@@ -1,6 +1,7 @@
 import React from "react";
 import "../Hero/styles.css";
 import hmmimg from "../../../Assets/Home/hm-mimg-1.png";
+import Button from "../../../components/Button/Button";
 const Hero = () => {
   return (
     <div className="hm-hr-mdiv">
@@ -9,6 +10,7 @@ const Hero = () => {
           Transform your digital presence with expert web development and social
           media marketing
         </p>
+        <Button/>
       </div>
       <div className="hm-hr-mimgdiv">
             <img className="hm-hr-mimg" src={hmmimg} alt="" />
