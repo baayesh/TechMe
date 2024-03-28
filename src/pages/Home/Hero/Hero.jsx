@@ -7,8 +7,8 @@ const Hero = () => {
     <div className="hm-hr-mdiv">
       <div className="hm-hr-mdivtext">
         <p className="hm-hr-mtext">
-          Transform your digital presence with expert web development and social
-          media marketing
+          Transform your digital presence with expert<span> web development</span>  and<span> social
+          media marketing</span> 
         </p>
         <Button/>
       </div>

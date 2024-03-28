@@ -22,6 +22,10 @@
     font-size: 5.5rem;
 }
 
+p span{
+    color: #4b3db2;
+}
+
 /* Main Image */
 
 .hm-hr-mimgdiv{
