@@ -72,28 +72,28 @@ function Navigation() {
       <header className="container-header">
         <div>
           {/* Toggle Btn */}
-          <div className="  container-fluid d-flex justify-content-center align-items-center">
+          <div className="   d-flex justify-content-center align-items-center">
             <div className="row ">
               <nav >
                 {/* For Web */}
-                <div className="nav-container-items">
-                  <ul className="nav-container-items mt-3">
+                <div className="">
+                  <ul className="nav-container-items mt-2">
                     <li className="nav-icon">
-                      <img src={logo} alt="" />
+                      <img src={logo} alt="logo" className="nav-logo"/>
                     </li>
-                    <Link className="link pt-1 pb-1 pe-5   " to="/">
+                    <Link className="link pe-5   " to="/">
                       TechMe
                     </Link>
-                    <Link className="link ps-2  pt-1 pb-1 pe-5 " to="/services">
+                    <Link className="link ps-2   pe-5 " to="/services">
                       Services
                     </Link>
                     <Link
-                      className="link ps-2  pt-1 pb-1 pe-5"
+                      className="link ps-2 pe-5"
                       to="/contact-us"
                     >
                       Contact Us
                     </Link>
-                    <Link className="link ps-2  pt-1 pb-1" to="/about-us">
+                    <Link className="link ps-2  " to="/about-us">
                       About Us
                     </Link>
                     

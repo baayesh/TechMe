@@ -11,6 +11,7 @@ import TestComponent from "./components/TestComponent";
 import React from 'react';
 import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
+import Video from "./pages/Home/Video/Video";
 
  
 
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/">
               <Hero/>
               <Services/>
+              <Video/>
             </Route>
             <Route path="/contact-us">
               <Contacts />
