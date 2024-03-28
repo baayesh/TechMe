@@ -1,0 +1,62 @@
+.hm-sv-container{
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.hm-sv-title{
+    font-family: 'Lovelo', sans-serif;
+    font-weight: 700;
+    color:#4b3db2;
+    margin-left: auto;  
+    margin-right: auto;
+    font-size: 3rem;
+    padding-bottom: 2%;
+}
+
+/* Cards */
+.hm-sv-card-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    gap:3%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+   
+
+}
+.hm-sv-card{
+    background-color: rgba(112,112,122,0.2) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    min-width: 20%;
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-bottom: 2%;
+    
+}
+
+.hm-sv-card-img{
+    max-width: 100px;
+    height: auto;
+    margin-top: 4%;
+}
+
+.hm-sv-card-title{
+    color: #4b3db2;
+    opacity: 100%;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bolder;
+}
+
+.hm-sv-card-para{
+    font-family: 'Open sans', sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 3%;
+}
+
+.hm-sv-card-btn{
+    padding-bottom: 3%;
+}

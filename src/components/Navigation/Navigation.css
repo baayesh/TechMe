@@ -39,24 +39,17 @@
   color: white;
   font-family: "Lovelo", sans-serif;
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   -webkit-transition: color 0.5s ease-in-out;
 }
 
-.email{
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.nav-email{
-  padding-left: 200px;
-  /* background-color: aqua; */
-}
 
 .nav-container-items{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  
 }
 
 .nav-container-contact{
@@ -87,11 +80,11 @@
 
 .nav-phone-number{
   color: #f2f2f2;
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-family: 'Lovelo', sans-serif;
   font-weight: 900;                                              
   padding-right: 6%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .a-us-conde-icon {
   width: 30px;
@@ -103,15 +96,6 @@
 .a-us-conde-icon-color {
   fill: #f2f2f2;
 }
-
-.nav-nav-div{
-  display: flex;
-}
-
-
-
-
-
 
 .sidebar .link {
   width: 100%;

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Button/styles.css'
 
-const Button = () => {
+const Button = ({text}) => {
   return (
     <div>
         <button className='button-explore'>
-            EXPLORE T.ME SERVICES
+          {text}
         </button>
     </div>
   )

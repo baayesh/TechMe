@@ -74,21 +74,21 @@ function Navigation() {
           {/* Toggle Btn */}
           <div className="  container-fluid d-flex justify-content-center align-items-center">
             <div className="row ">
-              <nav className="nav-nav-div">
+              <nav >
                 {/* For Web */}
                 <div className="nav-container-items">
                   <ul className="nav-container-items mt-3">
                     <li className="nav-icon">
                       <img src={logo} alt="" />
                     </li>
-                    <Link className="link pt-1 pb-1 pe-3 " to="/">
+                    <Link className="link pt-1 pb-1 pe-5   " to="/">
                       TechMe
                     </Link>
-                    <Link className="link ps-2  pt-1 pb-1 pe-3 " to="/services">
+                    <Link className="link ps-2  pt-1 pb-1 pe-5 " to="/services">
                       Services
                     </Link>
                     <Link
-                      className="link ps-2  pt-1 pb-1 pe-3"
+                      className="link ps-2  pt-1 pb-1 pe-5"
                       to="/contact-us"
                     >
                       Contact Us
@@ -96,7 +96,7 @@ function Navigation() {
                     <Link className="link ps-2  pt-1 pb-1" to="/about-us">
                       About Us
                     </Link>
-                    <div className="nav-email d-flex"></div>
+                    
                   </ul>
                 </div>
                 <div className="nav-container-contact">

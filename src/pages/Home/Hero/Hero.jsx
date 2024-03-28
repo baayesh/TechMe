@@ -1,5 +1,5 @@
 import React from "react";
-import "../Hero/styles.css";
+import "../Hero/hero.css";
 import hmmimg from "../../../Assets/Home/hm-mimg-1.png";
 import Button from "../../../components/Button/Button";
 const Hero = () => {
@@ -10,10 +10,11 @@ const Hero = () => {
           Transform your digital presence with expert<span> web development</span>  and<span> social
           media marketing</span> 
         </p>
-        <Button/>
+        <Button 
+        text={"EXPLORE T.ME SERVICES"}/>
       </div>
       <div className="hm-hr-mimgdiv">
-            <img className="hm-hr-mimg" src={hmmimg} alt="" />
+            <img className="img-fluid hm-hr-mimg" src={hmmimg} alt="" />
       </div>
     </div>
   );

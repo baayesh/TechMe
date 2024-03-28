@@ -19,7 +19,7 @@
 .hm-hr-mtext{
     font-family: 'Lovelo', sans-serif;
     font-weight: 900;
-    font-size: 5.5rem;
+    font-size: 3.5em;
 }
 
 p span{
@@ -37,9 +37,10 @@ p span{
 }
 
 .hm-hr-mimg{
-    position: relative;
     right: 0;
-    min-width: 150%;
-    border-radius: 100PX;
+    background-size: cover;
+    min-width: 100%;
+    height: auto;
+    border-radius: 100px 0px 0px 100px;
 }
 

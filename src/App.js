@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
 import React from 'react';
 import Hero from "./pages/Home/Hero/Hero";
+import Services from "./pages/Home/Services/Services";
 
  
 
@@ -23,6 +24,7 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Hero/>
+              <Services/>
             </Route>
             <Route path="/contact-us">
               <Contacts />
