@@ -5,13 +5,12 @@ import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 import Contacts from "./pages/Contacts";
 import Webdevelopment from "./pages/Webdevelopment";
 import AboutUs from "./pages/AboutUs";
-import DigitalMarketing from "./pages/DigitalMarketing";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent"; 
 import React from 'react';
 import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
-import Video from "./pages/Home/Video/Video";
+import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
 
  
 
@@ -26,7 +25,8 @@ function App() {
             <Route exact path="/">
               <Hero/>
               <Services/>
-              <Video/>
+           
+              <WhyChooseUs/>
             </Route>
             <Route path="/contact-us">
               <Contacts />

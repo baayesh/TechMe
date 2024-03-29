@@ -1,0 +1,30 @@
+.hm-why-choose-titlediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hm-why-choose-titlediv h3{
+    font-family: 'Lovelo', sans-serif;
+    font-weight: 900;
+    color:#4b3db2;
+    font-size: 3rem;
+    border-width: 5px;
+    
+}
+
+.hm-why-choose-titledivtext1{
+  
+}
+
+.hm-why-choose-titledivtext2{
+    margin-left: 200px;
+ }
+
+.hm-why-choose-titlediv img{
+  transform: rotate(60deg);
+  padding-bottom: 20%;
+  top: 0;
+  max-width: 100px;
+}
+
