@@ -103,6 +103,8 @@
   font-family: "Open sans", sans-serif;
   font-size: var(--fs-subHeading);
   font-weight: 700;
+  padding-left: 2%;
+  padding-right: 2%    ;
 
 }
 
