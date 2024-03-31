@@ -1,3 +1,12 @@
+:root{
+  --fs-largeHeadings:5rem;
+  --fs-heading:1.5rem;
+  --fs-subHeading:1.8rem;
+  --fs-tags:1.2rem;
+  --fs-body:clamp(0.5rem, 1vw+0.8rem, 1rem);
+}
+
+
 .hm-sv-container {
   margin-left: 5px;
   margin-right: 5px;
@@ -73,6 +82,7 @@
 
 .hm-sv-card-tagcontainer p {
   color: #f2f2f2;
+  font-size: var(--fs-tags);
   font-weight: bold;
   font-style: italic;
   font-size: small;
@@ -91,12 +101,15 @@
   color: #000000;
   opacity: 100%;
   font-family: "Open sans", sans-serif;
-  font-weight: 400;
-  padding-left: 7%;
+  font-size: var(--fs-subHeading);
+  font-weight: 700;
+
 }
 
 .hm-sv-card-para {
   font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: var(--fs-body);
   padding-left: 8%;
   padding-right: 8%;
   margin-top: 3%;

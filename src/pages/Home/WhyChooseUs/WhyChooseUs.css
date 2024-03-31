@@ -2,24 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .hm-why-choose-titlediv h3{
     font-family: 'Lovelo', sans-serif;
-    font-weight: 900;
+    margin-top: 3%;
+    font-weight: 700;
     color:#4b3db2;
     font-size: 3rem;
-    border-width: 5px;
     
 }
-
-.hm-why-choose-titledivtext1{
-  
-}
-
-.hm-why-choose-titledivtext2{
-    margin-left: 200px;
- }
 
 .hm-why-choose-titlediv img{
   transform: rotate(60deg);
@@ -44,7 +37,23 @@
 
 }
 
+.hm-why-choose-contenttitlediv2{
+    display: flex;
+    text-align: start;
+    margin-left: 1vw;
+    height: 100%;
+
+}
+
+
 .hm-why-choose-contenttitlediv p{
+    font-family: 'Lovelo', sans-serif;
+    font-size: 2vw;
+    font-weight:900;
+    top: 0;
+
+}
+.hm-why-choose-contenttitlediv2 p{
     font-family: 'Lovelo', sans-serif;
     font-size: 2vw;
     font-weight:900;
@@ -55,6 +64,12 @@
 .hm-why-choose-contentdiv{
     display: flex;
     text-align: left;
+    margin-right: 1vw;
+
+}
+.hm-why-choose-contentdiv2{
+    display: flex;
+    text-align: right;
     margin-left: 1vw;
 
 }
@@ -65,4 +80,10 @@ font-family: 'open sans', sans-serif;
 font-size: 0.8vw;
 margin-top: 0.3vw;
 }
+
+.hm-why-choose-contentdiv2 p{
+    font-family: 'open sans', sans-serif;
+    font-size: 0.8vw;
+    margin-top: 0.3vw;
+    }
 

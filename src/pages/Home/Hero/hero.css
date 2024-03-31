@@ -1,24 +1,41 @@
 .hm-hr-mdiv{
     height: 100%;
-    margin-left: 100px;
+    margin-left: auto;
+    height: 100vh;
     display: flex;
+    width: 100%;
     flex-direction: row;
+    background-size: cover;
+}
+
+.hm-hr-background-img-1{
+    background-image: url(../../../Assets/Home/hm-mimg-1.png);
+}
+
+.hm-hr-background-img-2{
+    background-image: url(../../../Assets/Home/hm-mimg-2.png);
+}
+
+.hm-hr-background-img-3{
+    background-image: url(../../../Assets/Home/hm-mimg-3.png);
 }
 
 /* Main text */
 .hm-hr-mdivtext{
-    margin-top: 100px;
-    padding-top: 5%;
-    max-width: 60%;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
 }
 
 
 .hm-hr-mtext{
     font-family: 'Lovelo', sans-serif;
-    font-weight: 900;
+    font-weight: 1000 ;
+    color: #f2f2f2;
     font-size: 4vw;
 }
 
