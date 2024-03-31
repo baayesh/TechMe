@@ -1,0 +1,68 @@
+.hm-customer-reviews-mdiv {
+  background-image: url(../../../Assets/Home/CustomerReviews/background.png);
+  background-size: cover;
+  z-index: 1;
+}
+
+.hm-customer-reviews-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.hm-customer-reviews-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+  padding: 1%;
+  border-radius: 20px;
+  z-index: 20;
+}
+
+.hm-customer-reviews-title {
+  font-family: "Lovelo", sans-serif;
+  font-weight: 900;
+  font-size: 2.5vw;
+  color: #f2f2f2;
+}
+
+.hm-customer-reviews-stars {
+}
+.hm-customer-reviews-stars img {
+  max-width: 35%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 20px;
+}
+
+.hm-customer-reviews-stars p {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 0.8vw;
+  font-weight: 750;
+  color: #f2f2f2;
+  margin-top: 1%;
+  margin-right: 30%;
+  margin-left: 30%;
+  border-radius: 10px;
+  background-color: #4b3db2;
+  transition: background-color 0.6s ease, transform 0.6s;
+}
+
+.hm-customer-reviews-stars p:hover {
+  background-color: #f2f2f2;
+  color: #4b3db2;
+  cursor: pointer;
+}
+
+.hm-customer-reviews-img {
+}
+
+.hm-customer-reviews-img img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}

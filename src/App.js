@@ -11,6 +11,7 @@ import React from 'react';
 import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
 import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
+import CustomerReviews from "./pages/Home/Customer Reviews/CustomerReviews";
 
  
 
@@ -25,8 +26,8 @@ function App() {
             <Route exact path="/">
               <Hero/>
               <Services/>
-           
               <WhyChooseUs/>
+              <CustomerReviews/>
             </Route>
             <Route path="/contact-us">
               <Contacts />

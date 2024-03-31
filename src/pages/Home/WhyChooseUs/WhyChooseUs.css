@@ -28,3 +28,41 @@
   max-width: 100px;
 }
 
+.hm-why-choose-content{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25%;
+    margin-left: 25%;
+    
+}
+
+.hm-why-choose-contenttitlediv{
+    display: flex;
+    text-align: end;
+    margin-right: 1vw;
+    height: 100%;
+
+}
+
+.hm-why-choose-contenttitlediv p{
+    font-family: 'Lovelo', sans-serif;
+    font-size: 2vw;
+    font-weight:900;
+    top: 0;
+
+}
+
+.hm-why-choose-contentdiv{
+    display: flex;
+    text-align: left;
+    margin-left: 1vw;
+
+}
+
+
+.hm-why-choose-contentdiv p{
+font-family: 'open sans', sans-serif;
+font-size: 0.8vw;
+margin-top: 0.3vw;
+}
+
