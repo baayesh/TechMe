@@ -1,7 +1,7 @@
 .hm-customer-reviews-mdiv {
-  background-image: url(../../../Assets/Home/CustomerReviews/background.png);
-  background-size: cover;
-  z-index: 1;
+  /* background-image: url(../../../Assets/Home/CustomerReviews/background.png); */
+  /* background-size: cover; */
+  /* z-index: 1; */
 }
 
 .hm-customer-reviews-background {
@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 2;
+  /* z-index: 2; */
 }
 .hm-customer-reviews-card {
   display: flex;
@@ -22,9 +22,9 @@
 }
 
 .hm-customer-reviews-title {
-  font-family: "Lovelo", sans-serif;
-  font-weight: 900;
-  font-size: 2.5vw;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
   color: #f2f2f2;
 }
 

@@ -43,7 +43,7 @@ function Navigation() {
         <ul className="side-nav-list">
           <li className="mt-3">
             <Link className="side-nav-list-item" to="/">
-              Techme
+              TECHME
             </Link>
           </li>
           <li>
@@ -82,7 +82,7 @@ function Navigation() {
                       <img src={logo} alt="logo" className="nav-logo"/>
                     </li>
                     <Link className="link pe-5   " to="/">
-                      TechMe
+                      TECH<span>ME</span>
                     </Link>
                     <Link className="link ps-2   pe-5 " to="/services">
                       Services

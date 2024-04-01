@@ -14,12 +14,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     arrows: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay:true,
     autoplaySpeed:1750
   };
@@ -34,16 +34,18 @@ const Services = () => {
         <Slider {...settings}>
           {data.map((d) => (
             <div className="hm-sv-card">
-              <div className="hm-sv-card-tagcontainer">
+              {/* <div className="hm-sv-card-tagcontainer">
                 <p>{d.tag}</p>
+              </div> */}
+              <div className="hm-sv-card-content">
+                <h3 className="hm-sv-card-title">{d.title}</h3>
+                <img
+                  src={d.img}
+                  className="hm-sv-card-img"
+                  alt="Web developement icon"
+                />
+                <p className="hm-sv-card-para">{d.para}</p>
               </div>
-              <h3 className="hm-sv-card-title">{d.title}</h3>
-              <img
-                src={d.img}
-                className="hm-sv-card-img"
-                alt="Web developement icon"
-              />
-              <p className="hm-sv-card-para">{d.para}</p>
             </div>
           ))}
            </Slider>
