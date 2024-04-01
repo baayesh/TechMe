@@ -1,0 +1,24 @@
+.hm-cus-mdiv{
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background: linear-gradient(to right, #f2f2f2, #707070, #f2f2f2);
+
+}
+
+.hm-cus-mdiv p{
+    font-family: Poppins;
+    font-weight: 600;
+    color:#f2f2f2;
+    font-size: 1.5rem;
+    transition: color 0.5s ease;
+    
+
+}
+.hm-cus-mdiv p:hover{
+    font-family: Poppins;
+    font-weight: 600;
+    color:#4b3db2;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}

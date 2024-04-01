@@ -12,6 +12,7 @@ import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
 import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
 import CustomerReviews from "./pages/Home/Customer Reviews/CustomerReviews";
+import ContactUs from "./pages/Home/Contact Us/ContactUs";
 
  
 
@@ -28,6 +29,7 @@ function App() {
               <Services/>
               <WhyChooseUs/>
               <CustomerReviews/>
+              <ContactUs/>
             </Route>
             <Route path="/contact-us">
               <Contacts />
