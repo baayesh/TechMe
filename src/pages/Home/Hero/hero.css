@@ -1,107 +1,46 @@
-:root{
-    --fs-largeHeadings2:4rem;
-    --fs-Headings2:3rem;
-    --fs-paragraph2:1.5rem;
+:root {
+  --fs-largeHeadings2: 4rem;
+  --fs-Headings2: 3rem;
+  --fs-paragraph2: 1.5rem;
 }
 
-.hm-hr-mdiv-1{
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    max-width: 100%;
-    height: 100vh;
-
-}
-.hm-hr-mdiv-1-text{
-    
-    min-width:60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-
+.hm-hr-mdiv {
+  height: 100%;
+  margin-left: auto;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-size: cover;
 }
 
-.hm-hr-mdiv-1-text p{
-    font-family: 'Lovelo', sans-serif;
-    font-size: var(--fs-largeHeadings2);
-    font-weight: 900;
-    
-    
+.hm-hr-background-img-1 {
+  background-image: url(../../../Assets/Home/hm-mimg-1.png);
 }
 
-.hm-hr-mdiv-1-text span{
-
-    font-weight: 700;
-
+.hm-hr-background-img-2 {
+  background-image: url(../../../Assets/Home/hm-mimg-2.png);
 }
 
-
-.hm-hr-mdiv-1-img{
-   
-    min-width: 40%;
-    background-size: contain;
-    overflow: hidden;
-    
+.hm-hr-background-img-3 {
+  background-image: url(../../../Assets/Home/hm-mimg-3.png);
 }
 
-.hm-hr-mdiv-1-img img{
-    margin-top: 5%;
-    border-radius: 50px;
-    
-}
-
-
-/* 2nd Content */
-
-.hm-hr-mdiv-2{
-    display: flex;
-    flex-direction: row;
-    
-    margin-top: 60px;
-    max-width: 100%;
-    height: 100vh;
-
-}
-.hm-hr-mdiv-2-text{
-    
-    min-width:60%;
+.hm-hr-mdivtext{margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-
 }
-
-.hm-hr-mdiv-2-text p{
+.hm-hr-mtext{
     font-family: 'Lovelo', sans-serif;
-    font-size: var(--fs-largeHeadings2);
-    font-weight: 900;
-    
-    
+    font-weight: 1000 ;
+    color: #f2f2f2;
+    font-size: 4vw;
 }
 
-.hm-hr-mdiv-2-text span{
-
+.hm-hr-mtext span{
     font-weight: 700;
-
-}
-
-
-.hm-hr-mdiv-2-img{
-    min-width: 40%;
-    background-size: contain;
-    overflow: hidden;
     
 }
-
-.hm-hr-mdiv-2-img img{
-    margin-top: 5%;
-    border-radius: 0px 0px 0px 50px;
-    
-}
-
