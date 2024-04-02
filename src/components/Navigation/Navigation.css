@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rowdies:wght@300;400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-.nav-sm-toggler{
+.nav-sm-toggler {
   display: none;
 }
 
-.side-nav{
+.side-nav {
   display: none;
 }
 
 .container-header {
-  width:100%;
-
+  width: 100%;
+  height: 6em;
   top: 0;
   position: fixed;
   background-color: #4b3db2;
@@ -21,10 +20,7 @@
   padding-bottom: 10px;
   z-index: 99;
   overflow: hidden;
-  
 }
-
-
 
 /* .container-header.scrolled {
   background-color: #4b3db2;
@@ -45,22 +41,24 @@
   -webkit-transition: color 0.5s ease-in-out;
 }
 
-.link span{
+.link span {
   font-weight: 800;
 }
 
+.nav-container-div{
+  height:100%;
+}
 
-.nav-container-items{
+.nav-container-items {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  gap:50px;
   align-items: center;
   margin-bottom: -8px;
   margin-top: -8px;
-  
 }
 
-.nav-container-contact{
+.nav-container-contact {
   display: flex;
   justify-content: flex-end;
   position: absolute;
@@ -68,26 +66,31 @@
   right: 0;
 }
 
-.nav-icon{
+.nav-icon {
   overflow: hidden;
   margin-right: 50px;
-  margin-top: -4px;
+  margin-top: 0;
+  height: 100%;
 }
 
-.nav-phone{
+.nav-icon img{
+  height: 4em;
+}
+
+.nav-phone {
   max-width: 25%;
   margin-top: 5%;
 }
 
-.nav-phone:hover{
+.nav-phone:hover {
   background-color: #f2f2f2;
 }
 
-.nav-phone-number{
+.nav-phone-number {
   color: #f2f2f2;
   font-size: 1rem;
-  font-family: 'Lovelo', sans-serif;
-  font-weight: 900;                                              
+  font-family: Poppins;
+  font-weight: 600;
   padding-right: 6%;
   margin-top: 15%;
 }
@@ -106,75 +109,71 @@
   width: 100%;
 }
 .link:hover {
-  color: gray;
+  background-color: #f2f2f2;
+  color: #4b3db2;
+  border-radius: 5px;
 }
 
 @media (mmax-width: 1200px) {
 }
 
 @media (max-width: 992px) {
- 
 }
 
 @media (max-width: 768px) {
- 
-
   .link {
     font-size: 15px;
   }
 }
 
-
 @media (max-width: 552px) {
-
-
   .container-header {
     display: none;
   }
 
-  .nav-sm-toggler{
+  .nav-sm-toggler {
     display: flex;
-   
-   justify-content: flex-end;
-   background-color: #4b3db2;
+
+    justify-content: flex-end;
+    background-color: #4b3db2;
   }
 
-  .nav-sm-toggler-deactive{
+  .nav-sm-toggler-deactive {
     display: none;
   }
 
-  .nav-sm-toggler .toggle-btn{
+  .nav-sm-toggler .toggle-btn {
     background-color: #4b3db2;
     border-radius: 10px;
     color: #f2f2f2;
     border: none;
     outline: none;
     position: absolute;
-    z-index: 5  ;
+    z-index: 5;
     width: 50px;
     height: 50px;
     margin-top: 10px;
     margin-right: 10px;
-    opacity:0.7;
+    opacity: 0.7;
   }
 
-  .close-btn{
+  .close-btn {
     background-color: #4b3db2;
     border-radius: 10px;
     color: #f2f2f2;
     border: none;
     outline: none;
     position: absolute;
-    z-index: 5  ;
+    z-index: 5;
     width: 50px;
     height: 50px;
     margin-top: 10px;
     margin-right: 10px;
-    opacity:0.7;
+    opacity: 0.7;
     right: 0;
   }
 
-  .side-nav-list{
+  .side-nav-list {
     list-style-type: none;
   }
 
@@ -185,12 +184,11 @@
     font-size: 25px;
   }
 
-  .side-nav{
+  .side-nav {
     display: none;
-    
   }
 
-  .side-nav-active{
+  .side-nav-active {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,24 +196,14 @@
     position: absolute;
     z-index: 5;
     width: 100%;
-    background-color: #4b3db2 ;
+    background-color: #4b3db2;
     opacity: 0.9;
   }
 
-  .side-nav-deactive{
+  .side-nav-deactive {
     display: none;
   }
-
-
-
 }
 
-
-
 @media (max-width: 400px) {
-
-
-  
-
-  
 }

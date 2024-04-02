@@ -28,8 +28,9 @@ function App() {
               <Hero/>
               <Services/>
               <WhyChooseUs/>
-              <CustomerReviews/>
               <ContactUs/>
+              <CustomerReviews/>
+              
             </Route>
             <Route path="/contact-us">
               <Contacts />

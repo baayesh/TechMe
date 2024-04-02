@@ -76,33 +76,36 @@ function Navigation() {
             <div className="row ">
               <nav >
                 {/* For Web */}
-                <div className="">
+                <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
                     <li className="nav-icon">
                       <img src={logo} alt="logo" className="nav-logo"/>
                     </li>
-                    <Link className="link pe-5   " to="/">
+                    <Link className="link p-2" to="/">
                       TECH<span>ME</span>
                     </Link>
-                    <Link className="link ps-2   pe-5 " to="/services">
+                    <Link className="link p-2" to="/services">
                       Services
                     </Link>
                     <Link
-                      className="link ps-2 pe-5"
+                      className="link p-2"
                       to="/contact-us"
                     >
                       Contact Us
                     </Link>
-                    <Link className="link ps-2  " to="/about-us">
+                    <Link className="link p-2 " to="/about-us">
                       About Us
+                    </Link>
+                    <Link className="link p-2" to="/">
+                    +97 455 3944
                     </Link>
                     
                   </ul>
                 </div>
-                <div className="nav-container-contact">
+                {/* <div className="nav-container-contact">
                   <h5 className="nav-phone-number">+97 455 3944</h5>
                   <img className="img-fluid nav-phone" src={Phone} alt="" />
-                </div>
+                </div> */}
               </nav>
             </div>
           </div>
