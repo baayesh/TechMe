@@ -1,12 +1,13 @@
 .button-explore{
-    padding:15px;
+    padding:10px;
     border-color: #4b3db2;
     border-width: 1px;
-    box-shadow: -3px -3px 3px #4b3db2;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: 1.2rem;
-    font-weight:900;
+    box-shadow: -3px -3px 3px #707070;
+    font-family: Poppins;
+    font-style: regular;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight:500;
     transition: background-color .6s ease, transform .6s;
 }
 

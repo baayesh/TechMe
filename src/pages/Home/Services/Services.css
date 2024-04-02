@@ -1,11 +1,4 @@
-    :root{
-      --fs-largeHeadings:4rem;
-      --fs-heading:1.5rem;
-      --fs-subHeading:1.8rem;
-      --fs-tags:1.2rem;
-      --fs-body:clamp(0.5rem, 1vw+0.8rem, 1rem);
-    }
-
+    
 
     .hm-sv-container {
       margin-left: 2%;

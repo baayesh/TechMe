@@ -1,14 +1,13 @@
-:root {
-  --fs-largeHeadings2: 4rem;
-  --fs-Headings2: 3rem;
-  --fs-paragraph2: 1.5rem;
-}
+
+
 
 .hm-hr-mdiv {
   height: 100%;
   margin-left: auto;
   height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   flex-direction: row;
   background-size: cover;
@@ -32,12 +31,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .hm-hr-mtext{
     font-family: 'Lovelo', sans-serif;
     font-weight: 1000 ;
     color: #f2f2f2;
-    font-size: 4vw;
+    font-size: var(--fs-largeHeadings);
 }
 
 .hm-hr-mtext span{

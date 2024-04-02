@@ -1,6 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-@import url('https://fonts.cdnfonts.com/css/lovelo');
+@import url("https://fonts.cdnfonts.com/css/lovelo");
+/* Font Sizes */
+:root {
+  --fs-largeHeadings: 4rem;
+  --fs-Headings: 3rem;
+  --fs-paragraph: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --fs-largeHeadings: 3.7rem;
+    --fs-Headings: 3rem;
+    --fs-paragraph: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --fs-largeHeadings: 3.2rem;
+    --fs-Headings: 3rem;
+    --fs-paragraph: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+  }
+}
+
+@media (max-width: 492px) {
+  :root {
+    --fs-largeHeadings: 2.8rem;
+  }
+}
+
+@media (max-width: 492px) {
+  :root {
+    --fs-largeHeadings: 2rem;
+  }
+}
+
 .App {
   text-align: center;
   background-color: white;

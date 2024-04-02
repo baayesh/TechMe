@@ -10,7 +10,7 @@ const Hero = () => {
   const settings = {
     dots: true,
     fade: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     speed: 700,
     slidesToShow: 1,
@@ -18,7 +18,7 @@ const Hero = () => {
     waitForAnimate: false,
   };
   return (
-    <div>
+    <div className="hm-hr-container">
     <Slider {...settings}>
       {/* content 1 */}
       <div className="hm-hr-mdiv hm-hr-background-img-1">
