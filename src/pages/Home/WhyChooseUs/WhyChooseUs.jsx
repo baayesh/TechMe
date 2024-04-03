@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
   return (
     <div className="hm-why-choose-mdiv">
       <div className="hm-why-choose-titlediv">
-        <h3>WE CAN DO it together</h3>
+        <h3>Why TechMe</h3>
       </div>
 
       {/* Start of the content */}
@@ -38,20 +38,20 @@ const WhyChooseUs = () => {
 
 const whyChooseUsCont = [
   {
-    title1: "Why Choose Us 1",
+    title1: "Tailored Solutions",
     content1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    title2: "Why Choose Us 2",
+      "We understand that every business is unique, which is why we offer customised solutions tailored to your specific requirements and objectives. From website development to computer repairs, our personalised approach ensures that you get the right solution for your needs.",
+    title2: "Expertise",
     content2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Our team consists of highly skilled professionals with extensive experience in various aspects of IT services, including website development, and hardware repairs. We leverage our expertise to deliver top-quality solutions that meet your specific needs and exceed your expectations.",
   },
   {
-    title1: "Why Choose Us 3",
+    title1: "Timely Support",
     content1:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    title2: "Why Choose Us 4",
+      "With our responsive support team, you can expect quick and efficient assistance whenever you encounter technical issues or need advice. We prioritise timely responses and resolutions to minimise disruptions to your operations and keep your business running smoothly.",
+    title2: "Cutting-edge Technology",
     content2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "We stay abreast of the latest technological advancements to provide you with innovative solutions that drive efficiency and productivity. From advanced virus removal techniques to state-of-the-art website development tools, we leverage cutting-edge technology to deliver superior results.",
   },
 ];
 

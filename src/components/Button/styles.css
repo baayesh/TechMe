@@ -1,5 +1,8 @@
 .button-explore{
-    padding:10px;
+    height: 4em;
+    width: max-content;
+    padding-left: 1em;
+    padding-right: 1em;
     border-color: #4b3db2;
     border-width: 1px;
     box-shadow: -3px -3px 3px #707070;

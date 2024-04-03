@@ -14,19 +14,33 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
   const settings = {
+   
     dots: true,
     infinite: true,
     arrows: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
-    autoplay:true,
-    autoplaySpeed:1750
+    autoplay:false,
+    autoplaySpeed:1750,
+    responsive: [{
+      breakpoint:768,
+      settings : {
+        slidesToShow: 2,
+        SliderToScroll: 1,
+      },
+      breakpoint:552,
+      settings : {
+        slidesToShow: 1,
+        
+      }
+    }
+    ]
   };
   return (
     <div className="hm-sv-container">
       <div className="hm-sv-title-container">
-        <h1 className="hm-sv-title">WHAT YOU GET FROM TECHME</h1>
+        <h1 className="hm-sv-title">OUR SERVICES</h1>
       </div>
 
       {/* Card */}
@@ -162,45 +176,45 @@ const Services = () => {
 const data = [
   {
     tag: "Web Service",
-    title: "WEB DEVELOPMENT & HOSTING",
+    title: "WEBSITE DEVELOPMENT & HOSTING",
     img: webdev,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "We create custom websites tailored to your needs and provide reliable hosting solutions for online visibility and security.",
   },
   {
     tag: "Web Service",
-    title: "BRANDING AND LOGO CREATION",
+    title: "BRANDING AND LOGO DESIGNING",
     img: brandingAndLogoCreation,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "Our team craft unique logos and develop branding strategies to help your business stand out and leave a lasting impression.",
   },
   {
     tag: "Web Service",
-    title: "WEBSITE MAINTANANCE",
+    title: "WEBSITE MAINTENANCE",
     img: webMaintain,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "We keep your website secure and up-to-date, handling everything from content updates to security scans for smooth online performance.",
   },
   {
     tag: "IT Service",
     title: "REMOTE SUPPORT",
     img: remoteSupport,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "Our skilled technicians offer efficient troubleshooting and technical assistance remotely, resolving IT issues without the need for an on-site visit.",
   },
   {
     tag: "IT Service",
     title: "COMPUTER AND LAPTOP REPAIRS",
     img: computerAndLaptopepairs,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "Our experienced technicians provide comprehensive repair services for hardware and software issues, minimising downtime and ensuring device functionality.",
   },
   {
     tag: "IT Service",
     title: "COMPUTER UPGRADE AND SERVICING",
     img: compUpAndServicing,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: "We optimise your computer's performance with hardware upgrades and routine maintenance to extend its longevity and efficiency.",
   },
   {
     tag: "IT Service",
     title: "COMPUTER VIRUS REMOVAL",
     img: compVirusRemove,
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in",
+    para: " Our advanced tools and techniques effectively identify and eliminate viruses, safeguarding your system and data from cyber threats.",
   },
 ];
 

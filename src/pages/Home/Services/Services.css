@@ -19,6 +19,20 @@
       padding-bottom: 2%;
     }
 
+    @media(max-width: 768px) {
+      .hm-sv-title{
+        font-size: 2rem;
+      }
+    }
+
+    @media(max-width: 492px) {
+      .hm-sv-title{
+        font-size: 1.8rem;
+        padding-top: 2%;
+      }
+    }
+
+
     /* Cards */
     .hm-sv-card-container {
       /* display: grid;
@@ -88,31 +102,84 @@
     .hm-sv-card-img {
       max-width: 100px;
       height: auto;
-      margin-top: 4%;
+      margin-top: 5%;
+      margin-bottom: 5%;
       margin-left: auto;
       margin-right: auto;
     }
 
     .hm-sv-card-title {
       color: #000000;
-      opacity: 100%;
-      font-family: "Open sans", sans-serif;
-      font-size: var(--fs-subHeading);
-      font-weight: 700;
+      font-family: Poppins;
+      font-size: 1.5rem;
+      font-weight: 500;
       padding-left: 2%;
-      padding-right: 2%    ;
+      padding-right: 2% 
+  
 
     }
 
     .hm-sv-card-para {
-      font-family: "Open sans", sans-serif;
-      font-weight: 300;
-      font-size: var(--fs-body);
+      font-family: Poppins;
+      font-weight: 200;
+      font-size: 1rem;
       padding-left: 8%;
       padding-right: 8%;
       margin-top: 3%;
     }
 
+
+
     .hm-sv-card-btn {
       padding-bottom: 3%;
     }
+    @media (max-width: 1200px) {
+      .hm-sv-card-title{
+        font-size: 1.2rem;
+      }
+      .hm-sv-card-para{
+        font-size: 0.9rem;
+      }
+
+    }
+
+    @media (max-width: 992px) {
+      .hm-sv-card-title {
+        font-size: 1.1rem;
+      }
+
+      .hm-sv-card-para{
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hm-sv-card-title {
+        font-size: 1rem;
+      }
+
+      .hm-sv-card-para{
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (max-width: 552px) {
+      .hm-sv-card-title {
+        font-size: 1.5rem;
+      }
+
+      .hm-sv-card-para{
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .hm-sv-card-title {
+        font-size: 1.2rem;
+      }
+
+      .hm-sv-card-para{
+        font-size: 0.9rem;
+      }
+    }
+

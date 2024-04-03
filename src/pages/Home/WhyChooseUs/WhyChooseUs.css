@@ -17,6 +17,7 @@
 .hm-why-choose-titlediv h3{
     font-family: 'Lovelo', sans-serif;
     margin-top: 3%;
+    padding-bottom: 3%;
     font-weight: 700;
     color:#4b3db2;
     font-size: 3rem;
@@ -48,13 +49,13 @@
 }
 
 .hm-why-choose-contentdiv p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Poppins;
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 .hm-why-choose-contentdiv2 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Poppins;
     font-weight: 300;
     font-size: 0.9rem;
 }
@@ -69,16 +70,16 @@
 
 
 .hm-why-choose-contenttitlediv p{
-    font-family: 'Lovelo', sans-serif;
-    font-size: 2vw;
-    font-weight:900;
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight:700;
     top: 0;
 
 }
 .hm-why-choose-contenttitlediv2 p{
-    font-family: 'Lovelo', sans-serif;
-    font-size: 2vw;
-    font-weight:900;
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight:700;
     top: 0;
 
 }

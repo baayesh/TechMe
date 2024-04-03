@@ -24,22 +24,23 @@ const Hero = () => {
       <div className="hm-hr-mdiv hm-hr-background-img-1">
         <div className="hm-hr-mdivtext">
           <p className="hm-hr-mtext">
-          Elevate your <span>online presence</span> with development, branding, and maintenance <span>solutions</span>.
+          Elevate your <span>online presence</span> with development, branding and maintenance <span>solutions</span>.
           </p>
-          <Button text={"EXPLORE T.ME SERVICES"} />
+          <Button text={"TECHME SERVICES"} />
         </div>
       </div>
       {/* Content 2 */}
       <div className="hm-hr-mdiv hm-hr-background-img-2">
         <div className="hm-hr-mdivtext">
-          <p className="hm-hr-mtext">Comprehensive <span>IT services</span>: support, repairs, upgrades and virus removal <span>solutions.</span></p>
-          <Button text={"EXPLORE T.ME SERVICES"} />
+          <p className="hm-hr-mtext">Comprehensive <span>IT services</span>:
+          <br />support, repairs, upgrades and virus removals.</p>
+          <Button text={"OUR SERVICES"} />
         </div>
       </div>
       {/* Content 3 */}
       <div className="hm-hr-mdiv hm-hr-background-img-3">
         <div className="hm-hr-mdivtext">
-          <p className="hm-hr-mtext"><span>Get in touch </span>for all your digital, branding, and <span>tech needs.</span></p>
+          <p className="hm-hr-mtext"><span>Get in touch </span>for all your digital, branding and <span>tech needs.</span></p>
           <Button text={"Contact Us"} />
         </div>
       </div>
