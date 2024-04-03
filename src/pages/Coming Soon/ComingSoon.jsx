@@ -15,7 +15,7 @@ const ComingSoon = () => {
                         <br />
                         <div className='line'></div>
                        
-                        COMING SOON!
+                        Hang on!
                     </p>
                     <div className='circle'>
                        

@@ -2,13 +2,21 @@
 
 
 
-.footer-exo-2 {
+.footer-font li{
   font-family: "Open sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1em;
   color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.footer-font li:hover{
+  color:#707070;
+  transform: scale3d(1.1, 1.1, 1.1);
+  
 }
 
 .footer-description {
