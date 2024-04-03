@@ -3,7 +3,7 @@
 
 
 .footer-font li{
-  font-family: "Open sans", sans-serif;
+  font-family: Poppins, sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: italic;
@@ -15,12 +15,12 @@
 
 .footer-font li:hover{
   color:#707070;
-  transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale(1.4, 1.5);
   
 }
 
 .footer-description {
-  font-family: "Open sans", sans-serif;
+  font-family: Poppins, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -54,8 +54,8 @@
 .footer-column h3,
 .footer-column h4 {
   margin: 0 0 10px 0;
-  font-family: 'Open sans', sans-serif;
-  font-weight:700;
+  font-family: Poppins, sans-serif;
+  font-weight:500;
 }
 
 .footer-column ul {
