@@ -11,7 +11,7 @@ const CustomerReviews = () => {
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
             <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
-              <p>Read More</p>
+             
             </div>
 
             <div className="hm-customer-reviews-img">
@@ -22,7 +22,7 @@ const CustomerReviews = () => {
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
             <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
-              <p>Read More</p>
+              
             </div>
 
             <div className="hm-customer-reviews-img">
@@ -33,7 +33,7 @@ const CustomerReviews = () => {
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
             <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
-              <p>Read More</p>
+              
             </div>
 
             <div className="hm-customer-reviews-img">

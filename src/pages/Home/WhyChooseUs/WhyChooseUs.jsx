@@ -18,6 +18,7 @@ const WhyChooseUs = () => {
               {/* <p>{d.number1}</p> */}
               <p>{d.title1}</p>
             </div>
+            <div className="hm-why-choose-line"></div>
             <div className="hm-why-choose-contentdiv">
               <p>{d.content1}</p>
             </div>
@@ -27,6 +28,7 @@ const WhyChooseUs = () => {
             <div className="hm-why-choose-contentdiv2">
               <p>{d.content2}</p>
             </div>
+            <div className="hm-why-choose-line2"></div>  
             <div className="hm-why-choose-contenttitlediv2">
               <p>{d.title2}</p>
               {/* <p>{d.number2}</p> */}

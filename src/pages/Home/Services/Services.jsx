@@ -21,7 +21,7 @@ const Services = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
-    autoplay:false,
+    autoplay:true,
     autoplaySpeed:1750,
     responsive: [{
       breakpoint:768,
@@ -212,7 +212,7 @@ const data = [
   },
   {
     tag: "IT Service",
-    title: "COMPUTER VIRUS REMOVAL",
+    title: "VIRUS REMOVAL",
     img: compVirusRemove,
     para: " Our advanced tools and techniques effectively identify and eliminate viruses, safeguarding your system and data from cyber threats.",
   },

@@ -11,11 +11,12 @@ const ComingSoon = () => {
             </div>
             <div className='csn-text-content'>
                     <p>
-                        Developers are Working!!!
+                        We are working!!!
                         <br />
                         <div className='line'></div>
                        
-                        Hang on!
+
+                       <span>TechMe Developers</span>
                     </p>
                     <div className='circle'>
                        

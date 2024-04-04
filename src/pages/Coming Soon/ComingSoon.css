@@ -43,6 +43,11 @@
 
 }
 
+.csn-text-content p span{
+   font-size: 0.5em;
+
+}
+
 .circle{
     background-color: #4b3db2;
     height: 600px;
