@@ -9,10 +9,10 @@ const CustomerReviews = () => {
         <div className="hm-customer-reviews-background">
           <div className="hm-customer-reviews-card">
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
-            <div className="hm-customer-reviews-stars">
+            {/* <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
              
-            </div>
+            </div> */}
 
             <div className="hm-customer-reviews-img">
               <img src={chamz} alt="" />
@@ -20,10 +20,10 @@ const CustomerReviews = () => {
           </div>
           <div className="hm-customer-reviews-card">
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
-            <div className="hm-customer-reviews-stars">
+            {/* <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
               
-            </div>
+            </div> */}
 
             <div className="hm-customer-reviews-img">
               <img src={chamz} alt="" />
@@ -31,10 +31,10 @@ const CustomerReviews = () => {
           </div>
           <div className="hm-customer-reviews-card">
             <div className="hm-customer-reviews-title">Chamz.co.nz</div>
-            <div className="hm-customer-reviews-stars">
+            {/* <div className="hm-customer-reviews-stars">
               <img src={stars} alt="" />
               
-            </div>
+            </div> */}
 
             <div className="hm-customer-reviews-img">
               <img src={chamz} alt="" />
