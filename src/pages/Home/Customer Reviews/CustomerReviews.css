@@ -25,12 +25,11 @@
 .hm-customer-reviews-title {
   font-family: "Open sans", sans-serif;
   font-weight: 200;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: #f2f2f2;
 }
 
-.hm-customer-reviews-stars {
-}
+
 .hm-customer-reviews-stars img {
   max-width: 35%;
   padding-bottom: 1%;
@@ -42,7 +41,7 @@
 .hm-customer-reviews-stars p {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  font-size: 0.8vw;
+  font-size: 1.5em;
   font-weight: 750;
   color: #f2f2f2;
   margin-top: 1%;
@@ -66,4 +65,44 @@
   display: block;
   width: 100%;
   border-radius: 10px;
+}
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:992px) {
+  .hm-customer-reviews-title {
+    font-size: 2em;
+  }
+
+  .hm-customer-reviews-stars p{
+    font-size: 0.9em;
+  } 
+  
+}
+
+@media(max-width:768px) {
+  .hm-customer-reviews-title {
+    font-size: 1.5em;
+  }
+
+
+  
+}
+
+@media(max-width:552px) {
+  .hm-customer-reviews-background{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hm-customer-reviews-card{
+    width: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+
+  
 }
