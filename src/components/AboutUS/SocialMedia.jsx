@@ -15,6 +15,7 @@ const SocialMedia = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 aria-label="Facebook"
                 role="img"
+                height="1.6em"
                 viewBox="0 0 512 512"
               >
                 <rect width="512" height="512" rx="15%" fill="#1877f2" />
