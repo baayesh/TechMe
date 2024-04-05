@@ -24,13 +24,40 @@
 }
 
 .hm-customer-reviews-title {
-  font-family: "Open sans", sans-serif;
-  font-weight: 200;
-  font-size: 2.5em;
-  color: #f2f2f2;
   margin-bottom: 5%;
 }
 
+.hm-customer-reviews-title p {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: relative;
+  color: #707070;
+  transition: all 0.5s ease;
+}
+
+/* .hm-customer-reviews-title   p:before{  content:"the ninjas";
+  position:absolute;
+  color:#262626;
+  top:0;
+  left:0;
+  width:0%;
+  overflow:hidden;
+  transition:all 0.5s;
+ 
+  
+} */
+
+.hm-customer-reviews-title > p:hover {
+  /* width: 100%; */
+  scale: 0.9;
+  color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
 
 .hm-customer-reviews-stars img {
   max-width: 35%;
@@ -60,7 +87,12 @@
   cursor: pointer;
 }
 
-.hm-customer-reviews-img {
+.hm-customer-reviews-img{
+  transition: transform 0.5s ease;
+}
+
+.hm-customer-reviews-img:hover {
+  transform: scale(1.05);
 }
 
 .hm-customer-reviews-img img {
@@ -69,42 +101,34 @@
   border-radius: 10px;
 }
 
-@media(max-width:1200px) {
-
+@media (max-width: 1200px) {
 }
 
-@media(max-width:992px) {
+@media (max-width: 992px) {
   .hm-customer-reviews-title {
     font-size: 2em;
   }
 
-  .hm-customer-reviews-stars p{
+  .hm-customer-reviews-stars p {
     font-size: 0.9em;
-  } 
-  
+  }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .hm-customer-reviews-title {
     font-size: 1.5em;
   }
-
-
-  
 }
 
-@media(max-width:552px) {
-  .hm-customer-reviews-background{
+@media (max-width: 552px) {
+  .hm-customer-reviews-background {
     flex-direction: column;
     align-items: center;
   }
 
-  .hm-customer-reviews-card{
+  .hm-customer-reviews-card {
     width: 100%;
     margin-left: 5em;
     margin-right: 5em;
   }
-
-
-  
 }

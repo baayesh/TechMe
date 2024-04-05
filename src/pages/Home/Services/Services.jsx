@@ -18,11 +18,11 @@ const Services = () => {
     dots: true,
     infinite: true,
     arrows: true,
-    speed: 500,
+    speed: 1,
     slidesToShow: 3,
     slidesToScroll: 2,
     autoplay:true,
-    autoplaySpeed:1750,
+    autoplaySpeed:10000,
     responsive: [{
       breakpoint:768,
       settings : {

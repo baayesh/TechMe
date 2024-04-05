@@ -44,3 +44,7 @@
     font-weight: 700;
     
 }
+
+.slick-dots{
+  bottom: 200px;
+}

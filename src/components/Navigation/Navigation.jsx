@@ -23,7 +23,19 @@ function Navigation() {
     toggler.classList.toggle("nav-sm-toggler-deactive");
   }
 
+  window.addEventListener("scroll", function () {
+    var header = document.querySelector(".container-header");
+    var scroll = window.scrollY;
+
+    if (scroll > 100) {
+      header.classList.add("nav-scrolled");
+    } else {
+      header.classList.remove("nav-scrolled");
+    }
+  });
   function backToToggler() {
+    //web scroller
+
     // Display side navigation
     var toggler = document.getElementById("toggler");
     toggler.classList.toggle("nav-sm-toggler-deactive");
@@ -47,17 +59,17 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="/services" className="side-nav-list-item">
+            <Link to="/coming-soon" className="side-nav-list-item">
               Services
             </Link>
           </li>
           <li>
-            <Link to="/contact-us" className="side-nav-list-item">
+            <Link to="/coming-soon" className="side-nav-list-item">
               Contact Us
             </Link>
           </li>
           <li className="mb-3">
-            <Link to="/about-us" className="side-nav-list-item">
+            <Link to="/coming-soon" className="side-nav-list-item">
               About Us
             </Link>
           </li>
@@ -74,32 +86,28 @@ function Navigation() {
           {/* Toggle Btn */}
           <div className="   d-flex justify-content-center align-items-center">
             <div className="row ">
-              <nav >
+              <nav>
                 {/* For Web */}
                 <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
                     <li className="nav-icon">
-                      <img src={logo} alt="logo" className="nav-logo"/>
+                      <img src={logo} alt="logo" className="nav-logo" />
                     </li>
-                    <Link className="link p-2" to="/">
+                    <Link className="link ps-2 pe-2" to="/">
                       TECH<span>ME</span>
                     </Link>
-                    <Link className="link p-2" to="/services">
+                    <Link className="link ps-2 pe-2" to="/coming-soon">
                       Services
                     </Link>
-                    <Link
-                      className="link p-2"
-                      to="/contact-us"
-                    >
+                    <Link className="link ps-2 pe-2" to="/coming-soon">
                       Contact Us
                     </Link>
-                    <Link className="link p-2 " to="/about-us">
+                    <Link className="link ps-2 pe-2 " to="/coming-soon">
                       About Us
                     </Link>
-                    <Link className="link p-2" to="/">
-                    +97 455 3944
+                    <Link className="link ps-2 pe-2" to="/coming-soon">
+                      +97 455 3944
                     </Link>
-                    
                   </ul>
                 </div>
                 {/* <div className="nav-container-contact">

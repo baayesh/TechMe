@@ -16,7 +16,7 @@ const ComingSoon = () => {
                         <div className='line'></div>
                        
 
-                       <span>TechMe Developers</span>
+                       <span>TechMe Developers.</span>
                     </p>
                     <div className='circle'>
                        
