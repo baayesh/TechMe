@@ -1,21 +1,24 @@
-.csn-mdiv{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-color: #41436A;
-    display: flex;
+.csn-mdiv {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #41436a;
+  display: flex;
+
 }
 
-.csn-img{
-   flex: 1;
-   height: 100%;
-   width: 100%;
-   background-image: url(../../Assets/Coming\ Soon/Coming\ Soon.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-  
-   
+.csn-img {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../Assets/Coming\ Soon/Coming\ Soon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* .csn-img img{
@@ -25,47 +28,70 @@
 } */
 
 .csn-text-content {
-    flex: 1;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+  flex: 1;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
-.csn-text-content p{
-    font-family: Poppins;
-    font-size: 100px;
-    color: #f2f2f2;
-    font-weight: 800;
-    justify-content: center;
-
-
+.csn-text-content p {
+  font-family: Poppins;
+ 
+  font-size: 5rem;
+  color: #f2f2f2;
+  font-weight: 800;
+  justify-content: center;
 }
 
-.csn-text-content p span{
-   font-size: 0.5em;
-
+.csn-text-content p span {
+  font-size: 3rem;
 }
 
-.circle{
-    background-color: #4b3db2;
-    height: 600px;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    border-radius: 600px;
-    z-index: -1;
-    box-shadow: 0px 0px 100px 100px rgba(75, 61, 178, 0.6);
+.circle {
+  position: absolute;
+  background-color: #4b3db2;
+  height: 0.1em;
+  width:0.1em;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  border-radius: 1em;
+  box-shadow: 0px 0px 100px 100px rgba(75, 61, 178, 0.6);
+ 
 }
 
-.line{
-    position: absolute;
-    background-color: #f2f2f2;
-    height: 10px;
-    width:500px;
-    margin-left:5%;
-    
-   
+.line {
+  position: absolute;
+  background-color: #f2f2f2;
+  height: 10px;
+  width: 500px;
+  margin-left: 5%;
+}
+
+@media(max-width: 768px) {
+  .csn-text-content p {
+    font-size: 4rem;
+  }
+
+  .csn-text-content p span{
+    font-size: 3rem;
+  }
+
+}
+@media (max-width: 552px) {
+  .csn-text-content p {
+    font-size: 3rem;
+  }
+
+  .csn-text-content p span{
+    font-size: 2rem;
+  }
+
+  .line{
+    height: 5px;
+    width: 50%;
+  }
 }
