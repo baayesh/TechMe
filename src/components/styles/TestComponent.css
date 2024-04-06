@@ -1,109 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap");
-
-.main-container {
- padding-left: 200px;
- padding-right: 200px;
- background:linear-gradient(to bottom, #261c2c, #4b3db2, #261c2c);
- 
-}
-.title-cus{
-  font-family: "Exo 2", sans-serif;
-  font-size: 50px;
-  color: azure;
+/* 
+#menu {
+  z-index: 2;
 }
 
-.des-cus{
-  color:#f2f2f2;
-  font-family: 'Exo 2', sans-serif;
-}
-.glass-effect {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0px;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 5px;
-  width: auto;
-  display: flex;
-  justify-content: center;
+.side-menu {
+
 }
 
-
-
-.background-2 {
- 
-  padding-top: 20px;
+.t1{
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
 }
 
-.background-3 {
-
-  padding-top: 20px;
-  padding-bottom: 100px;
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
 }
 
-.chamz-logo {
-  height: 200px;
-  width: auto;
+#bar1 {
+  transform: translateY(-4px);
 }
 
-.title-cus{
-  font-family: "Exo 2", "sans-serif";
-  color: #f2f2f2;
-  font-size: 25px;
+#bar3 {
+  transform: translateY(4px);
 }
 
-.para-web-customer {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
   color: white;
   font-size: 20px;
+  text-decoration: none;
 }
 
-/* Responsive designs */
-
-@media (max-width: 1400px) {
-  .background-3 {
-    padding-bottom: 50px;
-  }
-
-  .main-container {
-    padding-left: 120px;
-    padding-right: 120px;
-   }
-}
-@media (max-width: 1200px) {
-  .background-3 {
-    padding-bottom: 50px;
-  }
-
-  .main-container {
-    margin-left: 100px;
-    margin-right: 100px;
-   }
+.nav li a:hover {
+  font-weight: bold;
 }
 
-@media (max-width: 992px) {
-
-  .main-container {
-    padding-left: 50px;
-    padding-right: 50px;
-   }
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-items: end;
 }
 
-@media (max-width: 768px) {
-  .title-cus{
-    font-size: 40px;
-  }
-
-  .para-web-customer{
-    font-size: 15px;
-  }
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #4b3db2, #4b3db2);
+  border-radius: 50%;
+  transition: 0.3s ease;
 }
 
-@media (max-width: 552px) {
-  .title-cus{
-    font-size: 30px;
-  }
+.change {
+  display: block;
 }
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+} */

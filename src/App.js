@@ -46,8 +46,6 @@ function App() {
         <Route path="/coming-soon">
           <ComingSoon />
         </Route>
-        
-
       </Router>
     </div>
   );

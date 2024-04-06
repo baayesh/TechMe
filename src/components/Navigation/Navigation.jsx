@@ -14,14 +14,22 @@ function Navigation() {
   //   header.classList.toggle("scrolled", window.scrollY > 0);
   // });
 
-  function toggler() {
-    // Display side navigation
-    var element = document.getElementById("side-nav");
-    element.classList.toggle("side-nav-active");
-    // Hide toggler
-    var toggler = document.getElementById("toggler");
-    toggler.classList.toggle("nav-sm-toggler-deactive");
-  }
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const menuOnClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log("clicked");
+  };
+
+  // Old navigation
+  // function toggler() {
+  //   // Display side navigation
+  //   var element = document.getElementById("side-nav");
+  //   element.classList.toggle("side-nav-active");
+  //   // Hide toggler
+  //   var toggler = document.getElementById("toggler");
+  //   toggler.classList.toggle("nav-sm-toggler-deactive");
+  // }
 
   window.addEventListener("scroll", function () {
     var header = document.querySelector(".container-header");
@@ -46,7 +54,7 @@ function Navigation() {
   }
   return (
     <div>
-      <div className="nav-sm-toggler">
+      {/* <div className="nav-sm-toggler">
         <button id="toggler" onClick={toggler} className="toggle-btn">
           <FaBars />
         </button>
@@ -79,7 +87,40 @@ function Navigation() {
             <FaTimes />
           </button>
         </div>
+      </div> */}
+
+      <div id="menu" className="side-menu">
+        <div
+          id="menu-bar"
+          className={isMenuOpen ? "t1 change" : "t1"}
+          onClick={menuOnClick}
+        >
+          <div id="bar1" className="bar"></div>
+          <div id="bar2" className="bar"></div>
+          <div id="bar3" className="bar"></div>
+        </div>
+        <nav className={isMenuOpen ? "nav change" : "nav"} id="nav">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
       </div>
+
+      <div
+        className={isMenuOpen ? "change-bg menu-bg" : "menu-bg"}
+        id="menu-bg"
+      ></div>
 
       <header className="container-header">
         <div>

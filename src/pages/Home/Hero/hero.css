@@ -1,16 +1,11 @@
-
-
-
 .hm-hr-mdiv {
-  height: 100%;
-  margin-left: auto;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
   background-size: cover;
+  overflow: hidden  ;
+  position: relative;
 }
 
 .hm-hr-background-img-1 {
@@ -25,26 +20,43 @@
   background-image: url(../../../Assets/Home/hm-mimg-3.png);
 }
 
-.hm-hr-mdivtext{margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.hm-hr-mtext{
-    font-family: 'Lovelo', sans-serif;
-    font-weight: 1000 ;
-    color: #f2f2f2;
-    font-size: var(--fs-largeHeadings);
+.hm-hr-mtext {
+  font-family: "Lovelo", sans-serif;
+  font-weight:900;
+  color: #f2f2f2;
+  font-size: 3.9rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-.hm-hr-mtext span{
-    font-weight: 700;
-    
+.hm-hr-mtext span {
+  font-weight: 700;
 }
 
-.slick-dots{
+.slick-dots {
   bottom: 200px;
 }
+
+@media (max-width: 1200px) {
+  .hm-hr-mtext{
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .hm-hr-mtext{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media(max-width: 576px) {
+
+}
+
