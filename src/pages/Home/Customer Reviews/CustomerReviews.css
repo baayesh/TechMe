@@ -101,6 +101,10 @@ a {
   border-radius: 10px;
 }
 
+.hm-customer-reviews-mob {
+  display: none;
+}
+
 @media (max-width: 1200px) {
 }
 
@@ -131,4 +135,13 @@ a {
     margin-left: 5em;
     margin-right: 5em;
   }
+
+  .hm-customer-reviews-mob {
+    display: block;
+  }
+
+  .hm-customer-reviews-desk {
+    display: none;
+  }
+  
 }
