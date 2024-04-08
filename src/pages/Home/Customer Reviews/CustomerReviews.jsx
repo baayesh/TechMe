@@ -8,6 +8,9 @@ const CustomerReviews = () => {
   return (
     <div>
       <div className="hm-customer-reviews-mdiv">
+        <div className="hm-customer-reviews-heading">
+          <p>Hear It form Our Customers</p>
+        </div>
         <div className="hm-customer-reviews-background">
           <div className="hm-customer-reviews-card">
             <a target="_blank" href="https://theninjas.co.nz/">

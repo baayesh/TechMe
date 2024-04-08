@@ -10,7 +10,7 @@ const Hero = () => {
   const settings = {
     dots: true,
     fade: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     speed: 700,
     slidesToShow: 1,

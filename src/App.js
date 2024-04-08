@@ -37,7 +37,7 @@ function App() {
             <Webdevelopment />
           </Route>
           <Route path="/about-us">
-            <AboutUs />
+            <Navigation/>
           </Route>
           <Route path="/test">
             <TestComponent />

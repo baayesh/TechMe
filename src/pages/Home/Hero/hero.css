@@ -6,7 +6,7 @@
   background-size: cover;
   overflow: hidden  ;
   position: relative;
-  border:2px solid salmon;
+  /* border:2px solid salmon; */
 }
 
 .hm-hr-background-img-1 {
@@ -22,7 +22,7 @@
 }
 
 .hm-hr-mtext {
-  border:2px dotted  blueviolet;
+  /* border:2px dotted  blueviolet; */
   
   font-family: "Lovelo", sans-serif;
   font-weight:900;
@@ -45,7 +45,7 @@
 @media (max-width: 1200px) {
   .hm-hr-mtext{
     font-size: 3.5rem;
-    margin-top: ;
+    
   }
 }
 
@@ -69,6 +69,22 @@
 
   .hm-hr-mtext{
    margin-top: 20dvh;
+  }
+
+}
+
+@media(max-width:450px){
+  .hm-hr-mtext{
+    margin-top: 15dvh;
+    font-size: 2.4rem;
+  }
+
+}
+
+@media(max-width:335px){
+  .hm-hr-mtext{
+    margin-top: 15dvh;
+    font-size: 2rem;
   }
 
 }
