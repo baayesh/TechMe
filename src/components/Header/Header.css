@@ -1,0 +1,49 @@
+.header-mdiv{
+  background-color: red;
+ min-width: 100%;
+ min-height: 50dvh;
+ border: 2px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+  
+}
+
+.header-mdiv h2{
+  color: #f2f2f2;
+  margin-bottom: 0;
+  font-family: "Lovelo";
+  font-weight: 900;
+  font-size: 4rem;
+  margin-top: 2em;  
+
+}
+
+
+/* Breakpoints*/
+@media(max-width:1200px){
+
+}
+
+@media(max-width:992px){
+    
+}
+
+@media(max-width:768px){
+    
+}
+
+@media(max-width:552px){
+    
+}
+
+@media(max-width:552px){
+    .header-mdiv h2{
+        margin-top: 0;
+    }
+    
+}
+@media(max-width:552px){
+    
+}

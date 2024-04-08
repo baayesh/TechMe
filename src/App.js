@@ -14,15 +14,15 @@ import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
 import CustomerReviews from "./pages/Home/Customer Reviews/CustomerReviews";
 import ContactUs from "./pages/Home/Contact Us/ContactUs";
 import ComingSoon from "./pages/Coming Soon/ComingSoon";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        
         <Switch>
           <Route exact path="/">
-          <Navigation />
+            <Navigation />
             <Hero />
             <Services />
             <WhyChooseUs />
@@ -31,13 +31,15 @@ function App() {
             <Footer />
           </Route>
           <Route path="/contact-us">
-            <Contacts />
+            <Navigation />
+            <Header />
+            <Footer />
           </Route>
           <Route path="/services">
             <Webdevelopment />
           </Route>
           <Route path="/about-us">
-            <Navigation/>
+            <Navigation />
           </Route>
           <Route path="/test">
             <TestComponent />
