@@ -1,11 +1,12 @@
 .hm-hr-mdiv {
   height: 100dvh;
-  display: flex;
+  display: block;
   justify-content: center; 
   align-items: center; 
   background-size: cover;
   overflow: hidden  ;
   position: relative;
+  border:2px solid salmon;
 }
 
 .hm-hr-background-img-1 {
@@ -21,12 +22,14 @@
 }
 
 .hm-hr-mtext {
+  border:2px dotted  blueviolet;
+  
   font-family: "Lovelo", sans-serif;
   font-weight:900;
   color: #f2f2f2;
   font-size: 3.9rem;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 30dvh;
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -42,6 +45,7 @@
 @media (max-width: 1200px) {
   .hm-hr-mtext{
     font-size: 3.5rem;
+    margin-top: ;
   }
 }
 
@@ -49,14 +53,23 @@
 
   .hm-hr-mtext{
     font-size: 3rem;
+    
   }
 }
 
 @media (max-width: 768px) {
+  .hm-hr-mtext{
+    font-size: 2.8rem;
+    
+  }
 
 }
 
 @media(max-width: 576px) {
+
+  .hm-hr-mtext{
+   margin-top: 20dvh;
+  }
 
 }
 

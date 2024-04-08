@@ -33,6 +33,8 @@ function Navigation() {
 
   window.addEventListener("scroll", function () {
     var header = document.querySelector(".container-header");
+    var navContact = document.querySelector(".nav-contact-ph");
+    var navContact2 = document.querySelector(".nav-contact-details");
     var scroll = window.scrollY;
 
     if (scroll > 100) {
@@ -40,6 +42,13 @@ function Navigation() {
     } else {
       header.classList.remove("nav-scrolled");
     }
+
+    // if (scroll > 500) {
+    //   navContact2.classList.add("nav-contact-details-t");
+  
+    // } else {
+    //   navContact2.classList.remove("nav-contact-details-t");
+    // }
   });
   function backToToggler() {
     //web scroller
@@ -129,11 +138,14 @@ function Navigation() {
             <div className="row ">
               <nav>
                 {/* For Web */}
+                <div className="nav-contact-details">
+                  <li className="nav-icon">
+                    <img src={logo} alt="logo" className="nav-logo" />
+                  </li>
+                  <h5 className="nav-contact-ph">+97 455 3944</h5>
+                </div>
                 <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
-                    <li className="nav-icon">
-                      <img src={logo} alt="logo" className="nav-logo" />
-                    </li>
                     <Link className="link ps-2 pe-2" to="/">
                       TECH<span>ME</span>
                     </Link>
@@ -145,9 +157,6 @@ function Navigation() {
                     </Link>
                     <Link className="link ps-2 pe-2 " to="/coming-soon">
                       About Us
-                    </Link>
-                    <Link className="link ps-2 pe-2" to="/coming-soon">
-                      +97 455 3944
                     </Link>
                   </ul>
                 </div>
