@@ -1,0 +1,100 @@
+.conde-mdiv {
+  /* behavior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Colors */
+  background-color: salmon;
+  /* Spaces */
+  padding: 2em;
+  margin-top: 0.5em;
+}
+
+.conde-mdiv p {
+  /* Outline and colors */
+  border: 2px dotted blueviolet;
+  color: #f2f2f2;
+  /* Fonts */
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  /* Spaces */
+  margin-bottom: 0;
+}
+
+.conde-details {
+  /* behavior */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* colors */
+  background-color: goldenrod;
+  /* Sizes and spaces */
+  width: 100%;
+  gap: 2em;
+  margin: 1em 0em;
+  padding-top: 2em;
+
+}
+/* Contact cards */
+
+.conde-card{
+    /* behavior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Colors */
+    border:2px dashed gray;
+    margin: 0.5em 0em;
+    /* Spaces */
+    width: 30%;
+    gap: 0.5em;
+}
+
+.conde-card h2{
+   /* colors */
+    border: 2px solid green;
+    /* font */
+    font-family: Poppins, sans-serif;
+    font-weight:900 ;
+    font-size: 2.5rem;
+   
+    /* Spaces and sizes */
+    margin-bottom: 0;
+    margin-top:2em;
+
+}
+
+.conde-card h4{
+    /* Colors */
+    border: 2px solid green;
+    /* fonts */
+    font-family: Poppins, sans-serif;
+    font-weight:600 ;
+    font-size: 1rem;
+    /* Spaces and sizes */
+    margin-bottom: 0;
+}
+
+.conde-card p{
+    border:2px solid red;
+    /* font */
+    font-family: Poppins, sans-serif;
+    font-weight:200 ;
+    font-size: 0.8rem;
+    /* Spaces and sizes */
+    margin-bottom: 1em;
+}
+
+.cc-circle{
+    /* behavior */
+    position: absolute;
+    /* Spaces and Sizes */
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    margin-top: -2.5em;
+    /* colors */
+    background-color: gray;
+
+}

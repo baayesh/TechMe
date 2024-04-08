@@ -15,6 +15,7 @@ import CustomerReviews from "./pages/Home/Customer Reviews/CustomerReviews";
 import ContactUs from "./pages/Home/Contact Us/ContactUs";
 import ComingSoon from "./pages/Coming Soon/ComingSoon";
 import Header from "./components/Header/Header";
+import ContactDetails from "./pages/Contact Us/ContactDetails";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/contact-us">
             <Navigation />
             <Header />
+            <ContactDetails />
             <Footer />
           </Route>
           <Route path="/services">
