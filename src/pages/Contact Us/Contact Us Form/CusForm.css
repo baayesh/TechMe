@@ -1,0 +1,66 @@
+.cus-frm-main {
+  /* Behavior */
+  display: flex;
+  /* color */
+  background-color: cornflowerblue;
+  /* Spaces and sizes */
+  height: auto;
+  width: auto;
+  margin: 1em;
+  gap: 1em;
+}
+
+/* Contact us label */
+
+.cus-frm-label {
+  /* Behavior */
+  flex: 1;
+  /* color */
+  border: 2px solid palegoldenrod;
+  /* Spaces and sizes */
+  height: 100%;
+  width: auto;
+  padding: 2em;
+}
+
+.cus-frm-label h4 {
+  /* Colors */
+  color: #261c2c;
+  /* Font */
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.cus-frm-label p {
+  /* Colors */
+  color: #261c2c;
+  /* Font */
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.cus-frm-label span {
+  /* Colors */
+  color: #261c2c;
+  /* Font */
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+/* Contact Us Form */
+
+.cus-frm-form {
+  /* Behavior */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+  /* color */
+  border: 2px solid goldenrod;
+  /* Spaces and sizes */
+
+  width: auto;
+}
