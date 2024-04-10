@@ -12,18 +12,17 @@
 
 .container-header {
   width: 100%;
-  height: 9em;
+
   top: 0;
   position: fixed;
   background-color: transparent;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 1em 0em;
   z-index: 99;
   overflow: hidden;
 }
 
 .container-header-scrolled {
-  height: 4em;
+  height: 2em;
 }
 
 .link {
@@ -67,15 +66,15 @@
 
 .nav-container-div {
   height: 100%;
+  width: 100%;
 }
 
 .nav-container-items {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 2rem;
   align-items: center;
-  margin-bottom: -8px;
-  margin-top: -8px;
+  width: 100%;
 }
 
 .nav-container-contact {
@@ -86,15 +85,11 @@
   right: 0;
 }
 
-
-
 .nav-icon img {
-  height: 4em;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-
-
-
-
 
 .a-us-conde-icon {
   width: 30px;
@@ -111,13 +106,13 @@
   width: 100%;
 }
 
-.side-menu{
+.side-menu {
   display: none;
 }
 
 /* Navigation details */
 
-.nav-contact-details{
+.nav-contact-details {
   /* border: 2px solid aqua; */
   height: 5em;
   display: flex;
@@ -126,7 +121,7 @@
   gap: 1em;
 }
 
-.nav-contact-details-t{
+.nav-contact-details-t {
   /* border: 2px solid aqua; */
   display: none;
 }
@@ -134,31 +129,32 @@
 .nav-icon {
   overflow: hidden;
   display: block;
-  
 }
 
-.nav-contact-ph{
+.nav-contact-ph {
   color: #f2f2f2;
   /* border: 2px dotted orange; */
   overflow: hidden;
+  position: absolute;
+ right: 0;
   margin-bottom: 0;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 2rem;
-
+  margin-top: -2em;
+  margin-right: 2em;
 }
 
-.nav-contact-ph-t{
+.nav-contact-ph-t {
   color: #f2f2f2;
   border: 2px dotted green;
   overflow: hidden;
   margin-bottom: 0;
-  font-family: Poppins,sans-serif;
+
+  font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 1rem;
 }
-
-
 
 @media (mmax-width: 1200px) {
 }
@@ -177,79 +173,6 @@
   .container-header {
     display: none;
   }
-/*
-  .nav-sm-toggler {
-    display: flex;
-
-    justify-content: flex-end;
-    background-color: #4b3db2;
-  }
-
-  .nav-sm-toggler-deactive {
-    display: none;
-  }
-
-  .nav-sm-toggler .toggle-btn {
-    background-color: #4b3db2;
-    border-radius: 10px;
-    color: #f2f2f2;
-    border: none;
-    outline: none;
-    position: absolute;
-    z-index: 5;
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-right: 10px;
-    opacity: 0.7;
-  }
-
-  .close-btn {
-    background-color: #4b3db2;
-    border-radius: 10px;
-    color: #f2f2f2;
-    border: none;
-    outline: none;
-    position: absolute;
-    z-index: 5;
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-right: 10px;
-    opacity: 0.7;
-    right: 0;
-  }
-
-  .side-nav-list {
-    list-style-type: none;
-  }
-
-  .side-nav-list-item {
-    text-decoration: none;
-    color: #f2f2f2;
-    font-family: "Exo 2", sans-serif;
-    font-size: 25px;
-  }
-
-  .side-nav {
-    display: none;
-  }
-
-  .side-nav-active {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-    background-color: #4b3db2;
-    opacity: 0.9;
-  }
-
-  .side-nav-deactive {
-    display: none;
-  } */
 
   /* New Navigation */
   #menu {
@@ -271,7 +194,7 @@
     height: 5px;
     width: 100%;
     background-color: #f2f2f2;
-    display: block; 
+    display: block;
     border-radius: 5px;
     transition: 0.3s ease;
   }

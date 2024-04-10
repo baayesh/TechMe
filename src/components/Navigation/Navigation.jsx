@@ -9,15 +9,12 @@ import logo from "../../Assets/logo512.png";
 import Phone from "../../Assets/Navigation/Phone.png";
 
 function Navigation() {
-  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuOnClick = () => {
     setIsMenuOpen(!isMenuOpen);
     console.log("clicked");
   };
-
-
 
   window.addEventListener("scroll", function () {
     var header = document.querySelector(".container-header");
@@ -30,8 +27,6 @@ function Navigation() {
     } else {
       header.classList.remove("nav-scrolled");
     }
-
-   
   });
   function backToToggler() {
     //web scroller
@@ -46,8 +41,6 @@ function Navigation() {
   }
   return (
     <div>
-
-
       <div id="menu" className="side-menu">
         <div
           id="menu-bar"
@@ -88,14 +81,12 @@ function Navigation() {
             <div className="row ">
               <nav>
                 {/* For Web */}
-                <div className="nav-contact-details">
-                  <li className="nav-icon">
-                    <img src={logo} alt="logo" className="nav-logo" />
-                  </li>
-                  <h5 className="nav-contact-ph">+97 455 3944</h5>
-                </div>
+                
                 <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
+                    <li className="nav-icon">
+                      <img src={logo} alt="logo" className="nav-logo" />
+                    </li>
                     <Link className="link ps-2 pe-2" to="/">
                       TECH<span>ME</span>
                     </Link>
@@ -103,14 +94,15 @@ function Navigation() {
                       Services
                     </Link>
                     <Link className="link ps-2 pe-2" to="/contact-us">
-                      Contact Us
+                      Contact&nbsp;Us
                     </Link>
                     <Link className="link ps-2 pe-2 " to="/coming-soon">
-                      About Us
+                      About&nbsp;Us
                     </Link>
+                
                   </ul>
+                  <h5 className="nav-contact-ph">+97 455 3944</h5>
                 </div>
-   
               </nav>
             </div>
           </div>
