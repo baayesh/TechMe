@@ -1,12 +1,26 @@
 import React from "react";
 import "./Header.css";
-import mig from "../../Assets/Contact us/Main Images/Mig.png";
 
-const Header = () => {
-  return <div className="header-mdiv">
+
+const Header = ({headerText,varient}) => {
+// Declaring the vatiable to store class name
+var backgroundimg = "default";
+
+// check what is the input
+if(varient==="contact-us"){
+  backgroundimg = "header-contact-us"
+}
+if(varient==="services"){
+  
+}
+
+
+
+
+  return <div className="header-mdiv header-contact-us">
     {/* <img src={mig} alt="" /> */}
     <h2>
-        LET'S TALK
+        {headerText}
     </h2>
   </div>;
 };

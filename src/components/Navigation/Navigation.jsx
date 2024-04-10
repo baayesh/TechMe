@@ -99,7 +99,7 @@ function Navigation() {
                     <Link className="link ps-2 pe-2" to="/">
                       TECH<span>ME</span>
                     </Link>
-                    <Link className="link ps-2 pe-2" to="/coming-soon">
+                    <Link className="link ps-2 pe-2" to="/services">
                       Services
                     </Link>
                     <Link className="link ps-2 pe-2" to="/contact-us">

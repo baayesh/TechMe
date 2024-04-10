@@ -1,6 +1,6 @@
 .header-mdiv {
   /* Background */
-  background-image: url(../../Assets/Contact\ us/Main\ Images/Mig.png);
+  /* background-image: url(../../Assets/Contact\ us/Main\ Images/Mig.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -12,6 +12,10 @@
   min-width: 100%;
   min-height: 45dvh;
   margin-top: -2em;
+}
+
+.header-contact-us{
+  background-image: url(../../Assets/Contact\ us/Main\ Images/Mig.png);
 }
 
 .header-mdiv img {

@@ -35,14 +35,16 @@ function App() {
           </Route>
           <Route path="/contact-us">
             <Navigation />
-            <Header />
+            <Header headerText={"Let's Talk"} varient={"contact-us"} />
             <ContactDetails />
             <CusForm />
             <Map />
             <Footer />
           </Route>
           <Route path="/services">
-            <Webdevelopment />
+            <Navigation />
+            <Header headerText={"Our Services"} varient={"services"} />
+            <Footer />
           </Route>
           <Route path="/about-us">
             <Navigation />
