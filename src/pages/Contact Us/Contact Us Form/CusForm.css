@@ -1,12 +1,13 @@
 .cus-frm-main {
   /* Behavior */
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   /* color */
-  background-color: cornflowerblue;
+ 
   /* Spaces and sizes */
-  height: auto;
-  width: auto;
-  margin: 1em;
   gap: 1em;
 }
 
@@ -14,36 +15,41 @@
 
 .cus-frm-label {
   /* Behavior */
-  flex: 1;
+
   /* color */
-  border: 2px solid palegoldenrod;
+
+  background-color: rgba(112,112,112 , 0.3);
   /* Spaces and sizes */
-  height: 100%;
-  width: auto;
-  padding: 2em;
+  width: 100%;
+
+  padding: 3em 1em;
 }
 
 .cus-frm-label h4 {
   /* Colors */
-  color: #261c2c;
+  color: #4b3db2;
   /* Font */
   font-family: Poppins, sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 2rem;
 }
 
 .cus-frm-label p {
+  /* Behavior  */
+  text-align: center;
   /* Colors */
   color: #261c2c;
   /* Font */
   font-family: Poppins, sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .cus-frm-label span {
   /* Colors */
-  color: #261c2c;
+  color: #4b3db2;
   /* Font */
   font-family: Poppins, sans-serif;
   font-weight: 800;
@@ -54,13 +60,100 @@
 
 .cus-frm-form {
   /* Behavior */
-  display: flex;
-  justify-content: center;
+display: flex;
+  flex-direction: row;
+  justify-content: center; 
   align-items: center;
-  flex: 3;
-  /* color */
-  border: 2px solid goldenrod;
-  /* Spaces and sizes */
 
-  width: auto;
+  
+
+}
+
+.cus-frm-form label {
+  /* font */
+  font-family: Poppins, sans-serif;
+  /* Spaces and sizes */
+  margin-right: 1em;
+}
+
+.cus-frm-form input {
+  border: 2px solid #4b3db2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.3em 1em 0.3em 0.3em;
+}
+
+.cus-frm-form input::placeholder {
+  /* Fonts */
+  font-family: Poppins, sans-serif;
+  font-size: 0.8rem;
+}
+
+.cus-frm-form textarea {
+  border: 2px solid #4b3db2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.3em 1em 0.3em 0.3em;
+  height: 10em;
+}
+
+.cus-frm-form textarea::placeholder {
+  /* Fonts */
+  font-family: Poppins, sans-serif;
+  font-size: 0.8rem;
+}
+
+.cus-frm-req p {
+  /* Fonts */
+  font-family: Poppins, sans-serif;
+  /* Sizes and spaces */
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+
+
+/* Imported form  */
+
+
+.custom-button-2 {
+  
+  /* color  */
+  background-color: rgba(112,112,112,0.4);
+  color: #261c2c;
+  /* Sizes and spacing */
+  width: 60%;
+  padding-left: 10px;
+}
+
+.bottom-text {
+  color: white;
+}
+
+@media (max-width: 592px) {
+  .main-div {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-input {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .first-row {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .first-row {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .user-input {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
