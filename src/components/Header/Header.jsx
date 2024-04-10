@@ -11,13 +11,13 @@ if(varient==="contact-us"){
   backgroundimg = "header-contact-us"
 }
 if(varient==="services"){
-  
+  var backgroundimg = "header-services"
 }
 
 
 
 
-  return <div className="header-mdiv header-contact-us">
+  return <div className={`header-mdiv ${backgroundimg}`}>
     {/* <img src={mig} alt="" /> */}
     <h2>
         {headerText}

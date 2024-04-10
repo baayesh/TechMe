@@ -18,6 +18,7 @@ import Header from "./components/Header/Header";
 import ContactDetails from "./pages/Contact Us/Contact US Details/ContactDetails";
 import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
 import Map from "./pages/Contact Us/Map/Map";
+import ServicesMain from "./pages/Services Main/Services/Services";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/services">
             <Navigation />
             <Header headerText={"Our Services"} varient={"services"} />
+            <ServicesMain />
             <Footer />
           </Route>
           <Route path="/about-us">

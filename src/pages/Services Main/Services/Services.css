@@ -1,0 +1,55 @@
+.ser-web {
+  /* Colors */
+  border: 5px solid green;
+  /* Behavior */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Spacing and sizes */
+  margin: 2em 0em;
+}
+
+.ser-web h1 {
+    /* colors */
+    border: 5px dashed ;
+  /* Fonts */
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  /* Spacing and Sizes */
+  margin-left: 2em;
+  margin-bottom: 0;
+  padding:0.2em;
+  margin-top: 0.5em;
+}
+
+.ser-web-services {
+    /* colors */
+    border: 4px solid red;
+    /* Behavior  */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+   /* Fonts */
+   font-family: Poppins, sans-serif;
+   font-size: 2rem;
+   color: #2c1c2c;
+   /* Spaces and sizes */
+   margin-left: 5em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+.link-web{
+    /* colors */
+    border: 3px dashed red;
+    /* Fonts */
+    font-family: Poppins, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c1c2c;
+    /* Sizes and spacing */
+    padding: 0.5em;
+}
+.ser-web-services Link{
+color: #2c1c2c;
+}

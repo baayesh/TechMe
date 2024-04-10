@@ -18,6 +18,14 @@
   background-image: url(../../Assets/Contact\ us/Main\ Images/Mig.png);
 }
 
+.header-services  {
+  background-image: url(../../Assets/Our\ Services/Header/Our\ services.png);
+}
+
+
+
+.header
+
 .header-mdiv img {
   z-index: 1;
   object-fit: cover;
