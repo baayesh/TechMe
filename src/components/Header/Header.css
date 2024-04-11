@@ -72,11 +72,9 @@
 }
 
 @media (max-width: 552px) {
-}
-
-@media (max-width: 552px) {
-  .header-mdiv h2 {
+  .header-mdiv h2{
     margin-top: 0;
+    font-size: 3rem;
   }
 }
 @media (max-width: 552px) {
