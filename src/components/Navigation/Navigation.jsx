@@ -41,6 +41,7 @@ function Navigation() {
   }
   return (
     <div>
+      {/* Logo */}
       <div id="menu" className="side-menu">
         <div
           id="menu-bar"
@@ -60,11 +61,14 @@ function Navigation() {
               <a href="#">Services</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#">About&nbsp;Us</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="#">Contact&nbsp;Us</a>
             </li>
+            <li>
+              <a href="">(+64)&nbsp;27&nbsp;598&nbsp;9998</a>
+             </li>
           </ul>
         </nav>
       </div>
@@ -101,7 +105,7 @@ function Navigation() {
                     </Link>
                 
                   </ul>
-                  <h5 className="nav-contact-ph">+97 455 3944</h5>
+                  <h5 className="nav-contact-ph">(+64)&nbsp;27&nbsp;598&nbsp;9998</h5>
                 </div>
               </nav>
             </div>
