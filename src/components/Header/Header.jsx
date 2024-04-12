@@ -13,6 +13,9 @@ if(varient==="contact-us"){
 if(varient==="services"){
   var backgroundimg = "header-services"
 }
+if(varient==="about-us"){
+  var backgroundimg = "header-about"
+}
 
 
 

@@ -19,6 +19,7 @@ import ContactDetails from "./pages/Contact Us/Contact US Details/ContactDetails
 import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
 import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
+import SubHeader from "./components/Sub Header/Sub Header";
 
 function App() {
   return (
@@ -50,6 +51,8 @@ function App() {
           </Route>
           <Route path="/about-us">
             <Navigation />
+            <Header headerText={"About Us"} varient={"about-us"} />
+            <Footer />
           </Route>
           <Route path="/test">
             <TestComponent />
@@ -57,6 +60,14 @@ function App() {
         </Switch>
         <Route path="/coming-soon">
           <ComingSoon />
+        </Route>
+
+        {/* Individual Services */}
+        {/* Web Development */}
+        <Route path="/web-development">
+          <Navigation />
+          <SubHeader />
+          <Footer />
         </Route>
       </Router>
     </div>

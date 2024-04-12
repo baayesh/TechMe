@@ -93,7 +93,7 @@ const ServicesMain = () => {
         </div>
         <div className="ser-individual-service ">
           <p>{contentIT}</p>
-          <Link>
+          <Link to="/web-development">
             <p>
               <span>See More</span>
             </p>
