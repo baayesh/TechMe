@@ -3,7 +3,17 @@ import  './Service.css';
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <div className='indser-main'>
+      <div className='indser-content'>
+        <div className="indser-img">
+
+        </div>
+        <div className="indser-points">
+          
+        </div>
+
+      </div>
+    </div>
   )
 }
 

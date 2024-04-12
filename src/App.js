@@ -20,6 +20,7 @@ import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
 import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
+import Service from './pages/Individual Services/Service Template/Service';
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
         <Route path="/web-development">
           <Navigation />
           <SubHeader />
+          <Service />
           <Footer />
         </Route>
       </Router>

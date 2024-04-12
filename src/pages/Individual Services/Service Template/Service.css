@@ -1,0 +1,53 @@
+.indser-main{
+    /* Behavior */
+    display: flex;
+    justify-content: center;
+    /* Colors */
+    /* background-color: darkgoldenrod; */
+  
+
+}
+
+.indser-content{
+    /* Behavior */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Colors */
+    border:5px solid firebrick;
+
+    /* Sizes and spacing */
+    width: 2em;
+    height: auto;
+    max-width: 100em;
+    width:100%;
+    gap: 5em;
+
+}
+
+.indser-img{
+    /* Background image */
+    background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+    /* Colors */
+    /* border: 4px dashed red; */
+    /* Sizes and spacing */
+    width: 25em;
+    height: 25em;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 4em 0em;
+    /* Shadow */
+    box-shadow: 5px 5px 70px 10px #4b3db2;
+
+}
+.indser-points{
+    /* Colors */
+    border: 4px dashed red;
+    /* Sizes and spacing */
+     max-width: 60em; 
+    width: 50%;
+    height: 25em;
+    margin: 4em 0em;
+}
