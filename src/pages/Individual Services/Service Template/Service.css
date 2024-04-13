@@ -1,53 +1,197 @@
-.indser-main{
-    /* Behavior */
-    display: flex;
-    justify-content: center;
-    /* Colors */
-    /* background-color: darkgoldenrod; */
-  
+.indser-main {
+  /* Behavior */
+  display: flex;
+  justify-content: center;
 
+  /* Colors */
+  /* background-color: darkgoldenrod; */
 }
 
-.indser-content{
-    /* Behavior */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* Colors */
-    border:5px solid firebrick;
+.indser-content {
+  /* Behavior */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Colors */
+  /* border: 5px solid firebrick; */
 
-    /* Sizes and spacing */
-    width: 2em;
+  /* Sizes and spacing */
+  width: 2em;
+  height: auto;
+  max-width: 100em;
+  width: 100%;
+  gap: 9em;
+}
+
+.indser-img {
+  /* Background image */
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  /* Colors */
+  /* border: 4px dashed red; */
+  /* Sizes and spacing */
+  width: 25em;
+  height: 25em;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 4em 0em;
+  /* Shadow */
+  box-shadow: 5px 5px 70px 10px #4b3db2;
+}
+
+.indser-cta {
+  /* Behavior */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* Color */
+  /* border: 4px dashed blue; */
+  max-width: 60em;
+  width: 50%;
+  height: auto;
+  margin: 4em 0em;
+}
+.indser-points {
+  /* Behavior */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  /* Colors */
+  /* border: 4px dashed red; */
+  /* Sizes and spacing */
+  gap: 4em;
+}
+.indser-points ul {
+  /* Sizes and spacing */
+  margin-bottom: 0;
+}
+
+.indser-points ul li::marker {
+  /* colors */
+  color: #4b3db2;
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.indser-points li {
+  /* font */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  /* Spaces and sizes */
+  margin-bottom: 1em;
+}
+
+.indser-button {
+  /* Spaces and sizes */
+  margin-left: 7em;
+  margin-top: 2em;
+}
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .indser-content {
+    /* Spacing and sizes */
+    max-width: 60em;
+    width: 100%;
     height: auto;
-    max-width: 100em;
-    width:100%;
-    gap: 5em;
+  }
+
+  .indser-content {
+    /* Spacing and sizes */
+    gap: 3.5em;
+  }
+}
+@media (max-width: 992px) {
+  .indser-content {
+    /* Spacing and sizes */
+    max-width: 45em;
+    width: 100%;
+    height: auto;
+  }
+
+  .indser-content {
+    /* Spacing and sizes */
+    gap: 3.5em;
+  }
+}
+@media (max-width: 768px) {
+    .indser-img{
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+
+    .indser-content {
+        /* Behavior */
+        flex-direction: column;
+        align-items: center;
+        /* Spacing and sizes */
+        max-width: 50em;
+        width: 100%;
+        height: auto;
+      }
+
+      .indser-cta{
+        /* Spacing and sizes */
+        margin: 0em 0em;
+       justify-content: center;
+       align-items: center;
+
+      }
+
+      .indser-points{
+        /* Spacing and sizes */
+        gap:2em;
+      }
+
+      .indser-button{
+        /* Spaces and sizes */
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 1em;
+      }
+}
+@media (max-width: 552px) {
+    .indser-points{
+        /* Spacing and sizes */
+        max-width: 100%;
+    }
+    .indser-points li{
+        /* Fonts */
+        font-size: 1.1rem;
+    }
 
 }
-
-.indser-img{
-    /* Background image */
-    background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
-    /* Colors */
-    /* border: 4px dashed red; */
-    /* Sizes and spacing */
-    width: 25em;
-    height: 25em;
-    border-radius: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin: 4em 0em;
-    /* Shadow */
-    box-shadow: 5px 5px 70px 10px #4b3db2;
+@media (max-width: 450px) {
+    .indser-img{
+        /* Sizes and spacing */
+        width: 20em;
+        height: 20em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indser-content{
+        /* Behavior */
+     
+        /* Sizes and spacing */
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .indser-cta{
+        width: 100%;
+ 
+    }
 
 }
-.indser-points{
-    /* Colors */
-    border: 4px dashed red;
-    /* Sizes and spacing */
-     max-width: 60em; 
-    width: 50%;
-    height: 25em;
-    margin: 4em 0em;
+@media (max-width: 360px) {
+    .indser-img{
+        /* Sizes and spacing */
+        width: 17em;
+        height: 17em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
