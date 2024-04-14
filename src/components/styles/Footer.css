@@ -10,11 +10,19 @@
   font-size: 0.9em;
   color: white;
   transition: transform 0.3s ease-in-out;
+  
+}
+
+.footer-font svg{
+margin-right: 0.5em;
+  
 }
 
 
+
+
 .footer-font li:hover{
-  color:#707070;
+font-weight: 700;
   transform: scale(1.2, 1.2);
   
 }

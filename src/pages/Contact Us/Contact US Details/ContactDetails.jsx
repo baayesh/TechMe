@@ -45,7 +45,7 @@ const ContactDetails = () => {
         </div>
         <div className="conde-card">
           <div className="cc-circle">
-            {/*  svg address */}
+            {/*  svg mobile */}
             <svg
               width="60px"
               height="80px"
