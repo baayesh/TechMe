@@ -4,10 +4,6 @@ import "./ContactDetails.css";
 const ContactDetails = () => {
   return (
     <div>
-      <div className="conde-mdiv">
-        <p>Explore all the ways to reach out to us.</p>
-        <p>Let's Start the conversation.</p>
-      </div>
       <div className="conde-details">
         <div className="conde-card">
           <div className="cc-circle">

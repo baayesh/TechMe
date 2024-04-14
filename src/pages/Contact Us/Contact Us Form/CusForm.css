@@ -6,10 +6,237 @@
   align-items: center;
 
   /* color */
- 
+
   /* Spaces and sizes */
   gap: 1em;
 }
+
+.contact-main {
+  /* Behavior */
+  display: flex;
+  flex-direction: row;
+  gap:5em;
+}
+
+/* From contact us details - start */
+.conde-mdiv {
+  /* behavior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Colors */
+  /* background-color: salmon; */
+  /* Spaces */
+  padding: 2em;
+  margin-top: 0.5em;
+}
+
+.conde-mdiv p {
+  /* Outline and colors */
+  /* border: 2px dotted blueviolet; */
+  color: #261c2c;
+  /* Fonts */
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  /* Spaces */
+  margin-bottom: 0;
+}
+
+.conde-details {
+  /* behavior */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  /* colors */
+  /* background-color: goldenrod; */
+  /* Sizes and spaces */
+  width: 100%;
+  gap: 2em;
+  margin: 1em 0em;
+  padding-top: 2em;
+}
+/* Contact cards */
+
+.conde-card {
+  /* behavior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Colors */
+  border: 2px solid #4b3db2;
+
+  /* Spaces */
+  margin: 0.5em 0em;
+  width: 100%;
+  gap: 0.5em;
+  max-width: 25em;
+  margin: 1em 2em;
+  padding: 2em 0em;
+}
+
+.conde-card h2 {
+  /* colors */
+  /* border: 2px solid green; */
+  color: #261c2c;
+  /* font */
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+
+  /* Spaces and sizes */
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.conde-card h4 {
+  /* Colors */
+  /* border: 2px solid green; */
+  color: #261c2c;
+  /* fonts */
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  /* Spaces and sizes */
+  margin-bottom: 0;
+}
+
+.conde-card p {
+  /* border:2px solid red; */
+  /* font */
+  font-family: Poppins, sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #261c2c;
+  /* Spaces and sizes */
+  margin-bottom: 1em;
+}
+
+.cc-circle {
+  /* behavior */
+  position: absolute;
+  /* Spaces and Sizes */
+  height: 5em;
+  width: 5em;
+  border-radius: 5em;
+  margin-top: -4.5em;
+  /* colors */
+  background-color: rgba(200, 200, 200, 1);
+}
+
+@media (max-width: 1200px) {
+  .conde-card h2 {
+    /* Fonts */
+    font-size: 2rem;
+  }
+
+  .conde-card h4 {
+    /* Fonts */
+    font-size: 0.8rem;
+  }
+  .conde-card p {
+    /* Fonts */
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .conde-details {
+    /* Spaces and sizes */
+    gap: 0em;
+  }
+
+  .conde-card {
+    /* Spaces and sizes  */
+    margin: 0.5em 1em;
+  }
+
+  .contact-main{
+    flex-direction: column-reverse;
+    gap:1em;
+  }
+
+  .cus-frm-form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+  }
+
+  .conde-details{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .conde-card h2 {
+    /* Fonts */
+    font-size: 1.5rem;
+  }
+
+  .conde-card h4 {
+    /* Fonts */
+    font-size: 0.7rem;
+  }
+  .conde-card p {
+    /* Fonts */
+    font-size: 0.5rem;
+  }
+
+  .cc-circle {
+    /* Spaces and Sizes */
+    height: 4em;
+    width: 4em;
+    border-radius: 4em;
+  }
+}
+
+@media (max-width: 576px) {
+  .conde-details {
+    /* Behavior */
+    flex-direction: column;
+    align-items: center;
+    /* Sizes and Spaces */
+    gap: 2em;
+  }
+
+  .conde-card {
+    /* Sizes and Spaces */
+    width: 100%;
+  }
+
+  .conde-card h2 {
+    /* Fonts */
+    font-size: 2rem;
+  }
+
+  .conde-card h4 {
+    /* Fonts */
+    font-size: 1rem;
+  }
+  .conde-card p {
+    /* Fonts */
+    font-size: 0.8rem;
+  }
+
+  .cc-circle {
+    /* Spaces and Sizes */
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .conde-card {
+    /* Spaces */
+    width: 95%;
+  }
+}
+
+/* From contact us details end */
 
 /* Contact us label */
 
@@ -18,7 +245,7 @@
 
   /* color */
 
-  background-color: rgba(112,112,112 , 0.3);
+  background-color: rgba(112, 112, 112, 0.3);
   /* Spaces and sizes */
   width: 100%;
 
@@ -60,20 +287,22 @@
 
 .cus-frm-form {
   /* Behavior */
-display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content: center; 
-  align-items: center;
-
-  
-
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3em;
+  width: 100%;
 }
 
 .cus-frm-form label {
+  /* Behavior */
+  justify-content: flex-start ;
   /* font */
   font-family: Poppins, sans-serif;
   /* Spaces and sizes */
   margin-right: 1em;
+
 }
 
 .cus-frm-form input {
@@ -109,15 +338,12 @@ display: flex;
   margin-top: 1.5rem;
 }
 
-
-
 /* Imported form  */
 
-
 .custom-button-2 {
-  
   /* color  */
-  background-color: rgba(112,112,112,0.4);
+  background-color: rgba(112, 112, 112, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #261c2c;
   /* Sizes and spacing */
   width: 60%;

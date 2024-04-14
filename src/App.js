@@ -38,7 +38,7 @@ function App() {
           </Route>
           <Route path="/contact-us">
             <Navigation />
-            <Header headerText={"Let's Talk"} varient={"contact-us"} />
+            <Header headerText={"Reach Us"} varient={"contact-us"} />
             <ContactDetails />
             <CusForm />
             <Map />
