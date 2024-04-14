@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import WhoAreWe from "../components/WhoAreWe";
 import Counter from "../components/Counter";
 import Services from "../components/Services";
-import OurTeam from "../components/OurTeam";
+
 import CaseStories from "../components/WebDevelopment/CaseStories";
 
 

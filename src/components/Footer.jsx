@@ -17,7 +17,7 @@ function Footer() {
             <SocialMedia />
           </div>
           <div className="footer-column small">
-            <h4>Site Map</h4>
+            <h4>Quick Links</h4>
             <ul className="footer-font">
               <li>
                 <Link to="/"> Home </Link>
@@ -34,7 +34,7 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-column small">
-            <h4>Services</h4>
+            <h4>Our Services</h4>
             <ul className="footer-font">
               <li>
                 <Link to="/coming-soon">Website development and hosting</Link>

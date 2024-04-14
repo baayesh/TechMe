@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "./styles/WhoAreWe.css";
-import sideImg2 from "../Assets/SideContent.png";
+// import sideImg2 from "../Assets/SideContent.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const WhoAreWe = () => {
@@ -70,9 +70,9 @@ const WhoAreWe = () => {
             </Link>
           </div>
 
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <img src={sideImg2} alt="Image Description" className="img-fluid" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

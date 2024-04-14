@@ -1,8 +1,9 @@
     
 
     .hm-sv-container {
-      margin-left: 2%;
-      margin-right: 2%;
+margin: 1em auto;
+      max-width: 100em;
+      width:70%;
     }
 
     .hm-sv-title-container {
@@ -34,13 +35,9 @@
 
 
     /* Cards */
-    .hm-sv-card-container {
-      /* display: grid;
-      grid-auto-flow: column; */
-      /* grid-auto-columns: 25%; */
-      /* gap: 3%; */
-      /* overflow-x: auto; */
-      /* overscroll-behavior-inline: contain; */
+    
+    .hm-sv-card-container{
+      margin:0em auto;
     }
 
     .hm-sv-card {
@@ -49,7 +46,8 @@
       justify-content: center;
       align-items: flex-start;
       width: 20%;
-      padding-right: 20px;
+      padding-right: 10px;
+      padding-left: 15px;
     
     }
 
@@ -61,6 +59,11 @@
       padding-bottom: 2%;
       height: 350px;
       transition: background-color 0.5s ease;
+    }
+
+    .hm-sv-card-content img{
+      margin-top: auto;
+      margin-bottom: auto;
     }
 
     .hm-sv-card-content:hover{
@@ -110,9 +113,9 @@
 
     .hm-sv-card-title {
       color: #000000;
-      font-family: Poppins;
-      font-size: 1.5rem;
-      font-weight: 500;
+      font-family: Poppins, sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
       padding-left: 2%;
       padding-right: 2% 
   
@@ -133,6 +136,19 @@
     .hm-sv-card-btn {
       padding-bottom: 3%;
     }
+
+    /* Slick carousal settings */
+    .slick-arrow::before{
+      color: #000000;
+      font-size: 2rem;
+    }
+
+    .slick-prev::before,.slick-next::before{
+      font-family: none;
+      color: #4b3db2;
+    }
+
+
     @media (max-width: 1200px) {
       .hm-sv-card-title{
         font-size: 1.2rem;
@@ -149,7 +165,7 @@
       }
 
       .hm-sv-card-para{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
     }
 

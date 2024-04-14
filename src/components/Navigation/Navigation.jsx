@@ -64,7 +64,7 @@ function Navigation() {
               <a href="#">About&nbsp;Us</a>
             </li>
             <li>
-              <a href="#">Contact&nbsp;Us</a>
+              <a href="contact-us ">Contact&nbsp;Us</a>
             </li>
             <li>
               <a href="">(+64)&nbsp;27&nbsp;598&nbsp;9998</a>

@@ -40,6 +40,32 @@
   box-shadow: 5px 5px 70px 10px #4b3db2;
 }
 
+.indser-web-dev {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-hosting {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-brandingLogo {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-webMaintain {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-remSup {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-clRep {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-cuSer {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+.indser-cvRem {
+  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+}
+
+
 .indser-cta {
   /* Behavior */
   display: flex;

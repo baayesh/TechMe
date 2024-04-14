@@ -16,26 +16,31 @@ const Services = () => {
   const settings = {
     dots: true,
     infinite: true,
-    arrows: false,
-    speed: 2,
+    arrows: true,
+    speed: 1000,
+    lazyLoad: 'ondemand',
     slidesToShow: 3,
     slidesToScroll: 2,
-    autoplay:true,
-    autoplaySpeed:1000,
-    responsive: [{
-      breakpoint:768,
-      settings : {
-        slidesToShow: 2,
-        SliderToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1, // Corrected property name
+        }
       },
-      breakpoint:552,
-      settings : {
-        slidesToShow: 1,
-        
+      {
+        breakpoint: 552,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
       }
-    }
     ]
   };
+  
   return (
     <div className="hm-sv-container">
       <div className="hm-sv-title-container">

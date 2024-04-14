@@ -1,11 +1,6 @@
   import React from "react";
 import "./styles/Hero.css";
 import contactUs from "../../Assets/Contact us/Contact.png";
-import facebookLogo from "../../Assets/Social Media/facebook-logo.png";
-import instagramLogo from "../../Assets/Social Media/Instagram-logo.png";
-import twitterLogo from "../../Assets/Social Media/twitter-logo.png";
-import gitHubLogo from "../../Assets/Social Media/git-hub-logo.png";
-import { motion } from "framer-motion";
 import LetsTalk from "../WebDevelopment/LetsTalk";
 
 

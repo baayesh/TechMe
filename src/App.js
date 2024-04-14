@@ -20,7 +20,7 @@ import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
 import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
-import Service from './pages/Individual Services/Service Template/Service';
+import Service from "./pages/Individual Services/Service Template/Service";
 
 function App() {
   return (
@@ -60,16 +60,45 @@ function App() {
           </Route>
         </Switch>
         <Route path="/coming-soon">
+          <Navigation />
           <ComingSoon />
+          <Footer />
         </Route>
 
         {/* Individual Services */}
         {/* Web Development */}
         <Route path="/web-development">
           <Navigation />
-          <SubHeader />
-          <Service />
+          <SubHeader headerText={"Web Development"} />
+          <Service
+            point1={"Point 1"}
+            point2={"Point 2"}
+            point3={"Point 3"}
+            point4={"Point 4"}
+            point5={"Point 5"}
+            point6={"Point 6"}
+            point7={"Point 7"}
+            point8={"Point 8"}
+            backgroundImage={"indser-web-dev"}
+          />
           <Footer />
+        </Route >
+        {/* Hosting */}
+        <Route path="/hosting">
+          <Navigation />
+            <SubHeader headerText={"Website Hosting"} />
+            <Service
+              point1={"Point 1"}
+              point2={"Point 2"}
+              point3={"Point 3"}
+              point4={"Point 4"}
+              point5={"Point 5"}
+              point6={"Point 6"}
+              point7={"Point 7"}
+              point8={"Point 8"}
+              backgroundImage={"indser-hosting"}
+            />
+            <Footer />
         </Route>
       </Router>
     </div>

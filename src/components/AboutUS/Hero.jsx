@@ -2,7 +2,6 @@ import React from "react";
 import "./Styles/Hero.css";
 import heroImg from "../../Assets/AboutUs/About_hero.png";
 import visImg from "../../Assets/AboutUs/Vision_mission.png";
-import CaseStories from "../WebDevelopment/CaseStories";
 import OurTeam from "../OurTeam";
 
 

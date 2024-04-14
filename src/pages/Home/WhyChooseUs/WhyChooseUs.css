@@ -1,4 +1,3 @@
-
 .hm-why-choose-mdiv {
   background-color: rgba(112, 112, 112, 0.2);
   margin-top: 2%;
@@ -6,8 +5,8 @@
 }
 
 .hm-why-choose-titlediv {
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hm-why-choose-titlediv h3 {
@@ -19,10 +18,11 @@ margin-right: auto;
   font-size: 3rem;
 }
 
-
 .hm-why-choose-content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-right: 25%;
   margin-left: 25%;
   padding-bottom: 3%;
@@ -32,34 +32,34 @@ margin-right: auto;
   display: flex;
   text-align: end;
   justify-content: center;
-  margin-right: 1vw;
   height: 100%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.hm-why-choose-line{
-  position: relative; 
-  background-color: #4b3db2 ;
-  margin-right: 0.8vw;
-  flex:none;
-  margin-left:1vw;
+.hm-why-choose-line {
+  position: relative;
+  background-color: #4b3db2;
+  flex: none;
+  border-radius: 100px;
+  margin: 0em 1em;
   height: auto;
-  width:5px;
- 
-
+  width: 5px;
+  height: 100px;
 }
 
 .hm-why-choose-contenttitlediv p {
   font-family: Poppins;
   font-size: 2em;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 .hm-why-choose-contentdiv p {
   font-family: Poppins;
   font-weight: 300;
   font-size: 0.9rem;
+  margin: auto 0em;
 }
 
 .hm-why-choose-contentdiv2 p {
@@ -72,26 +72,25 @@ margin-right: auto;
 
 .hm-why-choose-contenttitlediv2 {
   text-align: start;
-  margin-left: 1vw;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.hm-why-choose-line2{
-  position: relative; 
+.hm-why-choose-line2 {
+  position: relative;
   flex: none;
-  background-color: #4b3db2 ;
-  margin-right: 1vw;
-  height: auto;
-  width:5px;
-  margin-left:0.8vw;
-
+  border-radius: 100px;
+  background-color: #4b3db2;
+  margin: 0em 1em;
+  height: 100px;
+  width: 5px;
 }
 
 .hm-why-choose-contenttitlediv2 p {
   font-family: Poppins;
   font-size: 2em;
   font-weight: 700;
+  margin: auto 0em;
 }
 
 .hm-why-choose-contentdiv {
@@ -116,6 +115,18 @@ margin-right: auto;
     margin-right: 7em;
     margin-left: 7em;
   }
+
+  .hm-why-choose-line {
+    height: 140px;
+  }
+
+  .hm-why-choose-line2 {
+    height: 140px;
+  }
+
+  .hm-why-choose-line-cutting {
+    height: 150px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -123,21 +134,27 @@ margin-right: auto;
     margin-right: 5em;
     margin-left: 5em;
   }
+
+  .hm-why-choose-contentdiv p {
+    font-size: 0.7rem;
+  }
+
+  .hm-why-choose-contentdiv2 p {
+    font-size: 0.7rem;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 552px) {
   .hm-why-choose-content {
     flex-direction: column;
   }
-  .hm-why-choose-contenttitlediv{
+  .hm-why-choose-contenttitlediv {
     text-align: center;
-    
   }
 
-  .hm-why-choose-contenttitlediv2{
+  .hm-why-choose-contenttitlediv2 {
     text-align: center;
     order: 1;
-    
   }
 
   .hm-why-choose-contentdiv {
@@ -151,8 +168,15 @@ margin-right: auto;
     display: none;
   }
 
-  .hm-why-choose-mdiv{
+  .hm-why-choose-mdiv {
     margin-top: 5%;
+  }
+
+  .hm-why-choose-line {
+    display: none;
+  }
+  .hm-why-choose-line2 {
+    display: none;
   }
 }
 
@@ -160,7 +184,7 @@ margin-right: auto;
   .hm-why-choose-content {
   }
 
-  .hm-why-choose-mdiv{
+  .hm-why-choose-mdiv {
     margin-top: 10%;
   }
 }

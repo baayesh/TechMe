@@ -38,7 +38,9 @@ const ContactDetails = () => {
             </svg>
           </div>
           <h2>Address</h2>
-          <h4>No.263, Aukland, New-Zeland</h4>
+          <h4>No.252 Lichfield Street,</h4>
+          <h4>Christchurch Central City</h4>
+          <h4>Christchurch 8011</h4>
           <p>View on Map</p>
         </div>
         <div className="conde-card">
@@ -61,8 +63,7 @@ const ContactDetails = () => {
             </svg>
           </div>
           <h2>Contact</h2>
-          <h4>(97)23456789</h4>
-          <h4>(97)23456789</h4>
+          <h4>(027)598 9989</h4>
         </div>
         <div className="conde-card">
           <div className="cc-circle">
@@ -89,8 +90,8 @@ const ContactDetails = () => {
             </svg>
           </div>
           <h2>Email</h2>
-          <h4>techme-services@techme.com</h4>
-          <h4>Info@techme.com</h4>
+          <h4>info@techme.co.nz</h4>
+          <h4>info.techmeltd@gmail.com</h4>
         </div>
       </div>
     </div>
