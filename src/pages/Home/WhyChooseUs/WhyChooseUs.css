@@ -56,7 +56,7 @@
 }
 
 .hm-why-choose-contentdiv p {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
   margin: auto 0em;
@@ -142,14 +142,28 @@
   .hm-why-choose-contentdiv2 p {
     font-size: 0.7rem;
   }
+  .hm-why-choose-titlediv h3{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 552px) {
   .hm-why-choose-content {
     flex-direction: column;
+    padding: 1em 0em;
   }
   .hm-why-choose-contenttitlediv {
     text-align: center;
+  }
+  .hm-why-choose-contenttitlediv p {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .hm-why-choose-contenttitlediv2 p {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 1.3rem;
   }
 
   .hm-why-choose-contenttitlediv2 {
@@ -177,6 +191,10 @@
   }
   .hm-why-choose-line2 {
     display: none;
+  }
+
+  .hm-why-choose-titlediv h3 {
+    font-size: 2rem;
   }
 }
 
