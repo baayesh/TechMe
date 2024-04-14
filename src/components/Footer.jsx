@@ -93,7 +93,7 @@ function Footer() {
             </svg>
                 
                 info@techme.co.nz<br/>info.techmeltd@gmail.com</li>
-        
+          
             </ul>
           </div>
 

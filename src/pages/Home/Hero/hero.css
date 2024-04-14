@@ -9,6 +9,27 @@
   /* border:2px solid salmon; */
 }
 
+.hm-hr-mlink{
+  /* Fonts */
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #f2f2f2;
+  text-decoration: underline;
+  /* Spaces and sizes */
+  margin-top: 2em;
+  /* Animations */
+  transition: transform 0.3s ease-in-out;
+
+
+}
+
+.hm-hr-mlink:hover{
+  /* Scaling */
+  transform: scale(1.2, 1.2);
+
+}
+
 .hm-hr-background-img-1 {
   background-image: url(../../../Assets/Home/hm-mimg-1.png);
 }
@@ -29,17 +50,19 @@
   color: #f2f2f2;
   font-size: 3.9rem;
   text-align: center;
-  margin-top: 30dvh;
+  /* Sizes and spcing */
+padding-top: 30dvh;
   margin-left: 8%;
   margin-right: 8%;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+
+
 }
 
-.hm-hr-mtext span {
-  font-weight: 700;
-}
 
-.slick-dots {
-  bottom: 200px;
+.slick-dots li button:before{
+  color: #4b3db2;
 }
 
 @media (max-width: 1200px) {
