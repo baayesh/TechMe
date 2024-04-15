@@ -17,7 +17,8 @@ import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
 import Service from "./pages/Individual Services/Service Template/Service";
-import Heading from './pages/About Us/Heading/Heading'
+import Heading from './pages/About Us/Heading/Heading';
+import VisionAndMission from './pages/About Us/VisionAndMission/VisionAndMission'; 
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             <Navigation />
             <Header headerText={"About Us"} varient={"about-us"} />
             <Heading />
+            <VisionAndMission />
             <Footer />
           </Route>
           <Route path="/test">

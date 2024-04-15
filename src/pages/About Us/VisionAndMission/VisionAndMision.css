@@ -1,0 +1,16 @@
+.vam-mdiv {
+  /* Behavior */
+  display: flex;
+  /* color */
+  border: 5px solid yellow;
+  background-color: yellowgreen;
+  /* Sizes and Spacing */
+  width: 100%;
+}
+
+.vam-img {
+  /* color */
+  border: 4px dashed red;
+  /* Sizes and Spacing */
+  width: 60%;
+}
