@@ -19,6 +19,7 @@ import SubHeader from "./components/Sub Header/Sub Header";
 import Service from "./pages/Individual Services/Service Template/Service";
 import Heading from './pages/About Us/Heading/Heading';
 import VisionAndMission from './pages/About Us/VisionAndMission/VisionAndMission'; 
+import OurTeam from "./pages/About Us/OurTeam/OurTeam";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Header headerText={"About Us"} varient={"about-us"} />
             <Heading />
             <VisionAndMission />
+            <OurTeam />
             <Footer />
           </Route>
           <Route path="/test">
