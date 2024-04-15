@@ -1,10 +1,6 @@
 import "./App.css";
-import Home from "./pages/Home";
 import Navigation from "./components/Navigation/Navigation";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Contacts from "./pages/Contacts";
-import Webdevelopment from "./pages/Webdevelopment";
-import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent";
 import React from "react";
@@ -21,6 +17,7 @@ import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
 import Service from "./pages/Individual Services/Service Template/Service";
+import Heading from './pages/About Us/Heading/Heading'
 
 function App() {
   return (
@@ -39,7 +36,6 @@ function App() {
           <Route path="/contact-us">
             <Navigation />
             <Header headerText={"Reach Us"} varient={"contact-us"} />
-            <ContactDetails />
             <CusForm />
             <Map />
             <Footer />
@@ -53,6 +49,7 @@ function App() {
           <Route path="/about-us">
             <Navigation />
             <Header headerText={"About Us"} varient={"about-us"} />
+            <Heading />
             <Footer />
           </Route>
           <Route path="/test">

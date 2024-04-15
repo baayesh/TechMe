@@ -1,0 +1,98 @@
+.about-heading-mdiv{
+    /* Begavior */
+    display: flex;
+    flex-direction: row;
+    /* Colors */
+    border: 5px solid seagreen;
+    background-color: seagreen;
+
+    /* Sizes and spacing */
+    height: auto;
+    max-width: 120em;
+    width: 90%; 
+    margin: 1em auto;
+}
+
+.about-intro{
+    /* Behavior */
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* Colors */
+  
+    border: 5px dashed hotpink;
+
+    /* Sizes and spacing */
+    height: auto;
+    max-width: 72em;
+    width:60%;
+    margin:1em;
+}
+
+.about-intro h3{
+    /* Colors */
+    border: 4px solid yellowgreen;
+    /* fonts */
+    font-family: Lovelo, sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: left;
+
+
+    /* Sizes and spacing */
+    margin:0em 0em 0em 1.5em;
+    width:auto;
+
+}
+.about-line {
+    /* behavior */
+
+    align-self: flex-end;
+    /* Colors */
+    background-color: #4b3db2;
+    /* Sizes and spacing */
+    border-radius: 10px;
+    height: 10px;
+    width: 600px;
+    margin-left: 24em;
+  }
+
+  .about-intro p{
+    /* Fonts */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    /* Colors */
+    border: 4px solid yellowgreen;
+    /* Sizes and spacing */
+    margin:1em;
+    text-align: left;
+  }
+
+.about-info{
+    /* Colors */
+    border: 5px dashed indianred;
+
+    /* Sizes and spacing */
+    height: auto;
+    max-width: 48em;
+    width:40%;
+    margin:1em;
+}
+
+.about-info-row{
+    /* Behavior */
+    display: flex;
+    /* color */
+    border: 3px solid salmon;
+    /* Sizes and Spacing */
+    height: 50%;
+    width: 100%;
+}
+
+.about-info-col{
+    /* color */
+    border: 3px solid yellow;
+    /* Sizes and Spacing */
+    width: 50%;
+    height: 100%;
+}
