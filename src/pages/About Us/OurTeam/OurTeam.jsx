@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurTeam.css";
+import dummyImg from "../../../Assets/Team Members/dummy-img.png";
 
 const OurTeam = () => {
   const cardDetails = [
@@ -29,29 +30,22 @@ const OurTeam = () => {
     },
   ];
   return (
-    
-
     <div className="about-ot-mdiv">
-        <div className="about-ot-header">
-            <h2>Our team</h2>
-            <div className="about-card-line"></div>
-        </div>
-        
+      <div className="about-ot-header">
+        <h2>Our team</h2>
+        <div className="about-card-line"></div>
+      </div>
+
       <div className="about-ot-card-container">
-          {cardDetails.map((cardDetail) => (
-            <div className="about-ot-card">
-              <img
-                src="https://i.ibb.co/0v0Bx8b/Our-Team.png"
-                alt="Our Team"
-                border="0"
-              />
-              <div className="about-ot-mainDetails">
-                <h4>{cardDetail.Name}</h4>
-                <p>{cardDetail.designation}</p>
-              </div>
-              <p>{cardDetail.description}</p>
+        {cardDetails.map((cardDetail) => (
+          <div className="about-ot-card">
+            <img src={dummyImg} alt="Our Team" border="0" />
+            <div className="about-ot-mainDetails">
+              <h4>{cardDetail.Name}</h4>
+              <p>{cardDetail.designation}</p>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
     </div>
   );

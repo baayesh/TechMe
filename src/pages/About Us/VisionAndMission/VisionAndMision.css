@@ -1,16 +1,79 @@
 .vam-mdiv {
   /* Behavior */
   display: flex;
-  /* color */
-  border: 5px solid yellow;
-  background-color: yellowgreen;
+  align-items: center;
   /* Sizes and Spacing */
   width: 100%;
+  background-image: url(../../../Assets/AboutUs/Background_Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(60vh + 2em);
 }
 
-.vam-img {
-  /* color */
-  border: 4px dashed red;
-  /* Sizes and Spacing */
-  width: 60%;
+.vam-mdiv h2 {
+  color: #f2f2f2;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-shadow: 0.5em  0.2em 0.3em #4b3db2;
+  margin-right: 0.7em;
 }
+
+.vam-img img {
+  /* color */
+  border-radius: 20px;
+  margin: 0em 1em 0em 4em;
+  display: block;
+  width: 100%;
+
+}
+
+@media (max-width: 1400px) {
+  .vam-mdiv h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .vam-mdiv h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  
+  .vam-mdiv h2 {
+    font-size: 2.5rem;
+    margin-right: 0;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .vam-img img{
+    display: none;
+  }
+
+}
+
+@media (max-width: 552px) {
+  .vam-mdiv h2 {
+      font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .vam-mdiv h2 {
+    font-size: 2.5rem;
+}
+
+}
+
+@media (max-width: 360px) {
+  .vam-mdiv h2 {
+    font-size: 2.2rem;
+}
+
+}
+
