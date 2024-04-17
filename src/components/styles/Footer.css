@@ -91,4 +91,9 @@
   .footer-column {
     flex: 1; /* Makes all columns equal width on small screens */
   }
+
+  .footer-column h3,h4{
+    text-align: center;
+    align-self: center;
+  }
 }

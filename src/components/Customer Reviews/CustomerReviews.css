@@ -1,0 +1,33 @@
+
+
+.slider-mdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(112,112,112,0.2);
+}
+
+.slider-mdiv1 img{
+    display: block;
+    width: 100%;
+}
+element.style{
+    display: flex;
+}
+
+
+.slick-dots {
+  margin: 2em;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #4b3db2;
+
+  width: 2em;
+  height: 2em;
+}
+
+.slick-dots li button:before {
+  font-size: 0.7rem;
+}

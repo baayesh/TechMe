@@ -7,7 +7,7 @@ import React from "react";
 import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
 import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
-import CustomerReviews from "./pages/Home/Customer Reviews/CustomerReviews";
+import CustomerReviews from './components/Customer Reviews/CustomerReviews';
 import ContactUs from "./pages/Home/Contact Us/ContactUs";
 import ComingSoon from "./pages/Coming Soon/ComingSoon";
 import Header from "./components/Header/Header";
@@ -53,7 +53,6 @@ function App() {
             <Header headerText={"About Us"} varient={"about-us"} />
             <Heading />
             <VisionAndMission />
-            <OurTeam />
             <Footer />
           </Route>
           <Route path="/test">

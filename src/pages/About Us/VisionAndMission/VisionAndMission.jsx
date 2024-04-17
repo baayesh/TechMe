@@ -6,9 +6,9 @@ const VisionAndMission = () => {
   return (
     <div className='vam-mdiv'>
         <div className="vam-img">
-          <img src={missionImage}alt="" />
+        
         </div>
-        <h2>MODERN. PROFESSIONAL. RELIABLE.</h2>
+        <h2>MODERN.<br/> PROFESSIONAL.<br/> RELIABLE.</h2>
 
     </div>
   )

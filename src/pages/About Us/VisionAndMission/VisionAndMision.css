@@ -2,6 +2,7 @@
   /* Behavior */
   display: flex;
   align-items: center;
+  justify-content: center;
   /* Sizes and Spacing */
   width: 100%;
   background-image: url(../../../Assets/AboutUs/Background_Image.png);
