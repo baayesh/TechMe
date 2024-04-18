@@ -6,7 +6,7 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 0.9em;
+  font-size: 1rem;
   text-align: left;
   color: white;
   transition: transform 0.3s ease-in-out;
@@ -37,8 +37,7 @@
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1700px;
   display: flex;
 }
 
@@ -52,6 +51,11 @@
 
 .footer-column.small {
   flex: 1;
+}
+
+
+.footer-column.extra-small{
+  flex:0.7
 }
 
 .footer-column h3,
@@ -79,6 +83,18 @@
 
 .f-color {
   color: white;
+}
+
+.footer-contact-details{
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.footer-contact-details h4{
+  font-size: 1rem;
+  font-family: poppins, sans-serif;
+  align-self: center;
+  margin-bottom: 0;
 }
 
 /* Responsive adjustments */
