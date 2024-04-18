@@ -88,9 +88,11 @@ function Navigation() {
                 
                 <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
-                    <li className="nav-icon">
-                      <img src={logo} alt="logo" className="nav-logo" />
-                    </li>
+                    <Link to='/'>
+                      <li className="nav-icon">
+                        <img src={logo} alt="logo" className="nav-logo" />
+                      </li>
+                    </Link>
                     <Link className="link ps-2 pe-2" to="/">
                       TECH<span>ME</span>
                     </Link>
