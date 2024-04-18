@@ -79,17 +79,12 @@
   height: auto;
   margin: 4em 0em;
 }
-.indser-points {
-  /* Behavior */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  position: relative;
-  /* Colors */
-  /* border: 4px dashed red; */
-  /* Sizes and spacing */
-  gap: 4em;
+.indser-description p {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  text-align: left;
+
+
 }
 .indser-points ul {
   /* Sizes and spacing */
@@ -158,21 +153,23 @@
         max-width: 50em;
         width: 100%;
         height: auto;
+        gap:0em;
       }
 
       .indser-cta{
-        /* Spacing and sizes */
-        margin: 0em 0em;
+
+      padding: 0 2em;
+        width: 100%;
        justify-content: center;
        align-items: center;
 
       }
 
-      .indser-points{
-        /* Spacing and sizes */
-        gap:2em;
+      .indser-description p{
+        text-align: center;
+        margin-bottom: 0;
       }
-
+      
       .indser-button{
         /* Spaces and sizes */
         margin-left: 0em;

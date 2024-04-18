@@ -3,14 +3,7 @@ import "./Service.css";
 import Button from "../../../components/Button/Button";
 
 const Service = ({
-  point1,
-  point2,
-  point3,
-  point4,
-  point5,
-  point6,
-  point7,
-  point8,
+para,
 backgroundImage,
 }) => {
 
@@ -44,19 +37,8 @@ backgroundImage,
       <div className="indser-content">
         <div className={`indser-img ${backgroundImage}`}></div>
         <div className="indser-cta">
-          <div className="indser-points">
-            <ul>
-              <li>{point1}</li>
-              <li>{point2}</li>
-              <li>{point3}</li>
-              <li>{point4}</li>
-            </ul>
-            <ul>
-              <li>{point5}</li>
-              <li>{point6}</li>
-              <li>{point7}</li>
-              <li>{point8}</li>
-            </ul>
+          <div className="indser-description">
+            <p>{para}</p>
           </div>
           <div className="indser-button">
             <Button className="indser-button" text={"Contact Us"} />

@@ -1,34 +1,31 @@
 .hm-hr-mdiv {
   height: 100dvh;
   display: block;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   background-size: cover;
-  overflow: hidden  ;
+  overflow: hidden;
   position: relative;
   /* border:2px solid salmon; */
 }
 
-.hm-hr-mlink{
+.hm-hr-mlink {
   /* Fonts */
   font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   color: #f2f2f2;
-  text-decoration: underline;
+  text-decoration: none;
   /* Spaces and sizes */
   margin-top: 2em;
   /* Animations */
-  transition: transform 0.3s ease-in-out;
-
-
+  transition: all 0.3s ease-in-out;
 }
 
 .hm-hr-mlink:hover{
-  /* Scaling */
-  transform: scale(1.2, 1.2);
-
+  text-decoration: underline;
 }
+
 
 .hm-hr-background-img-1 {
   background-image: url(../../../Assets/Home/hm-mimg-1.png);
@@ -44,71 +41,58 @@
 
 .hm-hr-mtext {
   /* border:2px dotted  blueviolet; */
-  
+
   font-family: "Lovelo", sans-serif;
-  font-weight:900;
+  font-weight: 900;
   color: #f2f2f2;
   font-size: 3.9rem;
   text-align: center;
   /* Sizes and spcing */
-padding-top: 30dvh;
+  padding-top: 30dvh;
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 0;
   padding-bottom: 1em;
-
-
 }
 
-
-.slick-dots li button:before{
+.slick-dots li button:before {
   color: #4b3db2;
 }
 
 @media (max-width: 1200px) {
-  .hm-hr-mtext{
+  .hm-hr-mtext {
     font-size: 3.5rem;
-    
   }
 }
 
 @media (max-width: 992px) {
-
-  .hm-hr-mtext{
+  .hm-hr-mtext {
     font-size: 3rem;
-    
   }
 }
 
 @media (max-width: 768px) {
-  .hm-hr-mtext{
+  .hm-hr-mtext {
     font-size: 2.8rem;
-    
   }
-
 }
 
-@media(max-width: 576px) {
-
-  .hm-hr-mtext{
-   margin-top: 20dvh;
+@media (max-width: 576px) {
+  .hm-hr-mtext {
+    margin-top: 20dvh;
   }
-
 }
 
-@media(max-width:450px){
-  .hm-hr-mtext{
+@media (max-width: 450px) {
+  .hm-hr-mtext {
     margin-top: 15dvh;
     font-size: 2.4rem;
   }
-
 }
 
-@media(max-width:335px){
-  .hm-hr-mtext{
+@media (max-width: 335px) {
+  .hm-hr-mtext {
     margin-top: 15dvh;
     font-size: 2rem;
   }
-
 }
-

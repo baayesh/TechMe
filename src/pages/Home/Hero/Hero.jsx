@@ -7,9 +7,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Hero = () => {
   const settings = {
-    dots: false,
+    dots: true,
     fade: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     speed: 700,
     slidesToShow: 1,

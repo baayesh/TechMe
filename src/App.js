@@ -53,6 +53,7 @@ function App() {
             <Header headerText={"About Us"} varient={"about-us"} />
             <Heading />
             <VisionAndMission />
+            <CustomerReviews />
             <Footer />
           </Route>
           <Route path="/test">
@@ -71,14 +72,8 @@ function App() {
           <Navigation />
           <SubHeader headerText={"Web Development"} />
           <Service
-            point1={"Point 1"}
-            point2={"Point 2"}
-            point3={"Point 3"}
-            point4={"Point 4"}
-            point5={"Point 5"}
-            point6={"Point 6"}
-            point7={"Point 7"}
-            point8={"Point 8"}
+            para='We specialise in creating custom websites that cater to your unique requirements, whether you need a simple informational site or a complex e-commerce platform. Our team collaborates closely with you to design and develop a professional, user-friendly website that reflects your brand identity and engages your audience effectively.
+            '
             backgroundImage={"indser-web-dev"}
           />
           <Footer />

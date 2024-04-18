@@ -9,7 +9,7 @@ import TheNinjas from "../../Assets/Home/CustomerReviews/The_Ninjas.png";
 const CustomerReviews = () => {
   const settings = {
     dots: true,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     autoplaySpeed: 3000,
     speed: 1000,

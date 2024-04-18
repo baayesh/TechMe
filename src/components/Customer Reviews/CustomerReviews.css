@@ -21,8 +21,8 @@ element.style{
   margin: 2em;
 }
 
-.slick-dots li.slick-active button:before {
-  color: #4b3db2;
+.slick-dots li.slick-active button::before {
+  color: white;
 
   width: 2em;
   height: 2em;

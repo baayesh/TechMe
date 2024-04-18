@@ -14,15 +14,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     arrows: true,
-    speed: 1000,
     lazyLoad: 'ondemand',
     slidesToShow: 3,
     slidesToScroll: 2,
+    speed: 500,
     autoplay: true,
-    autoplaySpeed: 10000,
     responsive: [
       {
         breakpoint: 768,
