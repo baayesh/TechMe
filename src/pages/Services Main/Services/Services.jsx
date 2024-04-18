@@ -1,104 +1,50 @@
 import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import web2Img from "../../../Assets/Our Services/Slider/img1.png";
 
 const ServicesMain = () => {
-  // web development handler
-  const [content, setContent] = useState("Intial content");
-
-  const webDevelopment = "Web development content";
-  const hosting = "Hosting content";
-  const brandingAndLogoCreation = "Branding and Logo Creation content";
-  const websiteMaintenance = "Website Maintenance content";
-
-  // Handlers
-  const handleWebDevelopment = () => {
-    setContent(webDevelopment);
+  const settings = {
+    dots: false,
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 5000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
   };
-  const handleHosting = () => {
-    setContent(hosting);
-  };
-  const handleBrandingAndLogoCreation = () => {
-    setContent(brandingAndLogoCreation);
-  };
-  const handleMaintenance = () => {
-    setContent(websiteMaintenance);
-  };
-
-  // It service handler
-  const [contentIT, setContentIT] = useState("Intial content");
-
-  // Handlers
-  const handleRemoteSupport = () => {
-    setContentIT("Remote Support content");
-  };
-  const handleComputerAndLaptopepairs = () => {
-    setContentIT("Computer and Laptop repairs content");
-  };
-  const handleComputerUpgradeAndServicing = () => {
-    setContentIT("Computer Upgrade and Servicing content");
-  };
-
-  const handleComputerVirusRemoval = () => {
-    setContentIT("Computer Virus Removal content");
-  };
-
   return (
     <div className="ser-mdiv">
-      <div className="ser-web">
-        <div className="ser-titles">
-          <h1>Web&nbsp;Development&nbsp;and&nbsp;Hosting</h1>
-          <div className="ser-web-services">
-            <p className="link-web" onClick={handleWebDevelopment}>
-              Web Development
-            </p>
-            <p className="link-web" onClick={handleHosting}>
-              Hosting
-            </p>
-            <p className="link-web" onClick={handleBrandingAndLogoCreation}>
-              Branding and Logo Creation
-            </p>
-            <p className="link-web" onClick={handleMaintenance}>
-              Website Maintenance
-            </p>
-          </div>
+      <div className="ser-left">
+        <div className="ser-web-mdiv">
+          <h2>WEB DEVELOPMENT AND HOSTING.</h2>
+          <p>Web Development.</p>
+          <p>Hosting.</p>
+          <p>Branding and Logo Creation.</p>
+          <p>Website Maintenance.</p>
         </div>
-        <div className="ser-individual-service">
-          <p>{content}</p>
-          <Link to="/coming-soon">
-            <p>
-              <span>See More</span>
-            </p>
-          </Link>
+        <div className="ser-it-mdiv">
+          <h2>IT SERVICES.</h2>
+          <p>Remote Support.</p>
+          <p>Laptop Repair.</p>
+          <p>Computer Upgrade and Servicing.</p>
+          <p>Virus Removal.</p>
         </div>
       </div>
-      <div className="ser-web">
-        <div className="ser-titles">
-          <h1>IT-Services</h1>
-          <div className="ser-web-services">
-            <p className="link-web" onClick={handleRemoteSupport}>
-              Remote Support
-            </p>
-            <p className="link-web" onClick={handleComputerAndLaptopepairs}>
-              Computer and Laptop Repair
-            </p>
-            <p className="link-web" onClick={handleComputerUpgradeAndServicing}>
-              Compuer Upgrade and Servicing
-            </p>
-            <p className="link-web" onClick={handleComputerVirusRemoval}>
-              Virus Removal
-            </p>
+      <div className="ser-right">
+        <Slider {...settings}>
+          <div className="ser-slider-img">
+            <img src={web2Img} alt="" />
           </div>
-        </div>
-        <div className="ser-individual-service ">
-          <p>{contentIT}</p>
-          <Link to="/web-development">
-            <p>
-              <span>See More</span>
-            </p>
-          </Link>
-        </div>
+          <div className="ser-slider-img">
+            <img src={web2Img} alt="" />
+          </div>
+        </Slider>
       </div>
     </div>
   );

@@ -74,6 +74,14 @@
   .discord .BG {
     background: #7289da;
   }
+
+  .email .BG{
+    background: darkred;
+  }
+
+  .mobile .BG{
+    background: darkblue;
+  }
   
   .instagram .BG {
     background: linear-gradient(

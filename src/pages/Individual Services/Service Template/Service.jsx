@@ -4,7 +4,9 @@ import Button from "../../../components/Button/Button";
 
 const Service = ({
 para,
+highlitedText,
 backgroundImage,
+
 }) => {
 
   if (backgroundImage === "Web-dev") {
@@ -30,7 +32,31 @@ backgroundImage,
   }
   if (backgroundImage === "cvRem") {
     backgroundImage = "indser-cvRem";
-  }
+  };
+
+  console.log(highlitedText);
+
+  // Paragraph processing mechanism
+  const processText = (para, highlightedText) => {
+    const paragraphs = para.split('\n'); // Split the paragraph into an array of lines
+    console.log(paragraphs);
+    console.log(highlightedText);
+    
+    const styledParagraphs = []; // Create an empty array to store the lines that need to be styled
+  
+    paragraphs.forEach((parag, index) => {
+      let impStyle = 'normal-text';
+      if (parag.includes(highlightedText)) {
+        impStyle = 'highlighted-text';
+      }
+      styledParagraphs.push(<p key={index} className={impStyle}>{parag}</p>);
+    });
+  
+    return styledParagraphs; // Return the array of styled paragraphs
+  };
+  
+
+
  
   return (
     <div className="indser-main">
@@ -38,7 +64,7 @@ backgroundImage,
         <div className={`indser-img ${backgroundImage}`}></div>
         <div className="indser-cta">
           <div className="indser-description">
-            <p>{para}</p>
+          {processText(para, highlitedText)}
           </div>
           <div className="indser-button">
             <Button className="indser-button" text={"Contact Us"} />

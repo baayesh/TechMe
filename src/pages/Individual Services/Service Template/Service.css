@@ -112,6 +112,15 @@
   margin-left: 7em;
   margin-top: 2em;
 }
+
+.normal-text {
+  font-family: Poppins, sans-serif;
+ 
+}
+
+.highlighted-text {
+  background-color: aqua;
+}
 /* Responsiveness */
 @media (max-width: 1200px) {
   .indser-content {
