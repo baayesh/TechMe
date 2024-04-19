@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import web2Img from "../../../Assets/Our Services/Slider/img1.png";
 
+
 const ServicesMain = () => {
   const settings = {
     dots: false,
@@ -22,18 +23,38 @@ const ServicesMain = () => {
     <div className="ser-mdiv">
       <div className="ser-left">
         <div className="ser-web-mdiv">
-          <h2>WEB DEVELOPMENT AND HOSTING.</h2>
-          <p>Web Development.</p>
-          <p>Hosting.</p>
-          <p>Branding and Logo Creation.</p>
-          <p>Website Maintenance.</p>
+   
+            <h2>WEB DEVELOPMENT AND HOSTING.</h2>
+     
+          <Link to='/web-development' className='ser-mlink'>
+            <p>Web Development.</p>
+          </Link>
+          <Link to='/hosting' className='ser-mlink' >
+            <p>Hosting.</p>
+          </Link>
+          <Link to='/branding'className='ser-mlink'>
+            <p>Branding and Logo Creation.</p>
+          </Link>
+          <Link to='web-maintain' className='ser-mlink'>
+            <p>Website Maintenance.</p>
+          </Link>
         </div>
         <div className="ser-it-mdiv">
-          <h2>IT SERVICES.</h2>
-          <p>Remote Support.</p>
-          <p>Laptop Repair.</p>
-          <p>Computer Upgrade and Servicing.</p>
-          <p>Virus Removal.</p>
+       
+            <h2>IT SERVICES.</h2>
+   
+          <Link to='/remote-support' className='ser-mlink'>
+            <p>Remote Support.</p>
+          </Link>
+          <Link to='/computer-and-laptop-repair' className='ser-mlink'>
+            <p>Laptop Repair.</p>
+          </Link>
+          <Link to='/computer-upgrade-and-servicing' className='ser-mlink'>
+            <p>Computer Upgrade and Servicing.</p>
+          </Link>
+          <Link to='/virus-removal' className='ser-mlink'>
+            <p>Virus Removal.</p>
+          </Link>
         </div>
       </div>
       <div className="ser-right">
