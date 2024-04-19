@@ -86,6 +86,10 @@
 
 
 }
+
+.indser-description p span{
+  font-weight: 700;
+}
 .indser-points ul {
   /* Sizes and spacing */
   margin-bottom: 0;
@@ -121,6 +125,7 @@
 .highlighted-text {
   background-color: aqua;
 }
+
 /* Responsiveness */
 @media (max-width: 1200px) {
   .indser-content {

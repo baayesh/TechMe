@@ -7,7 +7,7 @@ import React from "react";
 import Hero from "./pages/Home/Hero/Hero";
 import Services from "./pages/Home/Services/Services";
 import WhyChooseUs from "./pages/Home/WhyChooseUs/WhyChooseUs";
-import CustomerReviews from './components/Customer Reviews/CustomerReviews';
+import CustomerReviews from "./components/Customer Reviews/CustomerReviews";
 import ContactUs from "./pages/Home/Contact Us/ContactUs";
 import ComingSoon from "./pages/Coming Soon/ComingSoon";
 import Header from "./components/Header/Header";
@@ -17,9 +17,18 @@ import Map from "./pages/Contact Us/Map/Map";
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
 import Service from "./pages/Individual Services/Service Template/Service";
-import Heading from './pages/About Us/Heading/Heading';
-import VisionAndMission from './pages/About Us/VisionAndMission/VisionAndMission'; 
+import Heading from "./pages/About Us/Heading/Heading";
+import VisionAndMission from "./pages/About Us/VisionAndMission/VisionAndMission";
 import OurTeam from "./pages/About Us/OurTeam/OurTeam";
+import WebDevelopement from "./pages/Individual Services/Web Development/WebDevelopement";
+import Hosting from "./pages/Individual Services/Hosting/Hosting";
+import Branding from './pages/Individual Services/Branding and Logo/Branding';
+import WebMaintain from './pages/Individual Services/Website Maintenance/WebsiteMaintenance';
+import RemoteSupport from './pages/Individual Services/Remote Support/RemoteSupport';
+import ComputerAndLaptop from './pages/Individual Services/Computer Laptop Repair/CompterAndLaptop';
+import ComputerUpgrade from './pages/Individual Services/Computer Upgrade/ComputerUpgrade';
+import ComputerVirus from './pages/Individual Services/Computer Virus/ComputerVirus';
+
 
 function App() {
   return (
@@ -71,30 +80,70 @@ function App() {
         <Route path="/web-development">
           <Navigation />
           <SubHeader headerText={"Web Development"} />
-          <Service
-            para='We specialise in creating custom websites that cater to your unique requirements, whether you need a simple informational site or a complex e-commerce platform. Our team collaborates closely with you to design and develop a professional, user-friendly website that reflects your brand identity and engages your audience effectively.'
-            highlightedText={'Our'}
-            backgroundImage={"indser-web-dev"}
-          />
+          <WebDevelopement />
           <Footer />
-        </Route >
+        </Route>
         {/* Hosting */}
         <Route path="/hosting">
           <Navigation />
-            <SubHeader headerText={"Website Hosting"} />
-            <Service
-              point1={"Point 1"}
-              point2={"Point 2"}
-              point3={"Point 3"}
-              point4={"Point 4"}
-              point5={"Point 5"}
-              point6={"Point 6"}
-              point7={"Point 7"}
-              point8={"Point 8"}
-              backgroundImage={"indser-hosting"}
-            />
-            <Footer />
+          <SubHeader headerText={"Website Hosting"} />
+          <Hosting />
+          <Footer />
         </Route>
+
+        {/* Branding and logo designing */}
+        <Route path="/branding">
+          <Navigation />
+          <SubHeader headerText={"Branding and Logo Designing"} />
+          <Branding />
+          <Footer />
+        </Route>
+
+         {/* Web Maintain*/}
+         <Route path="/web-maintain">
+          <Navigation />
+          <SubHeader headerText={"Website Maintenance"} />
+          <WebMaintain />
+          <Footer />
+        </Route>
+
+        {/* Remote Support*/}
+        <Route path="/remote-support">
+          <Navigation />
+          <SubHeader headerText={"Remote Support"} />
+          <RemoteSupport />
+          <Footer />
+        </Route>
+
+         {/* Computer and Laptop*/}
+         <Route path="/computer-and-laptop-repair">
+          <Navigation />
+          <SubHeader headerText={"Computer and Laptop Repair"} />
+          <ComputerAndLaptop />
+          <Footer />
+        </Route>
+
+          {/* Computer upgrade and serving*/}
+          <Route path="/computer-upgrade-and-servicing">
+          <Navigation />
+          <SubHeader headerText={"Computer Upgrade and Servicing"} />
+          <ComputerUpgrade />
+          <Footer />
+        </Route>
+
+        
+          {/* Virus Removal*/}
+          <Route path="/virus-removal">
+          <Navigation />
+          <SubHeader headerText={"Computer Virus Removal"} />
+          <ComputerVirus />
+          <Footer />
+        </Route>
+{/*  Individual services - finish*/}
+
+
+
+        
       </Router>
     </div>
   );
