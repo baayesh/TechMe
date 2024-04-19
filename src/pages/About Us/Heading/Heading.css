@@ -34,10 +34,10 @@
   font-family: Lovelo, sans-serif;
   font-weight: 900;
   font-size: 4rem;
-  text-align: left;
+  text-align: center;
 
   /* Sizes and spacing */
-  margin: 0em 0em 0em 1.5em;
+  margin: 0em;
   width: auto;
 }
 .about-line {
@@ -56,12 +56,22 @@
 .about-intro p {
   /* Fonts */
   font-family: Poppins, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   /* Colors */
 
   /* Sizes and spacing */
   margin: 1em;
-  text-align: left;
+  text-align:justify; 
+
+}
+
+.about-intro p::first-letter{
+  font-size: 300%;
+  font-weight: 900;
+
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
 }
 
 .about-info {
@@ -72,6 +82,7 @@
   max-width: 48em;
   width: 40%;
   margin: 1em;
+ 
 }
 
 .about-info-row {

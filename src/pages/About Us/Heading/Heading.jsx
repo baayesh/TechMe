@@ -7,7 +7,7 @@ const Heading = () => {
   return (
     <div className="about-heading-mdiv">
       <div className="about-intro">
-        <h3>SIMPLE SOLUTIONS FOR <span>DIFFICULT PROBLEMS</span></h3>
+        <h3>Welcome To TechME</h3>
         <div className="about-line"></div>
 
         <p>
