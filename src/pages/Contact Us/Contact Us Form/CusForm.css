@@ -261,28 +261,6 @@
   font-size: 2rem;
 }
 
-.cus-frm-label p {
-  /* Behavior  */
-  text-align: center;
-  /* Colors */
-  color: #261c2c;
-  /* Font */
-  font-family: Poppins, sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.cus-frm-label span {
-  /* Colors */
-  color: #4b3db2;
-  /* Font */
-  font-family: Poppins, sans-serif;
-  font-weight: 800;
-  font-size: 1.2rem;
-}
-
 /* Contact Us Form */
 
 .cus-frm-form {

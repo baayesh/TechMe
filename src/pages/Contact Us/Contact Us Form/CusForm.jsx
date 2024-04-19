@@ -7,9 +7,6 @@ const CusForm = () => {
       <div className="cus-frm-main">
         <div className="cus-frm-label">
           <h4>Ready to take the next Step?</h4>
-          <p>
-            Submit Your Request through our <span>Contact form</span> Today!
-          </p>
         </div>
         {/* Contact Us details */}
         <div className="contact-main">
@@ -96,7 +93,6 @@ const CusForm = () => {
               </div>
               <h2>Email</h2>
               <h4>info@techme.co.nz</h4>
-              <h4>info.techmeltd@gmail.com</h4>
             </div>
           </div>
           {/* Contact Us form */}
