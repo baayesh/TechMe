@@ -80,6 +80,7 @@
 @media (max-width: 576px) {
   .hm-hr-mtext {
     margin-top: 20dvh;
+    padding-top: 0;
   }
 }
 

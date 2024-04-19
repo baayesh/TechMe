@@ -55,9 +55,6 @@ backgroundImage,
     return styledParagraphs; // Return the array of styled paragraphs
   };
   
-
-
- 
   return (
     <div className="indser-main">
       <div className="indser-content">

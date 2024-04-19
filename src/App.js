@@ -72,8 +72,7 @@ function App() {
           <Navigation />
           <SubHeader headerText={"Web Development"} />
           <Service
-            para='We specialise in creating custom websites that cater to your unique requirements, whether you need a simple informational site or a complex e-commerce platform. Our team collaborates closely with you to design and develop a professional, user-friendly website that reflects your brand identity and engages your audience effectively.
-            '
+            para='We specialise in creating custom websites that cater to your unique requirements, whether you need a simple informational site or a complex e-commerce platform. Our team collaborates closely with you to design and develop a professional, user-friendly website that reflects your brand identity and engages your audience effectively.'
             highlightedText={'Our'}
             backgroundImage={"indser-web-dev"}
           />

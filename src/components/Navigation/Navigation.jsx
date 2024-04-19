@@ -55,13 +55,13 @@ function Navigation() {
         <nav className={isMenuOpen ? "nav change" : "nav"} id="nav">
           <ul>
             <li>
-              <a href="#">TechMe</a>
+              <a href="/">TechMe</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="services">Services</a>
             </li>
             <li>
-              <a href="#">About&nbsp;Us</a>
+              <a href="about-us">About&nbsp;Us</a>
             </li>
             <li>
               <a href="contact-us ">Contact&nbsp;Us</a>
