@@ -22,13 +22,12 @@ import VisionAndMission from "./pages/About Us/VisionAndMission/VisionAndMission
 import OurTeam from "./pages/About Us/OurTeam/OurTeam";
 import WebDevelopement from "./pages/Individual Services/Web Development/WebDevelopement";
 import Hosting from "./pages/Individual Services/Hosting/Hosting";
-import Branding from './pages/Individual Services/Branding and Logo/Branding';
-import WebMaintain from './pages/Individual Services/Website Maintenance/WebsiteMaintenance';
-import RemoteSupport from './pages/Individual Services/Remote Support/RemoteSupport';
-import ComputerAndLaptop from './pages/Individual Services/Computer Laptop Repair/CompterAndLaptop';
-import ComputerUpgrade from './pages/Individual Services/Computer Upgrade/ComputerUpgrade';
-import ComputerVirus from './pages/Individual Services/Computer Virus/ComputerVirus';
-
+import Branding from "./pages/Individual Services/Branding and Logo/Branding";
+import WebMaintain from "./pages/Individual Services/Website Maintenance/WebsiteMaintenance";
+import RemoteSupport from "./pages/Individual Services/Remote Support/RemoteSupport";
+import ComputerAndLaptop from "./pages/Individual Services/Computer Laptop Repair/CompterAndLaptop";
+import ComputerUpgrade from "./pages/Individual Services/Computer Upgrade/ComputerUpgrade";
+import ComputerVirus from "./pages/Individual Services/Computer Virus/ComputerVirus";
 
 function App() {
   return (
@@ -99,8 +98,8 @@ function App() {
           <Footer />
         </Route>
 
-         {/* Web Maintain*/}
-         <Route path="/web-maintain">
+        {/* Web Maintain*/}
+        <Route path="/web-maintain">
           <Navigation />
           <SubHeader headerText={"Website Maintenance"} />
           <WebMaintain />
@@ -115,35 +114,30 @@ function App() {
           <Footer />
         </Route>
 
-         {/* Computer and Laptop*/}
-         <Route path="/computer-and-laptop-repair">
+        {/* Computer and Laptop*/}
+        <Route path="/computer-and-laptop-repair">
           <Navigation />
           <SubHeader headerText={"Computer and Laptop Repair"} />
           <ComputerAndLaptop />
           <Footer />
         </Route>
 
-          {/* Computer upgrade and serving*/}
-          <Route path="/computer-upgrade-and-servicing">
+        {/* Computer upgrade and serving*/}
+        <Route path="/computer-upgrade-and-servicing">
           <Navigation />
           <SubHeader headerText={"Computer Upgrade and Servicing"} />
           <ComputerUpgrade />
           <Footer />
         </Route>
 
-        
-          {/* Virus Removal*/}
-          <Route path="/virus-removal">
+        {/* Virus Removal*/}
+        <Route path="/virus-removal">
           <Navigation />
           <SubHeader headerText={"Computer Virus Removal"} />
           <ComputerVirus />
           <Footer />
         </Route>
-{/*  Individual services - finish*/}
-
-
-
-        
+        {/*  Individual services - finish*/}
       </Router>
     </div>
   );
