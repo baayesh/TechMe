@@ -45,7 +45,7 @@ function App() {
           </Route>
           <Route path="/contact-us">
             <Navigation />
-            <Header headerText={"Reach Us"} varient={"contact-us"} />
+            <Header headerText={"Reach Out"} varient={"contact-us"} />
             <CusForm />
             <Map />
             <Footer />

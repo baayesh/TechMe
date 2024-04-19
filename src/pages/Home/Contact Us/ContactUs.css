@@ -6,6 +6,10 @@
 
 }
 
+.hm-cus-mlink{
+    text-decoration: none;
+}
+
 .hm-cus-mdiv p{
     font-family: Poppins;
     font-weight: 600;
@@ -13,14 +17,22 @@
     font-size: 1.5rem;
     transition: color 0.5s ease;
     margin-bottom: 0;
+    text-decoration: none;
     
+
+}
+
+.hm-cus-mdiv h3{
+     font-family: Poppins, sans-serif;
+   color: #f2f2f2;
 
 }
 .hm-cus-mdiv p:hover{
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: 900;
     color:#707070;
     font-size: 1.5rem;
     cursor: pointer;
+    text-decoration: underline;
 
 }

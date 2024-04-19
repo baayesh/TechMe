@@ -59,7 +59,7 @@ const ContactDetails = () => {
             </svg>
           </div>
           <h2>Contact</h2>
-          <h4>(027)598 9989</h4>
+          <h4>(+64) 27 598 9998</h4>
         </div>
         <div className="conde-card">
           <div className="cc-circle">
