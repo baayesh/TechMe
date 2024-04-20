@@ -11,6 +11,7 @@ const CustomerReviews = () => {
     dots: true,
     autoplay: true,
     infinite: true,
+    arrows:false,
     autoplaySpeed: 3000,
     speed: 1000,
   };
