@@ -2,11 +2,8 @@ import React from "react";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { getElementError } from "@testing-library/react";
 import logo from "../../Assets/logo512.png";
-import Phone from "../../Assets/Navigation/Phone.png";
+
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
