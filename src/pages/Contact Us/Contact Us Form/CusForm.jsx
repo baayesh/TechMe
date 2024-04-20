@@ -1,7 +1,19 @@
 import React from "react";
 import "./CusForm.css";
+import { useState } from "react";
 
 const CusForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name, email, message);
+
+    const data = { name, email, message };
+  };
+
   return (
     <div>
       <div className="cus-frm-main">
@@ -98,37 +110,51 @@ const CusForm = () => {
           {/* Contact Us form */}
           <div className="cus-frm-form">
             <div className="col-lg-8 col-md-6 col-sm-12 mt-4 mb-4">
-              <div className="row d-flex justify-content-start">
-                <div className="col-lg-12 mt-3 col-md-12 col-sm-12">
-                  <label htmlFor="name">Your&nbsp;Name</label>
-                  <input
-                  id="name"
-                    type="text"
-                    className="form-control"
-                    placeholder="Name, surname"
-                  />
+              <form onSubmit={handleSubmit}>
+                <div className="row d-flex justify-content-start">
+                  <div className="col-lg-12 mt-3 col-md-12 col-sm-12">
+                    <label htmlFor="name">Your&nbsp;Name</label>
+                    <input
+                      id="name"
+                      type="text"
+                      className="form-control"
+                      placeholder="Name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-12 col-md-12 mt-3 col-sm-12">
+                    <label htmlFor="name">Email&nbsp;Address</label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="E-Mail"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-12 mt-3">
+                    <label htmlFor="name">Reach&nbsp;to&nbsp;us</label>
+                    <textarea
+                      placeholder="Your message"
+                      className="form-control"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      required
+                    ></textarea>
+                  </div>
+                  <div className="col-lg-12 mt-3 ">
+                    <button type="submit" class="btn custom-button-2">
+                      SEND
+                    </button>
+                  </div>
                 </div>
-                <div className="col-lg-12 col-md-12 mt-3 col-sm-12">
-                <label htmlFor="name">Email&nbsp;Address</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="E-Mail"
-                  />
-                </div>
-                <div className="col-lg-12 mt-3">
-                <label htmlFor="name">Reach&nbsp;to&nbsp;us</label>
-                  <textarea
-                    placeholder="Your message"
-                    className="form-control"
-                  ></textarea>
-                </div>
-                <div className="col-lg-12 mt-3 ">
-                  <button type="button" class="btn custom-button-2">
-                    SEND
-                  </button>
-                </div>
-              </div>
+              </form>
+              {/* <p>{name}</p>
+              <p>{email}</p>
+              <p>{message}</p> */}
             </div>
           </div>
         </div>

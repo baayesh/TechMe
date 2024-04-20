@@ -326,7 +326,13 @@
   /* Sizes and spacing */
   width: 60%;
   padding-left: 10px;
+  cursor: default;
 }
+.custom-button-2:hover{
+  cursor: default;
+}
+
+
 
 .bottom-text {
   color: white;
