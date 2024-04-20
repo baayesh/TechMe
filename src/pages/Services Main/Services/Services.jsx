@@ -5,7 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import web2Img from "../../../Assets/Our Services/Slider/img1.png";
-
+import services2 from "../../../Assets/Our Services/Slider/Services2.png";
+import services3 from "../../../Assets/Our Services/Slider/Services3.png";
 
 const ServicesMain = () => {
   const settings = {
@@ -63,7 +64,10 @@ const ServicesMain = () => {
             <img src={web2Img} alt="" />
           </div>
           <div className="ser-slider-img">
-            <img src={web2Img} alt="" />
+            <img src={services2} alt="" />
+          </div>
+          <div className="ser-slider-img">
+            <img src={services3} alt="" />
           </div>
         </Slider>
       </div>
