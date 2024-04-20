@@ -18,7 +18,7 @@ const WebDevelopement = () => {
             </p>
           </div>
           <div className="indser-button">
-            <Button className="indser-button" text={"Contact Us"} />
+            <Button className="indser-button" text={"Contact Us"} link={"/contact-us"} />
           </div>
         </div>
       </div>

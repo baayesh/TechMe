@@ -26,7 +26,7 @@ const Hero = () => {
             and maintenance <span>solutions</span>.
           </p>
 
-          <Link to='/coming-soon'className="hm-hr-mlink">Our Services</Link>
+          <Link to='/services'className="hm-hr-mlink">Our Services</Link>
         </div>
         {/* Content 2 */}
         <div className="hm-hr-mdiv hm-hr-background-img-2">
@@ -35,7 +35,7 @@ const Hero = () => {
             <br />
             support, repairs, upgrades and virus removals.
           </p>
-          <Link to='/coming-soon'className="hm-hr-mlink">Our Services</Link>
+          <Link to='/services'className="hm-hr-mlink">Our Services</Link>
         </div>
         {/* Content 3 */}
 
@@ -44,7 +44,7 @@ const Hero = () => {
             <span>Get in touch </span>for all your digital, branding and{" "}
             <span>tech needs.</span>
           </p>
-          <Link to='/coming-soon'className="hm-hr-mlink">Contact Us</Link>
+          <Link to='/contact-us'className="hm-hr-mlink">Contact Us</Link>
         </div>
       </Slider>
     </div>

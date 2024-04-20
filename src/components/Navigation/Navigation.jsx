@@ -94,7 +94,7 @@ function Navigation() {
                       </li>
                     </Link>
                     <Link className="link ps-2 pe-2" to="/">
-                      TECH<span>ME</span>
+                      Tech<span>ME</span>
                     </Link>
                     <Link className="link ps-2 pe-2" to="/services">
                       Services
