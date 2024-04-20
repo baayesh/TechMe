@@ -40,29 +40,30 @@
   box-shadow: 5px 5px 70px 10px #4b3db2;
 }
 
+
 .indser-web-dev {
   background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
 }
 .indser-hosting {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/Hosting.png);
 }
 .indser-brandingLogo {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/Branding.png);
 }
 .indser-webMaintain {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/WebMaintain.png);
 }
 .indser-remSup {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/RemoteSupport.png);
 }
 .indser-clRep {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/Laptoprepair.png);
 }
 .indser-cuSer {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/Upgrade.png);
 }
 .indser-cvRem {
-  background-image: url(../../../Assets/Individual\ Services/Web\ development.png);
+  background-image: url(../../../Assets/Individual\ Services/VirusRemoval.png);
 }
 
 

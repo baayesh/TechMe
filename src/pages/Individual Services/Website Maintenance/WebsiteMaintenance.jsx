@@ -6,7 +6,7 @@ const WebMaintain = () => {
   return (
     <div className="indser-main">
       <div className="indser-content">
-        <div className="indser-img indser-web-dev"></div>
+        <div className="indser-img indser-webMaintain"></div>
         <div className="indser-cta">
           <div className="indser-description">
             <p>
