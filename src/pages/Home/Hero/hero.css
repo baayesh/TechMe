@@ -12,18 +12,20 @@
 .hm-hr-mlink {
   /* Fonts */
   font-family: Poppins, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: italic;
   font-size: 1.5rem;
   color: #f2f2f2;
   text-decoration: none;
   /* Spaces and sizes */
   margin-top: 2em;
   /* Animations */
-  transition: all 0.3s ease-in-out;
+  transition: hover 0.3s ease-in-out;
 }
 
 .hm-hr-mlink:hover{
   text-decoration: underline;
+  font-weight: 700;
 }
 
 

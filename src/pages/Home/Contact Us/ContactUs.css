@@ -12,7 +12,9 @@
 .hm-cus-mdiv p {
   font-family: Poppins;
   font-weight: 600;
+  font-style: italic;
   color: #4b3db2;
+  background-color: #f2f2f2;
   font-size: 1.5rem;
   transition: color 0.5s ease;
   margin-bottom: 0;
@@ -28,21 +30,8 @@
   font-weight: 800;
 }
 
-.hm-cus-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-  gap: 0.4em;
-}
 
-.hm-cus-left-arrow{
-  animation: hm-cus-arrow-left 1.2s infinite alternate;
-}
 
-.hm-cus-right-arrow{
-  animation: hm-cus-arrow-right 1.2s infinite alternate;
-}
 .hm-cus-mdiv p:hover {
   font-family: Poppins;
   font-weight: 900;
@@ -52,22 +41,3 @@
 }
 
 /* Animarions */
-@keyframes hm-cus-arrow-left {
-  from {
-    transform: translateX(-20px) rotate(90deg);
-  }
-  to {
-    transform: translateX(12px) rotate(90deg);
-  }
-}
-
-
-@keyframes hm-cus-arrow-right {
-    from {
-      transform: translateX(20px) rotate(270deg);
-    }
-    to {
-      transform: translateX(-12px) rotate(270deg);
-    }
-  }
-  

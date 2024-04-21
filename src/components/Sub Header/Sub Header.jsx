@@ -8,7 +8,7 @@ const SubHeader = ({headerText}) => {
       <div className="subhead-title">
         <div className="subhead-line"></div>
         <h2>{headerText}</h2>
-        <p>All&nbsp;Tech.Me&nbsp;Services</p>
+        <p>All&nbsp;TechME&nbsp;Services</p>
       </div>
     </div>
   );
