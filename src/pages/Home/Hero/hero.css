@@ -55,6 +55,10 @@
   padding-bottom: 1em;
 }
 
+
+.hm-hr-marrow {
+  animation:hm-hr-arrow-to-top 1.5s ease-in-out infinite alternate;
+}
 .slick-dots li button:before {
   color: #4b3db2;
 }
@@ -96,4 +100,17 @@
     margin-top: 15dvh;
     font-size: 2rem;
   }
+}
+
+
+/* Animations */
+
+@keyframes hm-hr-arrow-to-top {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-15px);
+  }
+  
 }

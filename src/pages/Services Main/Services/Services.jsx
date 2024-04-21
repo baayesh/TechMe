@@ -28,33 +28,33 @@ const ServicesMain = () => {
             <h2>WEB DEVELOPMENT AND HOSTING.</h2>
      
           <Link to='/web-development' className='ser-mlink'>
-            <p>Web Development.</p>
+            <p>Web Development</p>
           </Link>
           <Link to='/hosting' className='ser-mlink' >
-            <p>Hosting.</p>
+            <p>Hosting</p>
           </Link>
           <Link to='/branding'className='ser-mlink'>
-            <p>Branding and Logo Creation.</p>
+            <p>Branding and Logo Creation</p>
           </Link>
           <Link to='web-maintain' className='ser-mlink'>
-            <p>Website Maintenance.</p>
+            <p>Website Maintenanc</p>
           </Link>
         </div>
         <div className="ser-it-mdiv">
        
-            <h2>IT SERVICES.</h2>
+            <h2>IT SERVICES</h2>
    
           <Link to='/remote-support' className='ser-mlink'>
-            <p>Remote Support.</p>
+            <p>Remote Support</p>
           </Link>
           <Link to='/computer-and-laptop-repair' className='ser-mlink'>
-            <p>Laptop Repair.</p>
+            <p>Laptop Repair</p>
           </Link>
           <Link to='/computer-upgrade-and-servicing' className='ser-mlink'>
-            <p>Computer Upgrade and Servicing.</p>
+            <p>Computer Upgrade and Servicing</p>
           </Link>
           <Link to='/virus-removal' className='ser-mlink'>
-            <p>Virus Removal.</p>
+            <p>Virus Removal</p>
           </Link>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Hero = () => {
   const settings = {
     dots: true,
     fade: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 7000,
     speed: 700,
     slidesToShow: 1,
@@ -26,7 +26,44 @@ const Hero = () => {
             and maintenance <span>solutions</span>.
           </p>
 
-          <Link to='/services'className="hm-hr-mlink">Our Services</Link>
+          <div >
+            <Link to="/services" className="hm-hr-mlink">
+              Our Services
+            </Link>
+            <div>
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="-2.4 -2.4 28.80 28.80"
+                fill="none"
+                className="hm-hr-marrow"
+                xmlns="http://www.w3.org/2000/svg"
+                transform="rotate(0)"
+                stroke="#000000"
+              >
+                <g  stroke-width="0" />
+
+                <g
+                
+                  stroke-linecap="round"
+                  stroke-linejoin="round" 
+                  stroke="#000000"
+                  stroke-width="0.048"
+                />
+
+                <g >
+                  {" "}
+                  <path
+                    d="M12 4V20M12 4L8 8M12 4L16 8"
+                    stroke="#f2f2f2"
+                    stroke-width="0.768"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />{" "}
+                </g>
+              </svg>
+            </div>
+          </div>
         </div>
         {/* Content 2 */}
         <div className="hm-hr-mdiv hm-hr-background-img-2">
@@ -35,7 +72,9 @@ const Hero = () => {
             <br />
             support, repairs, upgrades and virus removals.
           </p>
-          <Link to='/services'className="hm-hr-mlink">Our Services</Link>
+          <Link to="/services" className="hm-hr-mlink">
+            Our Services
+          </Link>
         </div>
         {/* Content 3 */}
 
@@ -44,7 +83,9 @@ const Hero = () => {
             <span>Get in touch </span>for all your digital, branding and{" "}
             <span>tech needs.</span>
           </p>
-          <Link to='/contact-us'className="hm-hr-mlink">Contact Us</Link>
+          <Link to="/contact-us" className="hm-hr-mlink">
+            Contact Us
+          </Link>
         </div>
       </Slider>
     </div>
