@@ -37,7 +37,7 @@ const ServicesMain = () => {
             <p>Branding and Logo Creation</p>
           </Link>
           <Link to='web-maintain' className='ser-mlink'>
-            <p>Website Maintenanc</p>
+            <p>Website Maintenance</p>
           </Link>
         </div>
         <div className="ser-it-mdiv">

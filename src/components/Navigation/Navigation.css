@@ -25,6 +25,11 @@
   height: 2em;
 }
 
+.nav-container-header-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .link {
   text-decoration: none;
   color: #f2f2f2;
@@ -48,8 +53,10 @@
 }
 
 .link:hover::before {
-  background-color: #4b3db2; /* Color of the underline on hover */
+  background-color: #ffffff; /* Color of the underline on hover */
   border-radius: 20px;
+  height: 2px;
+  margin-top: 10em;
 }
 
 .container-header {
@@ -145,7 +152,10 @@
   margin-right: 2em;
   z-index: 9999;
   display: flex;
-  gap:1em;
+  gap: 0.5em;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0.1em 0.5em 0.1em 0.5em;
 }
 
 .nav-contact-ph-t {
@@ -162,32 +172,37 @@
 
 .nav-contact-email {
   z-index: 5;
+  background-color: #ffffff;
+  border-radius: 5px;
   transition: transform 0.3s ease-in-out;
 }
 
-.nav-contact-email:hover{
-transform: scale( 0.8 );
+.nav-contact-email:hover {
+  transform: scale(0.8);
 }
 
-.nav-contact-phone{
+.nav-contact-phone {
+  background-color: #ffffff;
   transition: transform 0.3s ease-in-out;
 }
 
-.nav-contact-phone:hover{
-  transform: scale( 0.8 );
+.nav-contact-phone:hover {
+  transform: scale(0.8);
 }
 
 @media (max-width: 1200px) {
   .nav-contact-ph {
-  margin-right: 1em;
+    margin-right: 1em;
   }
-  
 }
 
 @media (max-width: 992px) {
+  .nav-container-header-sub {
+    justify-content: flex-start;
+  }
 
-  .nav-contact-ph {
-    display: none;
+  .nav-container-items {
+    gap: 1.5rem;
   }
 }
 
@@ -195,6 +210,19 @@ transform: scale( 0.8 );
   .link {
     font-size: 15px;
   }
+  .nav-container-items {
+    gap: 0.7rem;
+  }
+
+  .nav-contact-ph {
+    display: flex;
+  }
+
+  .nav-contact-ph{
+    margin-right: 0em ;
+  }
+
+
 }
 
 @media (max-width: 552px) {
@@ -277,7 +305,8 @@ transform: scale( 0.8 );
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #4b3db2, #4b3db2);
+    /* background: radial-gradient(circle, #4b3db2, #4b3db2); */
+    background-color: #4b3db2;
     border-radius: 50%;
     transition: 0.3s ease;
   }

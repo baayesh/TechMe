@@ -38,20 +38,29 @@
   /* Behavior */
   position: absolute;
   align-self: flex-end;
+ 
 
   /* Colors */
   color: #f2f2f2;
 
   /* Fonts */
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  font-style: italic;
 
   /* Spaces and sizes */
   margin-bottom: -1.5em;
   right: 0;
   margin-right: 1em;
 }
+
+.subhead-title p:hover {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+
 
 .subhead-line {
   /* behavior */
