@@ -6,7 +6,7 @@ const SubHeader = ({ headerText }) => {
   return (
     <div className="subhead-mdiv">
       <div className="subhead-title">
-        <div className="subhead-line"></div>
+        {/* <div className="subhead-line"></div> */}
         <h2>{headerText}</h2>
         <Link to="/services">
           {" "}

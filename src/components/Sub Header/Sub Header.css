@@ -1,7 +1,7 @@
 .subhead-mdiv {
   /* Colors */
   /* border: 5px solid green; */
-  background-color: #4b3db2;
+  background-color: rgba(112,112,112,0.3);
   /* Spaces and sizes */
   padding-top: 5em;
 }
@@ -27,8 +27,8 @@
   /* border: 4px dashed salmon; */
   /* fonts */
   font-family: "Lovelo", sans-serif;
-  color: #f2f2f2;
-  font-weight: 900;
+  color: #4b3db2;
+  font-weight: 700;
   font-size: 3.5rem;
   /* Spaces and sizes */
   margin: 0em 0em;
