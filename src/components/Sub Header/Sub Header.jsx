@@ -10,7 +10,7 @@ const SubHeader = ({ headerText }) => {
         <h2>{headerText}</h2>
         <Link to="/services">
           {" "}
-          <p>All&nbsp;TechME&nbsp;Services</p>{" "}
+          <p>All&nbsp;Services</p>{" "}
         </Link>
       </div>
     </div>
