@@ -13,7 +13,7 @@ import ComingSoon from "./pages/Coming Soon/ComingSoon";
 import Header from "./components/Header/Header";
 import ContactDetails from "./pages/Contact Us/Contact US Details/ContactDetails";
 import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
-import Map from "./pages/Contact Us/Map/Map";
+
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
 import Service from "./pages/Individual Services/Service Template/Service";
@@ -47,7 +47,7 @@ function App() {
             <Navigation />
             <Header headerText={"Reach Out"} varient={"contact-us"} />
             <CusForm />
-            <Map />
+        
             <Footer />
           </Route>
           <Route path="/services">

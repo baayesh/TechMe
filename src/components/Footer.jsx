@@ -11,7 +11,7 @@ function Footer() {
           <div className="footer-column large">
             <h3>TechMe</h3>
             <p className="footer-description">
-              TechMe is a friendly Digital Agency based in New Zealand. We love
+              TechMe is a friendly Digital Agency based in New Zealand.<br/> We love
               building simple solutions to complex challenges.
             </p>
             <SocialMedia />
