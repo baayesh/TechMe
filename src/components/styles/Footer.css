@@ -98,6 +98,15 @@
   margin-bottom: 0;
 }
 
+.footer-social-media-mob{
+  display: none;
+}
+
+.footer-social-media-desk{
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive adjustments */
 
 @media (max-width: 768px) {
@@ -123,5 +132,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .footer-social-media-mob{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social-media-desk{
+    display: none;
   }
 }

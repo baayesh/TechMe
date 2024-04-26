@@ -11,10 +11,12 @@ function Footer() {
           <div className="footer-column large">
             <h3>TechMe</h3>
             <p className="footer-description">
-              TechMe is a friendly Digital Agency based in New Zealand.<br/> We love
-              building simple solutions to complex challenges.
+              TechMe is a friendly Digital Agency based in New Zealand.
+              <br /> We love building simple solutions to complex challenges.
             </p>
-            <SocialMedia />
+            <div className="footer-social-media-desk">
+              <SocialMedia  />
+            </div>
           </div>
 
           {/* Contact details */}
@@ -100,6 +102,9 @@ function Footer() {
               </div>
             </div>
           </div>
+          <div className="footer-social-media-mob">
+            <SocialMedia  />
+          </div>
 
           {/* Quick Links */}
           <div className="footer-column extra-small">
@@ -109,13 +114,13 @@ function Footer() {
                 <Link to="/"> Home </Link>
               </li>
               <li>
-                <Link to="/coming-soon">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/coming-soon"> Contact Us </Link>
+                <Link to="/contact-us"> Contact Us </Link>
               </li>
               <li>
-                <Link to="/coming-soon"> About Us</Link>
+                <Link to="/about-us"> About Us</Link>
               </li>
             </ul>
           </div>
@@ -125,25 +130,25 @@ function Footer() {
             <h4>Our&nbsp;Services</h4>
             <ul className="footer-font">
               <li>
-                <Link to="/coming-soon">Website development and hosting</Link>
+                <Link to="/web-development">Website development and hosting</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Branding and Logo Creation</Link>
+                <Link to="/branding">Branding and Logo Creation</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Website Maintenance</Link>
+                <Link to="/web-maintain">Website Maintenance</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Remote Support</Link>
+                <Link to="/remote-support">Remote Support</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Computer and Laptop Repairs</Link>
+                <Link to="/computer-and-laptop-repair">Computer and Laptop Repairs</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Computer upgrade and Servicing</Link>
+                <Link to="/computer-upgrade-and-servicing">Computer upgrade and Servicing</Link>
               </li>
               <li>
-                <Link to="/coming-soon">Computer Virus Removal</Link>
+                <Link to="/virus-removal">Computer Virus Removal</Link>
               </li>
             </ul>
           </div>
