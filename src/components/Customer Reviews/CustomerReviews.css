@@ -19,7 +19,7 @@ element.style{
 
 
 .slick-dots {
-  margin: 2em;
+  margin: 2em 0em;
 }
 
 .slick-dots li.slick-active button::before {

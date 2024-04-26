@@ -19,15 +19,15 @@ const Services = () => {
     arrows: true,
     lazyLoad: 'ondemand',
     slidesToShow: 3,
-    slidesToScroll: 2,
-    speed: 500,
+    slidesToScroll: 1,
+    speed: 4000,
     autoplay: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1, // Corrected property name
+          slidesToScroll: 1,  
         }
       },
       {
