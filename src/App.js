@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent";
 import React from "react";
@@ -29,10 +30,20 @@ import ComputerAndLaptop from "./pages/Individual Services/Computer Laptop Repai
 import ComputerUpgrade from "./pages/Individual Services/Computer Upgrade/ComputerUpgrade";
 import ComputerVirus from "./pages/Individual Services/Computer Virus/ComputerVirus";
 
+// Scroll to the top functionality
+const ScrollToTop = () =>{
+  const { pathname } = useLocation();
+  useEffect( ()=> {
+    window.scrollTo(0,0); //scroll to top of the page 
+  },[pathname]);
+  return null;
+};
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/">
             <Navigation />
