@@ -12,15 +12,11 @@ import CustomerReviews from "./components/Customer Reviews/CustomerReviews";
 import ContactUs from "./pages/Home/Contact Us/ContactUs";
 import ComingSoon from "./pages/Coming Soon/ComingSoon";
 import Header from "./components/Header/Header";
-import ContactDetails from "./pages/Contact Us/Contact US Details/ContactDetails";
 import CusForm from "./pages/Contact Us/Contact Us Form/CusForm";
-
 import ServicesMain from "./pages/Services Main/Services/Services";
 import SubHeader from "./components/Sub Header/Sub Header";
-import Service from "./pages/Individual Services/Service Template/Service";
 import Heading from "./pages/About Us/Heading/Heading";
 import VisionAndMission from "./pages/About Us/VisionAndMission/VisionAndMission";
-import OurTeam from "./pages/About Us/OurTeam/OurTeam";
 import WebDevelopement from "./pages/Individual Services/Web Development/WebDevelopement";
 import Hosting from "./pages/Individual Services/Hosting/Hosting";
 import Branding from "./pages/Individual Services/Branding and Logo/Branding";

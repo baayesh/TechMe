@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import web2Img from "../../../Assets/Our Services/Slider/img1.png";
 import services2 from "../../../Assets/Our Services/Slider/Services2.png";
 import services3 from "../../../Assets/Our Services/Slider/Services3.png";
+import { Helmet } from "react-helmet-async";
 
 const ServicesMain = () => {
   const settings = {
@@ -21,6 +22,13 @@ const ServicesMain = () => {
     arrows: false,
   };
   return (
+    <>
+    {/* For SEO Purpose */}
+    <Helmet>
+      <title>TechMe Services</title>
+      <meta name='description' content='
+"Discover top-notch web development services tailored to elevate your digital presence. At TechMe, we specialize in crafting dynamic and responsive websites that captivate audiences and drive results. From custom designs to seamless functionality, trust us to bring your vision to life. Explore our comprehensive suite of services today."'/>
+    </Helmet>
     <div className="ser-mdiv">
       <div className="ser-left">
         <div className="ser-web-mdiv">
@@ -72,6 +80,7 @@ const ServicesMain = () => {
         </Slider>
       </div>
     </div>
+    </>
   );
 };
 
