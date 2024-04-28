@@ -5,7 +5,7 @@ const ContactDetails = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Details</title>
+      
         <meta
           name="description"
           content="Get in touch with TechMe today and unlock the power of seamless communication. Whether you have inquiries, feedback, or collaboration opportunities, our team is here to assist you. Reach out now to start a conversation and take the next step towards your digital success."

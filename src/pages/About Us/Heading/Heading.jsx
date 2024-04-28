@@ -1,10 +1,19 @@
 import React from "react";
 import "./Heading.css";
+import { Helmet } from "react-helmet-async";
 
 const Heading = () => {
   const introHeading = "SIMPLE SOLUTIONS FOR DIFFICULT PROBLEMS";
 
   return (
+    <>
+    <Helmet>
+      <title>About US</title>
+      <meta 
+      name='description'
+      content="Discover the story behind TechMe - a team driven by innovation, expertise, and a passion for technology. Learn about our mission, values, and commitment to delivering exceptional web development solutions. Explore our journey and meet the dedicated professionals who make TechMe your trusted partner in digital transformation."
+      />
+    </Helmet>
     <div className="about-heading-mdiv">
       <div className="about-intro">
         <h3>Welcome To TechME</h3>
@@ -48,6 +57,7 @@ const Heading = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
