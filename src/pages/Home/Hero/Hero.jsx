@@ -26,7 +26,7 @@ const Hero = () => {
             and maintenance <span>solutions</span>.
           </p>
 
-          <div>
+          <div className="link-and-icon">
             <Link to="/services" className="hm-hr-mlink">
               Our Services
             </Link>
@@ -34,30 +34,28 @@ const Hero = () => {
             {/* Arrow */}
             <div>
               <svg
+              className="hm-hr-m-arrow"
                 width="50px"
                 height="50px"
-                viewBox="-2.4 -2.4 28.80 28.80"
+                viewBox="0 0 24 24"
                 fill="none"
-                className="hm-hr-marrow"
                 xmlns="http://www.w3.org/2000/svg"
-                transform="rotate(0)"
-                stroke="#000000"
+                transform="rotate(90)"
               >
-                <g stroke-width="0" />
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
                 <g
+                  id="SVGRepo_tracerCarrier"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  stroke="#000000"
-                  stroke-width="0.048"
                 />
 
-                <g>
+                <g id="SVGRepo_iconCarrier">
                   {" "}
                   <path
                     d="M12 4V20M12 4L8 8M12 4L16 8"
-                    stroke="#f2f2f2"
-                    stroke-width="0.768"
+                    stroke="#ffffff"
+                    stroke-width="1"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />{" "}
@@ -73,39 +71,40 @@ const Hero = () => {
             <br />
             support, repairs, upgrades and virus removals.
           </p>
-          <Link to="/services" className="hm-hr-mlink">
-            Our Services
-          </Link>
-          {/* Arrow */}
-          <div>
+
+          <div className="link-and-icon">
+            <Link to="/services" className="hm-hr-mlink">
+              Our Services
+            </Link>
+            {/* Arrow */}
+            <div>
             <svg
-              width="50px"
-              height="50px"
-              viewBox="-2.4 -2.4 28.80 28.80"
-              fill="none"
-              className="hm-hr-marrow"
-              xmlns="http://www.w3.org/2000/svg"
-              transform="rotate(0)"
-              stroke="#000000"
-            >
-              <g stroke-width="0" />
-              <g
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke="#000000"
-                stroke-width="0.048"
-              />
-              <g>
-                {" "}
-                <path
-                  d="M12 4V20M12 4L8 8M12 4L16 8"
-                  stroke="#f2f2f2"
-                  stroke-width="0.768"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />{" "}
-              </g>
-            </svg>
+                className="hm-hr-m-arrow"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  transform="rotate(90)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M12 4V20M12 4L8 8M12 4L16 8"
+                      stroke="#ffffff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />{" "}
+                  </g>
+                </svg>
+            </div>
           </div>
         </div>
         {/* Content 3 */}
@@ -115,40 +114,39 @@ const Hero = () => {
             <span>Get in touch </span>for all your digital, branding and{" "}
             <span>tech needs.</span>
           </p>
-          <Link to="/contact-us" className="hm-hr-mlink">
-            Contact Us
-          </Link>
-
-          {/* Arrow */}
-          <div>
+          <div className="link-and-icon">
+            <Link to="/contact-us" className="hm-hr-mlink">
+              Contact Us
+            </Link>
+            {/* Arrow */}
+            <div>
             <svg
-              width="50px"
-              height="50px"
-              viewBox="-2.4 -2.4 28.80 28.80"
-              fill="none"
-              className="hm-hr-marrow"
-              xmlns="http://www.w3.org/2000/svg"
-              transform="rotate(0)"
-              stroke="#000000"
-            >
-              <g stroke-width="0" />
-              <g
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke="#000000"
-                stroke-width="0.048"
-              />
-              <g>
-                {" "}
-                <path
-                  d="M12 4V20M12 4L8 8M12 4L16 8"
-                  stroke="#f2f2f2"
-                  stroke-width="0.768"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />{" "}
-              </g>
-            </svg>
+                className="hm-hr-m-arrow"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  transform="rotate(90)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M12 4V20M12 4L8 8M12 4L16 8"
+                      stroke="#ffffff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />{" "}
+                  </g>
+                </svg>
+            </div>
           </div>
         </div>
       </Slider>

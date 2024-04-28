@@ -17,8 +17,7 @@
   font-size: 1.5rem;
   color: #f2f2f2;
   text-decoration: none;
-  /* Spaces and sizes */
-  margin-top: 2em;
+
   /* Animations */
   transition: hover 0.3s ease-in-out;
 }
@@ -56,14 +55,21 @@
   margin-bottom: 0;
   padding-bottom: 1em;
 }
-
-
-.hm-hr-marrow {
-  animation:hm-hr-arrow-to-top 1.5s ease-in-out infinite alternate;
+.link-and-icon{
+  display: flex;
+  justify-content: center;
 }
+.hm-hr-m-arrow{
+  animation:hm-hr-arrow-to-right 1.5s ease-in-out infinite alternate;
+  rotate: 90deg;
+  margin-top: -0.2em;
+}
+
+
 .slick-dots li button:before {
   color: #4b3db2;
 }
+
 
 @media (max-width: 1200px) {
   .hm-hr-mtext {
@@ -107,7 +113,7 @@
 
 /* Animations */
 
-@keyframes hm-hr-arrow-to-top {
+@keyframes hm-hr-arrow-to-right {
   from{
     transform: translateY(0px);
   }
