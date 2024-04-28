@@ -33,7 +33,7 @@ const ServicesMain = () => {
       <div className="ser-left">
         <div className="ser-web-mdiv">
    
-            <h2>WEB DEVELOPMENT AND HOSTING.</h2>
+            <h2>WEB DEVELOPMENT AND HOSTING</h2>
      
           <Link to='/web-development' className='ser-mlink'>
             <p>Web Development</p>

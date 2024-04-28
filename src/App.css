@@ -47,7 +47,7 @@
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: white;
   /* removing horizontal scrolling */
   max-width: 100%;

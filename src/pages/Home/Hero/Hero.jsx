@@ -114,7 +114,7 @@ const Hero = () => {
             <span>Get in touch </span>for all your digital, branding and{" "}
             <span>tech needs.</span>
           </p>
-          <div className="link-and-icon">
+          <div className="link  -and-icon">
             <Link to="/contact-us" className="hm-hr-mlink">
               Contact Us
             </Link>

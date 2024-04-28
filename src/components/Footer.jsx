@@ -150,7 +150,7 @@ function Footer() {
 
           {/* Services */}
           <div className="footer-column small">
-            <h4>Our&nbsp;Services</h4>
+            <h4 className="footer-our-services">Our&nbsp;Services</h4>
             <ul className="footer-font">
               <li>
                 <Link to="/web-development">Website development and hosting</Link>

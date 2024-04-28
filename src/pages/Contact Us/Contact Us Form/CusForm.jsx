@@ -192,11 +192,11 @@ const CusForm = () => {
                       required
                     ></textarea>
                   </div>
-                  <div className=" ">
+             
                     <button type="submit" class=" custom-button-2">
                       SEND
                     </button>
-                  </div>
+         
                 </div>
               </form>
             </div>

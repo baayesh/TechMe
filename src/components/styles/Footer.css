@@ -57,6 +57,7 @@
 
 .footer-column.extra-small{
   flex:0.7
+  
 }
 
 .footer-column h3,
@@ -128,7 +129,7 @@
 
   .footer-column h3,h4{
     text-align: center;
-    align-self: center;
+    align-self: flex-start;
   }
 
   .footer-column.small{
@@ -140,7 +141,7 @@
   .footer-column.extra-small{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .footer-social-media-mob{
@@ -154,5 +155,9 @@
 
   .footer-description{
     text-align: center;
+  }
+
+  .footer-our-services{
+    align-self: center;
   }
 }
