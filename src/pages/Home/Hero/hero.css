@@ -62,7 +62,7 @@
 .hm-hr-m-arrow{
   animation:hm-hr-arrow-to-right 1.5s ease-in-out infinite alternate;
   rotate: 90deg;
-  margin-top: -0.2em;
+  margin-top: -0.5em;
 }
 
 

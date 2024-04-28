@@ -91,7 +91,8 @@
   /* Font */
   font-family: Poppins, sans-serif;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2rem;          
+text-align: center;
 }
 
 /* Contact Us Form */
@@ -328,8 +329,15 @@
   width: 5em;
   border-radius: 5em;
   margin-top: -4.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
   background-color: rgba(200, 200, 200, 1);
+}
+
+.cc-circle svg{
+  text-align: center;
 }
 
 .map-main{
@@ -398,6 +406,10 @@
   .conde-card{
     max-width: 20em;
   }
+
+  .contact-us-details-row2{
+    margin-top: 0; 
+  padding-top: 0; }
 
   .contact-us-form{
     padding-bottom: 5em;

@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import "./CusForm.css";
 
 import emailjs from "@emailjs/browser";
+import { Helmet } from "react-helmet-async";
 
 // Email.js code
 
@@ -32,6 +33,12 @@ const CusForm = () => {
   };
 
   return (
+
+    <>
+   <Helmet>
+    <title>Contact Us</title>
+   </Helmet>
+
     <div>
       <div className="cus-frm-main">
         <div className="cus-frm-label">
@@ -51,8 +58,8 @@ const CusForm = () => {
                 <div className="cc-circle">
                   {/* svg address */}
                   <svg
-                    width="70px"
-                    height="80px"
+                    width="50px"
+                    height="50px"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,8 +94,8 @@ const CusForm = () => {
                 <div className="cc-circle">
                   {/*  svg mobile */}
                   <svg
-                    width="60px"
-                    height="80px"
+                    width="50px"
+                    height="50px"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,8 +119,8 @@ const CusForm = () => {
           <div className="conde-card">
                 <div className="cc-circle">
                   <svg
-                    width="70px"
-                    height="80px"
+                    width="50px"
+                    height="50px"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,6 +209,7 @@ const CusForm = () => {
             </div>
           </div>
         </div>
+        </>
    
   );
 };

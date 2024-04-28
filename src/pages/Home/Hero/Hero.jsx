@@ -5,6 +5,7 @@ import Button from "../../../components/Button/Button";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Helmet } from "react-helmet-async";
 const Hero = () => {
   const settings = {
     dots: true,
@@ -17,6 +18,10 @@ const Hero = () => {
     waitForAnimate: false,
   };
   return (
+    <>
+    <Helmet>
+      <title>TechMe</title>
+    </Helmet>
     <div>
       <Slider {...settings}>
         {/* content 1 */}
@@ -114,7 +119,7 @@ const Hero = () => {
             <span>Get in touch </span>for all your digital, branding and{" "}
             <span>tech needs.</span>
           </p>
-          <div className="link  -and-icon">
+          <div className="link-and-icon">
             <Link to="/contact-us" className="hm-hr-mlink">
               Contact Us
             </Link>
@@ -151,6 +156,7 @@ const Hero = () => {
         </div>
       </Slider>
     </div>
+    </>
   );
 };
 
