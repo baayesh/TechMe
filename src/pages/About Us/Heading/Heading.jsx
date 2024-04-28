@@ -20,7 +20,7 @@ const Heading = () => {
         <div className="about-line"></div>
 
         <p>
-          Welcome to TechMe, where we're dedicated to Creating Better IT
+          Where we're dedicated to Creating Better IT
           Solutions. With a passion for innovation and a knack for simplifying
           complex challenges, we specialise in crafting intuitive digital
           experiences that elevate businesses to new heights. At the heart of
