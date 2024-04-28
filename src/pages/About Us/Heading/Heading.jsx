@@ -20,7 +20,7 @@ const Heading = () => {
         <div className="about-line"></div>
 
         <p>
-          Where we're dedicated to Creating Better IT
+          where we're dedicated to Creating Better IT
           Solutions. With a passion for innovation and a knack for simplifying
           complex challenges, we specialise in crafting intuitive digital
           experiences that elevate businesses to new heights. At the heart of
@@ -36,22 +36,22 @@ const Heading = () => {
       <div className="about-info">
         <div className="about-info-row">
           <div className="about-info-col about-info-border-1">
-            <h5>3.5</h5>
+            <h5>4+</h5>
             <p>Years of Experience</p>
           </div>
           <div className="about-info-col about-info-border-2">
-            <h5>20</h5>
+            <h5>10+</h5>
             <p>Completed Projects</p>
           </div>
         </div>
         <div className="about-info-row">
           <div className="about-info-col about-info-border-3">
          
-            <h5>100+</h5>
-            <p>Positive reviews</p>
+            <h5>20</h5>
+            <p>Employees</p>
           </div>
           <div className="about-info-col about-info-border-4">
-            <h5>200</h5>
+            <h5>50</h5>
             <p>Trusted Clients</p>
           </div>
         </div>

@@ -44,7 +44,6 @@ function Navigation() {
             id="menu-bar"
             className={isMenuOpen ? "t1 change" : "t1"}
             onClick={menuOnClick}
-            
           >
             <div id="bar1" className="bar"></div>
             <div id="bar2" className="bar"></div>
@@ -52,8 +51,8 @@ function Navigation() {
           </div>
 
           <div className="nav-contact-ph">
-            <a href="mailto:info@techme.co.nz">
-              <div className="nav-contact-email">
+            <div className="nav-contact-email">
+              <a href="mailto:info@techme.co.nz">
                 <svg
                   height="50px"
                   className="nav-contact-email"
@@ -89,8 +88,8 @@ function Navigation() {
                     </g>{" "}
                   </g>
                 </svg>
-              </div>
-            </a>
+              </a>
+            </div>
 
             {/* Mobile phone */}
             <div className="nav-contact-phone">
@@ -186,8 +185,8 @@ function Navigation() {
                   {/* Mobile and Email icons */}
                   {/* Email */}
                   <div className="nav-contact-ph">
-                    <a href="mailto:info@techme.co.nz">
-                      <div className="nav-contact-email">
+                    <div className="nav-contact-email">
+                      <a href="mailto:info@techme.co.nz">
                         <svg
                           height="50px"
                           className="nav-contact-email"
@@ -223,8 +222,8 @@ function Navigation() {
                             </g>{" "}
                           </g>
                         </svg>
-                      </div>
-                    </a>
+                      </a>
+                    </div>
 
                     {/* Mobile phone */}
                     <div className="nav-contact-phone">

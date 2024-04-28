@@ -18,7 +18,7 @@ const CusForm = () => {
 
     emailjs
       .sendForm('service_578kv28', 'template_3i5zh7a', form.current, {
-        publicKey: 'BLrsLYennX43KG1Nz',
+        publicKey: 'tJOoOnVylaqyaDtYV',
       })
       .then(
         () => {

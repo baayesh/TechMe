@@ -25,7 +25,7 @@ const ServicesMain = () => {
     <>
     {/* For SEO Purpose */}
     <Helmet>
-      <title>TechMe Services</title>
+      <title>Services</title>
       <meta name='description' content='
 "Discover top-notch web development services tailored to elevate your digital presence. At TechMe, we specialize in crafting dynamic and responsive websites that captivate audiences and drive results. From custom designs to seamless functionality, trust us to bring your vision to life. Explore our comprehensive suite of services today."'/>
     </Helmet>

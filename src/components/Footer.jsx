@@ -95,7 +95,9 @@ function Footer() {
                                 />{" "}
                               </g>
                             </svg>
-                    <h4>027 598 9989</h4>
+                    <a href="tel:+64275989998">
+                      <h4>027 598 9989</h4>
+                    </a>
                   </div>
                   <div className="footer-contact-details">
                     {" "}
@@ -120,7 +122,9 @@ function Footer() {
                         stroke-linecap="round"
                       />
                     </svg>
-                    <h4>info@techme.co.nz</h4>
+                    <a href="mailto:info@techme.co.nz">
+                      <h4>info@techme.co.nz</h4>
+                    </a>
                   </div>
                 </div>
               </div>

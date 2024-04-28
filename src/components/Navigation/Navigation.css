@@ -231,9 +231,7 @@
     display: none;
   }
 
-  /* New Navigation */
-  #menu {
-  }
+
 
   .side-menu {
     display: block;
@@ -348,6 +346,7 @@
 
   .nav-contact-ph{
     margin-right: 0.3em;
+    top:2.2em;
   }
 }
 
