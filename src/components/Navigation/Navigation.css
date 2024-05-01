@@ -52,7 +52,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.link:hover::before {
+.link:hover::before,.link.active::before {
   background-color: #ffffff; /* Color of the underline on hover */
   border-radius: 20px;
   height: 2px;

@@ -1,11 +1,12 @@
 import React from "react";
 import "./Navigation.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import logo from "../../Assets/logo512.png";
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const menuOnClick = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -159,7 +160,7 @@ function Navigation() {
           <div className="   nav-container-header-sub">
             <div className="row ">
               <nav>
-                {/* For Web//////////////////////////////////////////////////////////////////////////////////////////////// */}
+                {/* ????????WEB VERSION?????? */}
 
                 <div className="nav-container-div">
                   <ul className="nav-container-items mt-2">
@@ -168,16 +169,40 @@ function Navigation() {
                         <img src={logo} alt="logo" className="nav-logo" />
                       </li>
                     </Link>
-                    <Link className="link ps-2 pe-2" to="/">
+                    <Link
+                      onClick={menuOnClick}
+                      className={`link ps-2 pe-2 ${
+                        location.pathname === "/" && "active"
+                      }`}
+                      to="/"
+                    >
                       Tech<span>Me</span>
                     </Link>
-                    <Link className="link ps-2 pe-2" to="/services">
+                    <Link
+                      onClick={menuOnClick}
+                      className={`link ps-2 pe-2 ${
+                        location.pathname === "/services" && "active"
+                      }`}
+                      to="/services"
+                    >
                       Services
                     </Link>
-                    <Link className="link ps-2 pe-2" to="/contact-us">
+                    <Link
+                      onClick={menuOnClick}
+                      className={`link ps-2 pe-2 ${
+                        location.pathname === "/contact-us" && "active"
+                      }`}
+                      to="/contact-us"
+                    >
                       Contact&nbsp;Us
                     </Link>
-                    <Link className="link ps-2 pe-2 " to="/about-us">
+                    <Link
+                      onClick={menuOnClick}
+                      className={`link ps-2 pe-2 ${
+                        location.pathname === "/about-us" && "active"
+                      }`}
+                      to="/about-us"
+                    >
                       About&nbsp;Us
                     </Link>
                   </ul>
