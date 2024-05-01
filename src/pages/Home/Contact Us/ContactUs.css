@@ -20,7 +20,7 @@
   margin-bottom: 0;
   text-decoration: none;
   text-align: center;
-  padding: 0.2em 0em;
+
 }
 
 .hm-cus-mdiv h3 {
@@ -29,6 +29,14 @@
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
+}
+
+.hm-cus-cus-link{
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 0.3em 0em;
+
 }
 
 
