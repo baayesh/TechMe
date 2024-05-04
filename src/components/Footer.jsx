@@ -21,14 +21,14 @@ function Footer() {
 
           {/* Contact details */}
           <div>
-            <div className="footer-contact-details-quick-links">
+            <div className="footer-contact-details-quick-links footer-address">
               <div className="footer-column small">
                 <h4>Contact</h4>
                 <div className="">
                   <div className="footer-contact-details">
                     <svg
-                      width="30px"
-                      height="30px"
+                      width="35px"
+                      height="35px"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"

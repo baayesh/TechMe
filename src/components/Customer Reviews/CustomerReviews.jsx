@@ -19,10 +19,10 @@ const CustomerReviews = () => {
     <div className="ayesh">
       <Slider {...settings}>
         <div className="slider-mdiv">
-          <img src={GemiTeas} alt="" />
+          <a href="http://gemiteas.com" target="_blank"><img src={GemiTeas} alt="" /></a>
         </div>
         <div className="slider-mdiv">
-          <img src={TheNinjas} alt="" />
+          <a href="http://theninjas.co.nz" target="_blank"><img src={TheNinjas} alt="" /></a>
         </div>
       </Slider>
     </div>

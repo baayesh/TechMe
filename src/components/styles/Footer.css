@@ -89,10 +89,16 @@
   justify-content: center;
 }
 
+.footer-address svg{
+  align-self: flex-start;
+}
+
 .footer-contact-details {
   display: flex;
+  align-items: center;
+  gap: 0.7em;
   margin-bottom: 1em;
-    transition: transform 0.3 ease-in-out;
+  transition: transform 0.3 ease-in-out;
 }
 
 .footer-contact-details h4 {
