@@ -53,7 +53,7 @@ const ServicesMain = () => {
         <div className="ser-right">
           <div className="ser-paragraphs">
             {activeIndex === null ? (
-              <p>Default Para</p>
+              <p>Elevate your online presence with <strong>TechMe</strong>, your premier destination for web and IT services. From expert web development and reliable hosting to branding, maintenance, remote support, and virus removal, we've got you covered. With our skilled team and commitment to customer satisfaction, experience seamless solutions tailored to your needs. Get started today and unlock the full potential of your digital presence with <strong>TechMe.</strong></p>
             ) : activeIndex === 0 ? (
               <p>
                 We specialise in creating custom websites that cater to your
