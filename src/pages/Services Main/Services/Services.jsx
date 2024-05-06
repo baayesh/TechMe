@@ -59,29 +59,29 @@ const ServicesMain = () => {
                 We specialise in creating custom websites that cater to your
                 unique requirements, whether you need a simple informational
                 site or a complex e-commerce platform. Our team collaborates
-                closely with you to <span>design and develop</span> a
-                <span> professional, user-friendly website</span> that reflects
-                your brand identity and <span>engages your audience</span>
+                closely with you to <strong>design and develop</strong> a
+                <strong> professional, user-friendly website</strong> that reflects
+                your brand identity and <strong>engages your audience </strong>
                 effectively.
               </p>
             ) : activeIndex === 1 ? (
               <p>
                 In addition to website development, we provide
-                <span>reliable hosting solutions </span>to ensure your website
-                is <span>accessible and secure</span> on the internet. With our
+                 <strong> reliable hosting solutions </strong> to ensure your website
+                is <strong> accessible and secure </strong> on the internet. With our
                 hosting services, you can trust that your website will have the
-                <span> performance and stability</span> it needs to
-                <span>support your online presence</span> and business
+                <strong> performance and stability </strong> it needs to
+                <strong> support your online presence </strong> and business
                 objectives.
               </p>
             ) : activeIndex === 2 ? (
               <p>
                 Our branding and logo designing service helps businesses
-                establish a <span>unique and memorable identity. </span>We
+                establish a <strong> unique and memorable identity. </strong> We
                 collaborate with clients to create
-                <span>distinctive logos</span> and develop comprehensive
+                <strong> distinctive logos </strong> and develop comprehensive
                 branding strategies that
-                <span>reflect your values, vision, and target audience.</span>
+                <strong> reflect your values, vision, and target audience. </strong>
                 Our goal is to help businesses stand out in a competitive market
                 and leave a lasting impression on your customers.
               </p>
@@ -90,38 +90,36 @@ const ServicesMain = () => {
                 Keeping your website updated and optimised is essential for its
                 performance and security. Our website maintenance service
                 ensures that your
-                <span>site remains functional, secure, and up-to-date</span>
+                <strong> site remains functional, secure, and up-to-date </strong>
                 with the latest trends and technologies. From
-                <span>regular content updates</span> to software patches and
+                <strong> regular content updates </strong> to software patches and
                 security scans, we take care of all aspects of maintaining your
                 website so you can focus on running your business.
               </p>
             ) : activeIndex === 4 ? (
               <p>
                 Our remote support service allows us to assist you with
-                <span>technical issues</span> and <span>troubleshooting</span>
+                <strong> technical issues </strong> and <strong> troubleshooting </strong>
                 without the need for an on-site visit. Using
-                <span>secure remote access tools,</span> our experienced
+                <strong> secure remote access tools, </strong> our experienced
                 technicians can diagnose and resolve a wide range of IT problems
-                quickly and efficiently. Whether you're experiencing
-                <span>
-                  software glitches, network issues, or hardware malfunctions,
-                </span>
+                quickly and efficiently. Whether you're experiencing <strong>
+                  software glitches, network issues, or hardware malfunctions, </strong>
                 we're here to provide prompt and reliable support from anywhere.
               </p>
             ) : activeIndex === 5 ? (
               <p>
                 When your computer or laptop encounters problems, our skilled
                 technicians are here to help. We offer
-                <span>
+                <strong>
                   comprehensive repair services for both hardware and software
                   issues,
-                </span>
+                </strong>
                 including fixing hardware malfunctions, replacing damaged
                 components, and resolving software errors. Our goal is to get
-                your <span>devices back up and running smoothly</span> as
+                your <strong>devices back up and running smoothly</strong> as
                 quickly as possible,
-                <span>minimising downtime and disruption</span> to your
+                <strong>minimising downtime and disruption</strong> to your
                 productivity.
               </p>
             ) : activeIndex === 6 ? (
@@ -129,10 +127,10 @@ const ServicesMain = () => {
                 Keeping your computer hardware up-to-date and well-maintained is
                 essential for optimal performance and longevity. Our computer
                 upgrades and servicing service helps ensure that your
-                <span>devices are operating at their best.</span> Whether you
+                <strong>devices are operating at their best.</strong> Whether you
                 need to upgrade your hardware for
-                <span>better performance</span> or simply require
-                <span>routine maintenance to prevent issues,</span> our
+                <strong>better performance</strong> or simply require
+                <strong>routine maintenance to prevent issues,</strong> our
                 technicians have the expertise to handle all your upgrade and
                 servicing needs.
               </p>
@@ -141,12 +139,12 @@ const ServicesMain = () => {
                 Dealing with computer viruses and malware can be frustrating and
                 potentially damaging to your system and data. Our virus removal
                 service helps
-                <span>identify and eliminate malicious software</span> from your
+                <strong>identify and eliminate malicious software</strong> from your
                 computers, ensuring they're
-                <span>safe and secure from cyber threats.</span> Our technicians
-                use <span>advanced tools and techniques</span> to thoroughly
+                <strong>safe and secure from cyber threats.</strong> Our technicians
+                use <strong>advanced tools and techniques</strong> to thoroughly
                 scan and remove viruses,
-                <span>restoring your system to its optimal state</span> and
+                <strong>restoring your system to its optimal state</strong> and
                 providing peace of mind.
               </p>
             )}
