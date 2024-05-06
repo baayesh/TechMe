@@ -182,6 +182,10 @@
   .ser-it-mdiv p {
     font-size: 1.3rem;
   }
+
+  .ser-right{
+    display: none;
+  }
 }
 
 @media (max-width: 552px) {
