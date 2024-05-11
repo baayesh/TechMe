@@ -9,7 +9,7 @@ function Navigation() {
   const location = useLocation();
 
   const menuOnClick = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen(!isMenuOpen); 
     console.log("clicked");
   };
 
@@ -134,16 +134,16 @@ function Navigation() {
         <nav className={isMenuOpen ? "nav change" : "nav"} id="nav">
           <ul>
             <li>
-              <a href="/">TechMe</a>
+             <Link to="/">Tech<strong>Me</strong></Link>
             </li>
             <li>
-              <a href="services">Services</a>
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <a href="about-us">About&nbsp;Us</a>
+            <Link to="/about-us">About&nbsp;Us</Link>
             </li>
             <li>
-              <a href="contact-us ">Contact&nbsp;Us</a>
+              <Link to="/contact-us">Contact&nbsp;Us</Link>
             </li>
           </ul>
         </nav>

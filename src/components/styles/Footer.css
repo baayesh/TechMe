@@ -95,10 +95,13 @@
 
 .footer-contact-details {
   display: flex;
-  align-items: center;
-  gap: 0.7em;
+  align-items: flex-end;
   margin-bottom: 1em;
   transition: transform 0.3 ease-in-out;
+}
+
+.footer-contact-details svg{
+  margin-bottom: -2px;
 }
 
 .footer-contact-details h4 {

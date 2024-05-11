@@ -62,7 +62,7 @@ function Footer() {
                     {" "}
                     <svg
                               width="35px"
-                              height="40px"
+                              height="35px"
               
                               viewBox="-2.64 -2.64 29.28 29.28"
                               fill="none"
@@ -102,8 +102,8 @@ function Footer() {
                   <div className="footer-contact-details">
                     {" "}
                     <svg
-                      width="30px"
-                      height="30px"
+                      width="35px"
+                      height="35px"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -139,10 +139,10 @@ function Footer() {
                     <Link to="/services">Services</Link>
                   </li>
                   <li>
-                    <Link to="/contact-us"> Contact Us </Link>
+                    <Link to="/contact-us"> Contact&nbsp;Us </Link>
                   </li>
                   <li>
-                    <Link to="/about-us"> About Us</Link>
+                    <Link to="/about-us"> About&nbsp;Us</Link>
                   </li>
                 </ul>
               </div>
