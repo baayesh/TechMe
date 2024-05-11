@@ -8,6 +8,10 @@ function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
+  const handleMenuItemClicked = () => {
+    setIsMenuOpen(false);
+  };
+
   const menuOnClick = () => {
     setIsMenuOpen(!isMenuOpen); 
     console.log("clicked");
@@ -133,17 +137,17 @@ function Navigation() {
         </div>
         <nav className={isMenuOpen ? "nav change" : "nav"} id="nav">
           <ul>
-            <li>
-             <Link to="/">Tech<strong>Me</strong></Link>
+            <li >
+             <Link to="/" onClick={handleMenuItemClicked}>Tech<strong>Me</strong></Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services" onClick={handleMenuItemClicked}>Services</Link>
             </li>
             <li>
-            <Link to="/about-us">About&nbsp;Us</Link>
+            <Link to="/about-us" onClick={handleMenuItemClicked}>About&nbsp;Us</Link>
             </li>
             <li>
-              <Link to="/contact-us">Contact&nbsp;Us</Link>
+              <Link to="/contact-us" onClick={handleMenuItemClicked}>Contact&nbsp;Us</Link>
             </li>
           </ul>
         </nav>
