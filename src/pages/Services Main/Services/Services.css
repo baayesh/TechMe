@@ -3,6 +3,14 @@
 
   margin-top: 2em;
 }
+
+.ser-mdiv-mobile{
+  display: none;
+}
+
+.ser-mdiv-desktop{
+  display: flex;
+}
 /* Left column */
 
 .ser-web-mdiv h2 {
@@ -57,6 +65,11 @@
 .ser-it-mdiv p:hover {
   color: #4b3db2;
   transform: scale(1.1, 1.2);
+}
+
+/* Mobile Items */
+.ser-left a{
+  text-decoration: none ;
 }
 /* right column */
 
@@ -185,6 +198,14 @@
 
   .ser-right{
     display: none;
+  }
+
+  .ser-mdiv-desktop{
+    display: none;
+  }
+
+  .ser-mdiv-mobile{
+    display: flex;
   }
 }
 
