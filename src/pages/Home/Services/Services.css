@@ -116,6 +116,7 @@
 .hm-sv-card-para {
   font-family: Poppins;
   font-weight: 200;
+  text-align: center;
   font-size: 1rem;
   padding-left: 8%;
   padding-right: 8%;
@@ -138,13 +139,18 @@
 
   color: #4b3db2;
 }
+@media (max-width:1280px){
+  .hm-sv-card-para{
+    font-size: 0.8rem;
+  }
+}
 
 @media (max-width: 1200px) {
   .hm-sv-card-title {
     font-size: 1.2rem;
   }
   .hm-sv-card-para {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -154,13 +160,13 @@
   }
 
   .hm-sv-card-para {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 768px) {
   .hm-sv-card-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .hm-sv-card-para {
@@ -170,6 +176,12 @@
   .hm-sv-title {
     font-size: 2rem;
   }
+
+ .hm-sv-card-content img{
+   margin-top: 2em;
+  margin-bottom: 1em; 
+
+ }
 }
 
 @media (max-width: 552px) {
@@ -178,8 +190,16 @@
   }
 
   .hm-sv-card-para {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
+
+  .hm-sv-card-content img{
+    margin-top: 1em;
+   margin-bottom: 1em; 
+ 
+  }
+
+  
 }
 
 @media (max-width: 390px) {

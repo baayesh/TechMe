@@ -94,6 +94,10 @@
     margin-top: 20dvh;
     padding-top: 0;
   }
+
+  /* .hm-hr-mlink{
+    font-size: 1rem;
+  } */
 }
 
 @media (max-width: 450px) {

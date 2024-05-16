@@ -13,7 +13,7 @@ function Navigation() {
   };
 
   const menuOnClick = () => {
-    setIsMenuOpen(!isMenuOpen); 
+    setIsMenuOpen(!isMenuOpen);
     console.log("clicked");
   };
 
@@ -137,17 +137,26 @@ function Navigation() {
         </div>
         <nav className={isMenuOpen ? "nav change" : "nav"} id="nav">
           <ul>
-            <li >
-             <Link to="/" onClick={handleMenuItemClicked}>Tech<strong>Me</strong></Link>
+            <li>
+              <Link to="/" onClick={handleMenuItemClicked}>
+                Tech<strong>Me</strong>
+              </Link>
             </li>
             <li>
-              <Link to="/services" onClick={handleMenuItemClicked}>Services</Link>
+              <Link to="/services" onClick={handleMenuItemClicked}>
+                Services
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/about-us" onClick={handleMenuItemClicked}>
+                About&nbsp;Us
+              </Link>
             </li>
             <li>
-            <Link to="/about-us" onClick={handleMenuItemClicked}>About&nbsp;Us</Link>
-            </li>
-            <li>
-              <Link to="/contact-us" onClick={handleMenuItemClicked}>Contact&nbsp;Us</Link>
+              <Link to="/contact-us" onClick={handleMenuItemClicked}>
+                Contact&nbsp;Us
+              </Link>
             </li>
           </ul>
         </nav>
@@ -194,21 +203,22 @@ function Navigation() {
                     <Link
                       onClick={menuOnClick}
                       className={`link ps-2 pe-2 ${
-                        location.pathname === "/contact-us" && "active"
-                      }`}
-                      to="/contact-us"
-                    >
-                      Contact&nbsp;Us
-                    </Link>
-                    <Link
-                      onClick={menuOnClick}
-                      className={`link ps-2 pe-2 ${
                         location.pathname === "/about-us" && "active"
                       }`}
                       to="/about-us"
                     >
                       About&nbsp;Us
                     </Link>
+                    <Link
+                      onClick={menuOnClick}
+                      className={`link ps-2 pe-2 ${
+                        location.pathname === "/contact-us" && "active"
+                      }`}
+                      to="/contact-us"
+                    >
+                      Contact&nbsp;Us
+                    </Link>
+
                   </ul>
 
                   {/* Mobile and Email icons */}

@@ -188,6 +188,7 @@
 
 .nav-contact-phone:hover {
   transform: scale(0.8);
+
 }
 
 @media (max-width: 1200px) {
@@ -214,12 +215,9 @@
     gap: 0.7rem;
   }
 
-  .nav-contact-ph {
-    display: flex;
-  }
-
   .nav-contact-ph{
     margin-right: 0em ;
+    display: flex;
   }
 
 
