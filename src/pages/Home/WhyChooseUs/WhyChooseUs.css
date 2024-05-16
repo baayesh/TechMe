@@ -52,7 +52,7 @@
 .hm-why-choose-contenttitlediv p {
   font-family: Poppins;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
   color: #707070;
 
   margin-bottom: 0;
@@ -61,14 +61,14 @@
 
 .hm-why-choose-contentdiv p {
   font-family: Poppins, sans-serif;
-  font-weight: 300;
   font-size: 0.9rem;
+  font-weight: 300;
   margin: auto 0em;
 }
 
 .hm-why-choose-contentdiv2 p {
   font-family: Poppins;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 0.9rem;
   margin-top: auto;
   margin-bottom: auto;
@@ -94,7 +94,7 @@
 .hm-why-choose-contenttitlediv2 p {
   font-family: Poppins;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
   margin: auto 0em;
 }
 
@@ -148,7 +148,7 @@
     font-size: 0.7rem;
   }
   .hm-why-choose-titlediv h3{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -162,13 +162,13 @@
   }
   .hm-why-choose-contenttitlediv p {
     white-space: nowrap;
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-weight: 900;
+    font-size: 1.8rem;
   }
   .hm-why-choose-contenttitlediv2 p {
     white-space: nowrap;
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-weight: 900;
+    font-size: 1.8rem;
   }
 
   .hm-why-choose-contenttitlediv2 {

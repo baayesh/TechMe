@@ -215,7 +215,7 @@ const data = [
   },
   {
     tag: "IT Service",
-    title: "VIRUSREMOVAL",
+    title: "VIRUS REMOVAL",
     img: compVirusRemove,
     para: " Our advanced tools and techniques effectively identify and eliminate viruses, safeguarding your system and data from cyber threats.",
   },
