@@ -23,7 +23,7 @@ function Footer() {
           <div>
             <div className="footer-contact-details-quick-links footer-address">
               <div className="footer-column small">
-                <h4>Contact</h4>
+                <h4 className="footer-title-margin">Contact</h4>
                 <div className="">
                   <div className="footer-contact-details">
                     <svg

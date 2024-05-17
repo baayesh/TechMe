@@ -57,6 +57,10 @@
   flex: 0.7;
 }
 
+.footer-title-margin{
+  margin-left: 0.3em !important;
+}
+
 .footer-column h3,
 .footer-column h4 {
   margin: 0 0 10px 0;
@@ -97,7 +101,7 @@
   display: flex;
   align-items: flex-end;
   margin-bottom: 1em;
-  transition: transform 0.3 ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .footer-contact-details svg{
@@ -114,7 +118,7 @@
 
 .footer-contact-details:hover {
   font-weight: 700;
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2);
 }
 
 .footer-social-media-mob {
