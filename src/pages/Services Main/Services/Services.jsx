@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Services.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,11 +9,50 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const ServicesMain = () => {
   const [activeIndex, setActiveIndex] = useState(null); //create use state hook to deal with paragraphs
+  // useState for animation change
+  const [animatioKey, setAnimationKey] = useState(0);
+
+  // Generate random animation number for changing content
+  useEffect(() => {
+    const randomNumber = Math.floor(Math.random() * 10);
+    setAnimationKey(randomNumber);
+  }, [])
+
+  //Handle click to handle whe user click on the text )
 
   //Handle click to handle whe user click on the text
   const handleClick = (index) => {
     setActiveIndex(index);
   };
+
+  const [isFixed, setIsFixed] = useState(true);
+  const paragraphRef = useRef(null);
+
+
+
+
+  useEffect(() => {
+    const handleScroll = () =>{
+      const scrollY = window.scrollY;
+      const stopPosition = 400;
+
+      if (scrollY > stopPosition) {
+        setIsFixed(false);
+      } else {
+        setIsFixed(true);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
+   
+  
+   
+
+
+  });
 
   return (
     <>
@@ -28,7 +67,7 @@ const ServicesMain = () => {
       </Helmet>
       <div>
         <div className="ser-mdiv ser-mdiv-desktop">
-          <div className="ser-left">
+          <div id="ser-left" className="ser-left">
             <div className="ser-web-mdiv">
               <h2>WEB DEVELOPMENT AND HOSTING</h2>
               <p onClick={() => handleClick(0)}>Web Development</p>
@@ -46,8 +85,8 @@ const ServicesMain = () => {
               <p onClick={() => handleClick(7)}>Virus Removal</p>
             </div>
           </div>
-          <div className="ser-right">
-            <div className="ser-paragraphs">
+          <div className="ser-right ser-animated-para">
+            <div className={`ser-paragraphs ${isFixed ? 'ser-paragraphs-fixed' : 'ser-paragraphs-absolute'}`}>
               {activeIndex === null ? (
                 <p>
                   Elevate your online presence with <strong>TechMe</strong>,
@@ -60,7 +99,7 @@ const ServicesMain = () => {
                   presence with <strong>TechMe.</strong>
                 </p>
               ) : activeIndex === 0 ? (
-                <p>
+                <p className="ser-animated-para">
                   We specialise in creating custom websites that cater to your
                   unique requirements, whether you need a simple informational
                   site or a complex e-commerce platform. Our team collaborates
@@ -71,7 +110,7 @@ const ServicesMain = () => {
                   effectively.
                 </p>
               ) : activeIndex === 1 ? (
-                <p>
+                <p className="ser-animated-para">
                   In addition to website development, we provide
                   <strong> reliable hosting solutions </strong> to ensure your
                   website is <strong> accessible and secure </strong> on the
@@ -82,7 +121,7 @@ const ServicesMain = () => {
                   objectives.
                 </p>
               ) : activeIndex === 2 ? (
-                <p>
+                <p className="ser-animated-para">
                   Our branding and logo designing service helps businesses
                   establish a <strong> unique and memorable identity. </strong>{" "}
                   We collaborate with clients to create
@@ -128,7 +167,7 @@ const ServicesMain = () => {
                 <p>
                   When your computer or laptop encounters problems, our skilled
                   technicians are here to help. We offer
-                  <strong>
+                  <strong>{" "} 
                     comprehensive repair services for both hardware and software
                     issues,
                   </strong>
@@ -144,10 +183,10 @@ const ServicesMain = () => {
                   Keeping your computer hardware up-to-date and well-maintained
                   is essential for optimal performance and longevity. Our
                   computer upgrades and servicing service helps ensure that your
-                  <strong>devices are operating at their best.</strong> Whether
+                  <strong>{" "}devices are operating at their best.</strong> Whether
                   you need to upgrade your hardware for
-                  <strong>better performance</strong> or simply require
-                  <strong>routine maintenance to prevent issues,</strong> our
+                  <strong>{" "}better performance</strong> or simply require
+                  <strong>{" "}routine maintenance to prevent issues,</strong> our
                   technicians have the expertise to handle all your upgrade and
                   servicing needs.
                 </p>
@@ -157,10 +196,10 @@ const ServicesMain = () => {
                   and potentially damaging to your system and data. Our virus
                   removal service helps
                   <strong>
-                    identify and eliminate malicious software
+                  {" "}identify and eliminate malicious software
                   </strong>{" "}
                   from your computers, ensuring they're
-                  <strong>safe and secure from cyber threats.</strong> Our
+                  <strong>{" "}safe and secure from cyber threats.</strong> Our
                   technicians use <strong>advanced tools and techniques</strong>{" "}
                   to thoroughly scan and remove viruses,
                   <strong>

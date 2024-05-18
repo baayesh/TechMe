@@ -5,7 +5,7 @@ import SocialMedia from "../components/AboutUS/SocialMedia";
 
 function Footer() {
   return (
-    <div>
+    <div className="footer-z">
       <footer className="container-fluid footer f-color">
         <div className="container">
           <div className="footer-column large">

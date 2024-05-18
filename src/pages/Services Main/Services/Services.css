@@ -39,6 +39,7 @@
 .ser-web-mdiv p:hover {
   color: #4b3db2;
   transform: scale(1.1, 1.2);
+  cursor: pointer;
 }
 
 .ser-it-mdiv h2 {
@@ -65,6 +66,7 @@
 .ser-it-mdiv p:hover {
   color: #4b3db2;
   transform: scale(1.1, 1.2);
+  cursor: pointer;
 }
 
 /* Mobile Items */
@@ -76,22 +78,36 @@
 .ser-right {
   flex: 1;
   display: flex;
-  flex-direction: column;
-
   align-items: flex-start;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 5em; 
+  z-index: 0;                                           
 }
 
 .ser-paragraphs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(112, 112, 112, 0.2);
+  /* background-color: rgba(112, 112, 112, 0.2); */
   border-radius: 20px;
   padding: 2em;
   margin-right: 3em;
   max-width: 40em;
+  letter-spacing: 0.1rem;
+
+  /* Background SVG */
+  background-image: url('../../../Assets/Our\ Services/SVG/refresh.svg');
+  background-repeat: no-repeat;
+}
+
+.ser-paragraphs-fixed{
+  position: fixed;
+  
+}
+
+.ser-paragraphs-absolute{
+position: absolute;
+bottom: 0;
 }
 
 .ser-paragraphs p {
@@ -100,13 +116,27 @@
   font-size: 1rem;
   text-align: justify;
   line-height: 2;
- 
-
 }
 
 .ser-paragraphs p span {
   font-weight: 700;
 }
+
+.ser-animated-para{
+  animation: fadeIn 1s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
+
 
 @media (max-width: 1700px) {
   .ser-right {
