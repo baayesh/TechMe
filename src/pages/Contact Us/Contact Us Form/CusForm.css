@@ -41,7 +41,7 @@
 .cus-contact-details-col{
   background-image: linear-gradient(to right, rgba(75,61,178, 0.1), rgba(70,70,70,0.05));
   padding: 2em;
-  width: 80%;
+  width: 100%;
   max-width:45em;
   display: flex;
   align-items: center;
@@ -49,8 +49,15 @@
 
 }
 
+.cus-contact-details-col:hover{
+  background-color: rgba(75,61,178, 0.05)
+}
+
 .cus-contact-details-col svg{
   margin-right: 1em;
+}
+.cus-contact-details-col a{
+  text-decoration: none;
 }
 
 .cus-contact-details-col h5{
@@ -58,23 +65,22 @@
   color: #4b3db2;
   font-size: 1.5rem;
   font-weight: 800;
+ 
 }
+
+.cus-contact-details-col h5:hover{
+ text-decoration: underline;
+}
+
+.cus-contact-details-col p:hover{
+  text-decoration: underline;
+ }
+ 
 
 .cus-contact-details p{
   font-family: Poppins, sans-serif;
   color: #4b3db2;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Contact Us Form */
 
@@ -122,17 +128,26 @@
   margin: 0.3em 1em 0.3em 0.3em;
 }
 
-.cus-frm-form input::placeholder {
+.contact-us-form input{
+  font-family: Poppins, sans-serif;
+  font-size: 0.8rem;
+}
+
+.contact-us-form input::placeholder {
   /* Fonts */
   font-family: Poppins, sans-serif;
   font-size: 0.8rem;
 }
 
-.cus-frm-form textarea {
-  border: 2px solid #4b3db2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0.3em 1em 0.3em 0.3em;
+.contact-us-form textarea {
   height: 10em;
+  font-family: Poppins,sans-serif;
+  font-size: 0.8rem;
+}
+
+.contact-us-form textarea::placeholder{
+  font-family: Poppins, sans-serif;
+  font-size: 0.8rem;
 }
 
 .cus-frm-form textarea::placeholder {
@@ -201,10 +216,13 @@
 }
 
 .contact-us-form label {
-  margin-left: 0;
   margin-top: 1em;
+  margin-bottom: 0.4em;
   text-align: left !important;
   font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.04rem;
 }
 
 .contact-us-form button {
@@ -212,8 +230,23 @@
   margin-right: 3em;
 }
 
+/* Recaptcha */
+
 .cus-recaptcha{
   margin-top: 0.5em;
+}
+
+/* Map */
+.con-map{
+  display: flex;
+  justify-content: center;
+}
+
+.con-map iframe{
+  width: 85%;
+  height: 15em;
+  margin: 1em;
+
 }
 
 @media (max-width: 1200px) {
