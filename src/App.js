@@ -42,7 +42,7 @@ const ScrollToTop = () => {
 };
 
 // Google Analytics Intergration
-ReactGA.initialize("G-DD47342JXG");
+ReactGA.initialize("G-S9EB38MSLJ");
 
 // Google analytics - page views
 ReactGA.send({ hitType: "pageview", page: window.location.pathname,});
