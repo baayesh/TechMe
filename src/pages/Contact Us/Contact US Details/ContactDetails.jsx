@@ -11,6 +11,22 @@ const ContactDetails = () => {
           content="Get in touch with TechMe today and unlock the power of seamless communication. Whether you have inquiries, feedback, or collaboration opportunities, our team is here to assist you. Reach out now to start a conversation and take the next step towards your digital success."
         />
         <meta name="keywords" content="TechMe Contact Details" />
+        <meta
+          name="description"
+          content="TechMe is a web development company that provides web development services and solutions."
+        />
+        <meta
+          name="keywords"
+          content="website development Christchurch  
+make my company website Christchurch, 
+build a website for my company Christchurch,
+create a logo for my business Christchurch,
+website development New Zealand,
+make my company website New Zealand,
+build a website for my company New Zealand,
+create a logo for my business New Zealand"
+        />
+
       </Helmet>
       <div className="conde-details">
         <div className="conde-card">

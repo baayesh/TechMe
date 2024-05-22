@@ -19,72 +19,87 @@ const Hero = () => {
   };
   return (
     <>
-    <Helmet>
-      <title>TechMe</title>
-    </Helmet>
-    <div>
-      <Slider {...settings}>
-        {/* content 1 */}
-        <div className="hm-hr-mdiv hm-hr-background-img-1">
-          <p className="hm-hr-mtext">
-            Elevate your <span>online presence</span> with development, branding
-            and maintenance <span>solutions</span>.
-          </p>
+      <Helmet>
+        <title>TechMe</title>
+        <meta
+          name="description"
+          content="TechMe is a web development company that provides web development services and solutions."
+        />
+        <meta
+          name="keywords"
+          content="website development Christchurch  
+make my company website Christchurch, 
+build a website for my company Christchurch,
+create a logo for my business Christchurch,
+website development New Zealand,
+make my company website New Zealand,
+build a website for my company New Zealand,
+create a logo for my business New Zealand"
+        />
+      </Helmet>
+      <div>
+        <Slider {...settings}>
+          {/* content 1 */}
+          <div className="hm-hr-mdiv hm-hr-background-img-1">
+            <p className="hm-hr-mtext">
+              Elevate your <span>online presence</span> with development,
+              branding and maintenance <span>solutions</span>.
+            </p>
 
-          <div className="link-and-icon">
-            <Link to="/services" className="hm-hr-mlink">
-              Our Services
-            </Link>
+            <div className="link-and-icon">
+              <Link to="/services" className="hm-hr-mlink">
+                Our Services
+              </Link>
 
-            {/* Arrow */}
-            <div>
-              <svg
-              className="hm-hr-m-arrow"
-                width="50px"
-                height="50px"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                transform="rotate(90)"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+              {/* Arrow */}
+              <div>
+                <svg
+                  className="hm-hr-m-arrow"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  transform="rotate(90)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <path
-                    d="M12 4V20M12 4L8 8M12 4L16 8"
-                    stroke="#ffffff"
-                    stroke-width="1"
+                  <g
+                    id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                  />{" "}
-                </g>
-              </svg>
+                  />
+
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M12 4V20M12 4L8 8M12 4L16 8"
+                      stroke="#ffffff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />{" "}
+                  </g>
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-        {/* Content 2 */}
-        <div className="hm-hr-mdiv hm-hr-background-img-2">
-          <p className="hm-hr-mtext">
-            Comprehensive <span>IT services</span>:
-            <br />
-            support, repairs, upgrades and virus removals.
-          </p>
+          {/* Content 2 */}
+          <div className="hm-hr-mdiv hm-hr-background-img-2">
+            <p className="hm-hr-mtext">
+              Comprehensive <span>IT services</span>:
+              <br />
+              support, repairs, upgrades and virus removals.
+            </p>
 
-          <div className="link-and-icon">
-            <Link to="/services" className="hm-hr-mlink">
-              Our Services
-            </Link>
-            {/* Arrow */}
-            <div>
-            <svg
-                className="hm-hr-m-arrow"
+            <div className="link-and-icon">
+              <Link to="/services" className="hm-hr-mlink">
+                Our Services
+              </Link>
+              {/* Arrow */}
+              <div>
+                <svg
+                  className="hm-hr-m-arrow"
                   width="50px"
                   height="50px"
                   viewBox="0 0 24 24"
@@ -109,24 +124,24 @@ const Hero = () => {
                     />{" "}
                   </g>
                 </svg>
+              </div>
             </div>
           </div>
-        </div>
-        {/* Content 3 */}
+          {/* Content 3 */}
 
-        <div className="hm-hr-mdiv hm-hr-background-img-3">
-          <p className="hm-hr-mtext">
-            <span>Get in touch </span>for all your digital, branding and{" "}
-            <span>tech needs.</span>
-          </p>
-          <div className="link-and-icon">
-            <Link to="/contact-us" className="hm-hr-mlink">
-              Contact Us
-            </Link>
-            {/* Arrow */}
-            <div>
-            <svg
-                className="hm-hr-m-arrow"
+          <div className="hm-hr-mdiv hm-hr-background-img-3">
+            <p className="hm-hr-mtext">
+              <span>Get in touch </span>for all your digital, branding and{" "}
+              <span>tech needs.</span>
+            </p>
+            <div className="link-and-icon">
+              <Link to="/contact-us" className="hm-hr-mlink">
+                Contact Us
+              </Link>
+              {/* Arrow */}
+              <div>
+                <svg
+                  className="hm-hr-m-arrow"
                   width="50px"
                   height="50px"
                   viewBox="0 0 24 24"
@@ -151,11 +166,11 @@ const Hero = () => {
                     />{" "}
                   </g>
                 </svg>
+              </div>
             </div>
           </div>
-        </div>
-      </Slider>
-    </div>
+        </Slider>
+      </div>
     </>
   );
 };

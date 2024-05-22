@@ -16,7 +16,7 @@ const ServicesMain = () => {
   useEffect(() => {
     const randomNumber = Math.floor(Math.random() * 10);
     setAnimationKey(randomNumber);
-  }, [])
+  }, []);
 
   //Handle click to handle whe user click on the text )
 
@@ -28,11 +28,8 @@ const ServicesMain = () => {
   const [isFixed, setIsFixed] = useState(true);
   const paragraphRef = useRef(null);
 
-
-
-
   useEffect(() => {
-    const handleScroll = () =>{
+    const handleScroll = () => {
       const scrollY = window.scrollY;
       const stopPosition = 400;
 
@@ -42,16 +39,11 @@ const ServicesMain = () => {
         setIsFixed(true);
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    }
-   
-  
-   
-
-
+      window.removeEventListener("scroll", handleScroll);
+    };
   });
 
   return (
@@ -63,6 +55,22 @@ const ServicesMain = () => {
           name="description"
           content='
 "Discover top-notch web development services tailored to elevate your digital presence. At TechMe, we specialize in crafting dynamic and responsive websites that captivate audiences and drive results. From custom designs to seamless functionality, trust us to bring your vision to life. Explore our comprehensive suite of services today."'
+        />
+
+        <meta
+          name="description"
+          content="TechMe is a web development company that provides web development services and solutions."
+        />
+        <meta
+          name="keywords"
+          content="website development Christchurch  
+make my company website Christchurch, 
+build a website for my company Christchurch,
+create a logo for my business Christchurch,
+website development New Zealand,
+make my company website New Zealand,
+build a website for my company New Zealand,
+create a logo for my business New Zealand"
         />
       </Helmet>
       <div>
@@ -86,7 +94,11 @@ const ServicesMain = () => {
             </div>
           </div>
           <div className="ser-right ser-animated-para">
-            <div className={`ser-paragraphs ${isFixed ? 'ser-paragraphs-fixed' : 'ser-paragraphs-absolute'}`}>
+            <div
+              className={`ser-paragraphs ${
+                isFixed ? "ser-paragraphs-fixed" : "ser-paragraphs-absolute"
+              }`}
+            >
               {activeIndex === null ? (
                 <p>
                   Elevate your online presence with <strong>TechMe</strong>,
@@ -167,7 +179,8 @@ const ServicesMain = () => {
                 <p>
                   When your computer or laptop encounters problems, our skilled
                   technicians are here to help. We offer
-                  <strong>{" "} 
+                  <strong>
+                    {" "}
                     comprehensive repair services for both hardware and software
                     issues,
                   </strong>
@@ -183,10 +196,10 @@ const ServicesMain = () => {
                   Keeping your computer hardware up-to-date and well-maintained
                   is essential for optimal performance and longevity. Our
                   computer upgrades and servicing service helps ensure that your
-                  <strong>{" "}devices are operating at their best.</strong> Whether
+                  <strong> devices are operating at their best.</strong> Whether
                   you need to upgrade your hardware for
-                  <strong>{" "}better performance</strong> or simply require
-                  <strong>{" "}routine maintenance to prevent issues,</strong> our
+                  <strong> better performance</strong> or simply require
+                  <strong> routine maintenance to prevent issues,</strong> our
                   technicians have the expertise to handle all your upgrade and
                   servicing needs.
                 </p>
@@ -196,10 +209,11 @@ const ServicesMain = () => {
                   and potentially damaging to your system and data. Our virus
                   removal service helps
                   <strong>
-                  {" "}identify and eliminate malicious software
+                    {" "}
+                    identify and eliminate malicious software
                   </strong>{" "}
                   from your computers, ensuring they're
-                  <strong>{" "}safe and secure from cyber threats.</strong> Our
+                  <strong> safe and secure from cyber threats.</strong> Our
                   technicians use <strong>advanced tools and techniques</strong>{" "}
                   to thoroughly scan and remove viruses,
                   <strong>

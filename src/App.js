@@ -1,6 +1,11 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useLocation,
+} from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "./components/Footer";
 import TestComponent from "./components/TestComponent";
@@ -25,15 +30,22 @@ import RemoteSupport from "./pages/Individual Services/Remote Support/RemoteSupp
 import ComputerAndLaptop from "./pages/Individual Services/Computer Laptop Repair/CompterAndLaptop";
 import ComputerUpgrade from "./pages/Individual Services/Computer Upgrade/ComputerUpgrade";
 import ComputerVirus from "./pages/Individual Services/Computer Virus/ComputerVirus";
+import ReactGA from "react-ga4";
 
 // Scroll to the top functionality
-const ScrollToTop = () =>{
+const ScrollToTop = () => {
   const { pathname } = useLocation();
-  useEffect( ()=> {
-    window.scrollTo(0,0); //scroll to top of the page 
-  },[pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0); //scroll to top of the page
+  }, [pathname]);
   return null;
 };
+
+// Google Analytics Intergration
+ReactGA.initialize("G-DD47342JXG");
+
+// Google analytics - page views
+ReactGA.send({ hitType: "pageview", page: window.location.pathname,});
 
 function App() {
   return (
@@ -54,7 +66,7 @@ function App() {
             <Navigation />
             <Header headerText={"Reach Out"} varient={"contact-us"} />
             <CusForm />
-        
+
             <Footer />
           </Route>
           <Route path="/services">
