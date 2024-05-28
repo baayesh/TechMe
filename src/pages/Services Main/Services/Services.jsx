@@ -48,7 +48,7 @@ const ServicesMain = () => {
 
   return (
     <>
-      {/* For SEO Purpose */}
+      {/* SEO  */}
       <Helmet>
         <title>Services</title>
         <meta
@@ -78,7 +78,7 @@ create a logo for my business New Zealand"
           <div id="ser-left" className="ser-left">
             <div className="ser-web-mdiv">
               <h2>WEB DEVELOPMENT AND HOSTING</h2>
-              <p onClick={() => handleClick(0)}>Web Development</p>
+              <p onClick={() => handleClick(0)} className={activeIndex === 0 ? "ser-active-index" : ""}>Web Development</p>
               <p onClick={() => handleClick(1)}>Hosting</p>
               <p onClick={() => handleClick(2)}>Branding and Logo Creation</p>
               <p onClick={() => handleClick(3)}>Website Maintenance</p>

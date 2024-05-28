@@ -69,6 +69,12 @@
   cursor: pointer;
 }
 
+/* Active text */
+.ser-active-text{
+  color: aqua!important;
+  font-weight: 900;
+}
+
 /* Mobile Items */
 .ser-left a{
   text-decoration: none ;

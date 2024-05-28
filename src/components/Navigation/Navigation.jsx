@@ -14,7 +14,6 @@ function Navigation() {
 
   const menuOnClick = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log("clicked");
   };
 
   window.addEventListener("scroll", function () {
